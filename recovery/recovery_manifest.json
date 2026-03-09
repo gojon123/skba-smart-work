@@ -1,0 +1,98 @@
+{
+  "total_messages": 163854,
+  "total_source_files": 56,
+  "total_source_zips": 9,
+  "top_error_codes": [
+    [
+      "4007",
+      238
+    ],
+    [
+      "1000",
+      100
+    ],
+    [
+      "1100",
+      73
+    ],
+    [
+      "1400",
+      71
+    ],
+    [
+      "1200",
+      71
+    ],
+    [
+      "0700",
+      67
+    ],
+    [
+      "1300",
+      66
+    ],
+    [
+      "1600",
+      59
+    ],
+    [
+      "0800",
+      59
+    ],
+    [
+      "9999",
+      57
+    ],
+    [
+      "1500",
+      56
+    ],
+    [
+      "0900",
+      53
+    ],
+    [
+      "3018",
+      51
+    ],
+    [
+      "1700",
+      47
+    ],
+    [
+      "0600",
+      38
+    ],
+    [
+      "1040",
+      33
+    ],
+    [
+      "1080",
+      30
+    ],
+    [
+      "8393",
+      28
+    ],
+    [
+      "1800",
+      26
+    ],
+    [
+      "1160",
+      23
+    ]
+  ],
+  "source_zips": [
+    "2024.06.04.zip",
+    "Kakaotalk_Chat_[SKBA2] Formation MES.zip",
+    "Kakaotalk_Chat_SKBA 1동 인수인계.zip",
+    "Kakaotalk_Chat_SKBA 화성2동 인수인계.zip",
+    "Kakaotalk_Chat_P1 Formation Ramp up.zip",
+    "Kakaotalk_Chat_[SKBA1] Entire Formation.zip",
+    "Kakaotalk_Chat_SKBA #1 Formation Maintenance.zip",
+    "Kakaotalk_Chat_[SKBA 1동] 화성 이슈 공유방.zip",
+    "Kakaotalk_Chat_[SKBA1] MES issue request.zip"
+  ]
+}

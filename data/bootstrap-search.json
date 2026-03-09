@@ -1,0 +1,4653 @@
+{
+  "mes": [
+    {
+      "error_code": "4007",
+      "count": 74,
+      "lines": "Line1 ; Line2 ; Line20 ; Line3 ; Line4 ; Line5 ; Line6",
+      "processes": "Aging ; Cell Packing ; Charge ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "IR/OCV ; PLC ; PPC ; Pallet ; Rack ; SVI ; Tray",
+      "sample_message": "[SKBA1] MES issue request 님과 카카오톡 대화\r 저장한 날짜 : 2023-11-14 22:47:53\r \r --------------- 2023년 1월 30일 월요일 ---------------\r [samkoo/KO/KTL] [오전 2:49] @SKBA.MES.OP Z928375 2L Z928689 2L  V111901 3L Box id 누락되었습니다 정보 보정부탁드립니다\r [SKBA.MES.OP] [오전 2:50] 네 운영자님께 전달 드리겠습니다.\r [samkoo/KO/KTL] [오전 4:29] @SKBA.MES.OP V111900 4L, Z928827 4L Box id 누락되었습니다 정보 보정부탁드립니다\r [SKBA.MES.OP] [오전 4:30] 네 전달 드리겠습니다\r [SK C&C/강동우/MES] [오전 9:23] Z928475 Z928689 V111901 V111900 Z928827 박스 아이디 보정 했습니다 \r [SK C&C/채 성민/MES] [오후 2:"
+    },
+    {
+      "error_code": "999",
+      "count": 37,
+      "lines": "",
+      "processes": "Cell Packing ; Degassing ; PPC ; Packing",
+      "equipment": "PPC ; Tray",
+      "sample_message": "w/o 43502117  “Network error code:999” 정의되지 않은 네트워크 오류( Order 43501270 was already created for this notification)  @Maint/Eng'r/HS Park"
+    },
+    {
+      "error_code": "9999",
+      "count": 31,
+      "lines": "Line1 ; Line10 ; Line11 ; Line12 ; Line2 ; Line2-3 ; Line3 ; Line3-1 ; Line4 ; Line5 ; Line6 ; Line8 ; Line9",
+      "processes": "Aging ; Charge ; Degassing ; Discharge ; Formation ; IR ; IR OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "Barcode ; Cable ; Clip ; Conveyor ; PPC ; Pallet ; Rack ; SVI ; Sensor ; Tray",
+      "sample_message": "<Maintenance Request> 1. Phenomenon: irocv 3 trays keep coming out and getting stuck at bcr reading 9999 error 2. Time occurred: 12:07 3. Line & location: irocv3."
+    },
+    {
+      "error_code": "4004",
+      "count": 14,
+      "lines": "Line1 ; Line3 ; Line5",
+      "processes": "",
+      "equipment": "Tray",
+      "sample_message": "A15236 Tray 경우 정상투입 확인했습니다 혹시 MES4004 발생 원인알수있을까요?"
+    },
+    {
+      "error_code": "2502",
+      "count": 11,
+      "lines": "Line1 ; Line20 ; Line3 ; Line5 ; Line6",
+      "processes": "Aging ; Cell Packing ; Charge ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "IR/OCV ; Jig ; PLC ; PPC ; Pallet ; Rack ; SVI ; Tray",
+      "sample_message": "디게싱 1라인 언로더에서 2502 알람 발생하여 해당 트레이는 따로 현장에 보관하고 있습니다. 디게싱 데이터 복구 가능 할까요?  트레이 아이디:  A51357 실물 36셀 들어있습니다"
+    },
+    {
+      "error_code": "4003",
+      "count": 10,
+      "lines": "Line1 ; Line10 ; Line12 ; Line2 ; Line20 ; Line3 ; Line5 ; Line6 ; Line7 ; Line8",
+      "processes": "Aging ; Cell Packing ; Charge ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "IR/OCV ; Jig ; PLC ; PPC ; Pallet ; Rack ; SVI ; Sensor ; Tray",
+      "sample_message": "[SKBA1] MES issue request 님과 카카오톡 대화\r 저장한 날짜 : 2023-11-14 22:47:53\r \r --------------- 2023년 1월 30일 월요일 ---------------\r [samkoo/KO/KTL] [오전 2:49] @SKBA.MES.OP Z928375 2L Z928689 2L  V111901 3L Box id 누락되었습니다 정보 보정부탁드립니다\r [SKBA.MES.OP] [오전 2:50] 네 운영자님께 전달 드리겠습니다.\r [samkoo/KO/KTL] [오전 4:29] @SKBA.MES.OP V111900 4L, Z928827 4L Box id 누락되었습니다 정보 보정부탁드립니다\r [SKBA.MES.OP] [오전 4:30] 네 전달 드리겠습니다\r [SK C&C/강동우/MES] [오전 9:23] Z928475 Z928689 V111901 V111900 Z928827 박스 아이디 보정 했습니다 \r [SK C&C/채 성민/MES] [오후 2:"
+    },
+    {
+      "error_code": "0027",
+      "count": 9,
+      "lines": "Line10 ; Line12 ; Line7 ; Line8",
+      "processes": "Aging ; Degassing ; Formation ; IR ; Inspection ; PPC ; Packing ; SVI ; VI",
+      "equipment": "Jig ; PPC ; Rack ; SVI ; Sensor ; Stacker ; Tray",
+      "sample_message": "No problem. But i check the log, abd i find S94654 Tray is occured 0027 error. The reason was that the process of the tray was Aging #3, not Folding, so an error occurred."
+    },
+    {
+      "error_code": "4553",
+      "count": 9,
+      "lines": "Line10 ; Line11 ; Line12 ; Line7 ; Line8 ; Line9",
+      "processes": "Aging ; Cell Packing ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; Packing ; SVI ; VI",
+      "equipment": "Barcode ; Cable ; IR/OCV ; PLC ; Pallet ; Rack ; SVI ; Sensor ; Tray",
+      "sample_message": "MES code 4553 there are 9 cell in pallet HG27A05 put no data attached to the cells"
+    },
+    {
+      "error_code": "3500",
+      "count": 8,
+      "lines": "Line1",
+      "processes": "Formation ; Inspection ; PPC",
+      "equipment": "Barcode ; PPC ; Sensor ; Tray",
+      "sample_message": "We had 3500 error code on INS Line 1 while running both R123, R124 types together. Both types are allowed for mix."
+    },
+    {
+      "error_code": "0014",
+      "count": 8,
+      "lines": "Line1 ; Line10 ; Line2 ; Line20 ; Line3 ; Line32 ; Line4 ; Line5 ; Line6",
+      "processes": "Aging ; Cell Packing ; Charge ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "Cable ; IR/OCV ; Jig ; PLC ; PPC ; Pallet ; Rack ; SVI ; Tray",
+      "sample_message": "[SKBA1] MES issue request 님과 카카오톡 대화\r 저장한 날짜 : 2023-11-14 22:47:53\r \r --------------- 2023년 1월 30일 월요일 ---------------\r [samkoo/KO/KTL] [오전 2:49] @SKBA.MES.OP Z928375 2L Z928689 2L  V111901 3L Box id 누락되었습니다 정보 보정부탁드립니다\r [SKBA.MES.OP] [오전 2:50] 네 운영자님께 전달 드리겠습니다.\r [samkoo/KO/KTL] [오전 4:29] @SKBA.MES.OP V111900 4L, Z928827 4L Box id 누락되었습니다 정보 보정부탁드립니다\r [SKBA.MES.OP] [오전 4:30] 네 전달 드리겠습니다\r [SK C&C/강동우/MES] [오전 9:23] Z928475 Z928689 V111901 V111900 Z928827 박스 아이디 보정 했습니다 \r [SK C&C/채 성민/MES] [오후 2:"
+    },
+    {
+      "error_code": "3018",
+      "count": 8,
+      "lines": "Line3",
+      "processes": "Charge ; Discharge ; IR ; IR/OCV ; OCV ; VI",
+      "equipment": "IR/OCV ; Tray",
+      "sample_message": "@A/Ishmael/Logistics  Line 3 Tray s03767 Code 4007: missing ir/ocv data missing.  Troubleshooting: 8393  Line 3 Tray s20950 Code: 3018 data not registered normally  Troubleshooting 8393"
+    },
+    {
+      "error_code": "0026",
+      "count": 7,
+      "lines": "Line10 ; Line11 ; Line12 ; Line7 ; Line8 ; Line9",
+      "processes": "Aging ; Charge ; Discharge ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "IR/OCV ; Jig ; PPC ; Pallet ; SVI ; Tray",
+      "sample_message": "Is it error code 0026?"
+    },
+    {
+      "error_code": "I2404",
+      "count": 6,
+      "lines": "",
+      "processes": "VI",
+      "equipment": "",
+      "sample_message": "세대의 pc 중 첫번째 pc에서는 I2404 에러, 두번째 pc에서는 Value cannot be null. Parameter name: source 라고 에러 출력됩니다, 두번째 컴퓨터는 MES 로그인은 되는상태입니다. 탭 기능 정상인지 확인해보겠습니다."
+    },
+    {
+      "error_code": "0016",
+      "count": 6,
+      "lines": "Line10 ; Line11 ; Line12 ; Line7 ; Line8 ; Line9",
+      "processes": "Aging ; Degassing ; Formation ; IR ; Inspection ; Packing ; SVI ; VI",
+      "equipment": "PLC ; Pallet ; Rack ; SVI ; Tray",
+      "sample_message": "When I checked a few cells where 0016 Error occurs, it seems to occur only in 2 lanes"
+    },
+    {
+      "error_code": "3007",
+      "count": 5,
+      "lines": "",
+      "processes": "Inspection",
+      "equipment": "Rack ; Tray",
+      "sample_message": "@갑진/CS/서기원  FCH ROOM BCR Err  MES CODE: 3007 (The tray returned as returncode=2 for the recipe down command given by MES. Please check with the equipment for the reason for the failure to download the recipe.)  설비 확인부탁드립니다."
+    },
+    {
+      "error_code": "5501",
+      "count": 5,
+      "lines": "Line1",
+      "processes": "Charge ; Discharge ; Formation ; SVI ; VI",
+      "equipment": "PLC ; SVI",
+      "sample_message": "####Formation <Maintenance BM> ▪︎Date : 9/10/2025 ▪︎Line : 1L ▪︎Process : SVI ▪︎Unit : PC ▪︎Start Time : 15:00 ▪︎End Time: 16:30 ▪︎Issue : CIM->PLC check fail error ▪︎Cause : Unknown ▪︎Troubleshooting:  ✅ Due to a CIM → PLC alive check fail error ✔️Windows rebooted twice ✔️PC power off/on once       → 1st error resolved ✅ During operation afterwards, MES error code: 5501 occurred. ✔️Most cells were discharged as NG            (checked with Process ENG) ✔️ 15:00–16:00: 1st resolution completed ✔️"
+    },
+    {
+      "error_code": "100",
+      "count": 4,
+      "lines": "",
+      "processes": "",
+      "equipment": "",
+      "sample_message": "100,68  Mes 100.6 100,58  Mes 100.4 100,12  Mes 100.51 101.08  Mes 100.51 100,60  Mes 100.49"
+    },
+    {
+      "error_code": "0003",
+      "count": 3,
+      "lines": "Line1 ; Line20 ; Line3 ; Line5 ; Line6 ; Line7 ; Line8",
+      "processes": "Aging ; Cell Packing ; Charge ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "IR/OCV ; PLC ; PPC ; Pallet ; Rack ; SVI ; Sensor ; Tray",
+      "sample_message": "안녕하세요 Track 4243 상단 BCR 점검부탁드립니다 요즘 MES 0003(Mes Ecs 적재정보상이 할경우 발생)으로 확인시 상단 BCR 미 인식으로 발생되고있습니다 확인부탁드립니다"
+    },
+    {
+      "error_code": "01400",
+      "count": 3,
+      "lines": "Line1",
+      "processes": "IR ; VI",
+      "equipment": "",
+      "sample_message": "G5CPS045D30005 해당 파레트 삭제시  ORA-01400 에러 발생합니다"
+    },
+    {
+      "error_code": "6002",
+      "count": 3,
+      "lines": "",
+      "processes": "PPC",
+      "equipment": "PPC",
+      "sample_message": "Log Analysis page, shows MES code 6002, “[HSMS] T3 timeout alarm in S6F11”"
+    },
+    {
+      "error_code": "E1330",
+      "count": 3,
+      "lines": "Line1 ; Line20 ; Line3 ; Line5 ; Line6",
+      "processes": "Aging ; Cell Packing ; Charge ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "IR/OCV ; PLC ; PPC ; Pallet ; Rack ; SVI ; Tray",
+      "sample_message": "What do you mean by equipment code? When I try to scrap cells through \"cell scrap in tray\" the error code E1330 pops up"
+    },
+    {
+      "error_code": "0021",
+      "count": 3,
+      "lines": "Line1 ; Line10 ; Line2 ; Line3 ; Line32 ; Line4 ; Line5",
+      "processes": "Aging ; Cell Packing ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "Cable ; IR/OCV ; Jig ; PLC ; PPC ; Pallet ; Rack ; SVI ; Tray",
+      "sample_message": "@SKBA.MES.AE   Hello MES team, We are trying to run R124 type with regular type from EOL line(tray ID A55520). But it gives 0021 error code.  Could you please check ?"
+    },
+    {
+      "error_code": "0007",
+      "count": 3,
+      "lines": "Line1 ; Line11 ; Line20 ; Line3 ; Line5 ; Line6",
+      "processes": "Aging ; Cell Packing ; Charge ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "IR/OCV ; PLC ; PPC ; Pallet ; Rack ; SVI ; Tray",
+      "sample_message": "[SKBA1] MES issue request 님과 카카오톡 대화\r 저장한 날짜 : 2023-11-14 22:47:53\r \r --------------- 2023년 1월 30일 월요일 ---------------\r [samkoo/KO/KTL] [오전 2:49] @SKBA.MES.OP Z928375 2L Z928689 2L  V111901 3L Box id 누락되었습니다 정보 보정부탁드립니다\r [SKBA.MES.OP] [오전 2:50] 네 운영자님께 전달 드리겠습니다.\r [samkoo/KO/KTL] [오전 4:29] @SKBA.MES.OP V111900 4L, Z928827 4L Box id 누락되었습니다 정보 보정부탁드립니다\r [SKBA.MES.OP] [오전 4:30] 네 전달 드리겠습니다\r [SK C&C/강동우/MES] [오전 9:23] Z928475 Z928689 V111901 V111900 Z928827 박스 아이디 보정 했습니다 \r [SK C&C/채 성민/MES] [오후 2:"
+    },
+    {
+      "error_code": "0020",
+      "count": 3,
+      "lines": "",
+      "processes": "Formation",
+      "equipment": "PLC",
+      "sample_message": "[MES Urgent Update Notice]  The MES update will take place between 14:30-14:50  1. Modified to occur 0020 Error when an ID with no information in the MES is read from the equipment (including HMCID and DMCID)"
+    },
+    {
+      "error_code": "3017",
+      "count": 3,
+      "lines": "Line6",
+      "processes": "IR ; OCV",
+      "equipment": "Tray",
+      "sample_message": "안녕하세요   해당 트레이 S03749는 11월 24일 생산된 Tray인데, 해당 타입의 충방전 공정이 12월 1일 변경되어 step 하나가 추가가되었습니다.   해당 표기 되고있는 충방전 값은 제일 마지막으로 진행된 충방전 값이라 결과 데이터는 있으나 마지막 스탭이아니여서 3017 error 발생하는 것으로 생각됩니다.  해당 트레이들 충방전 Step 재화성 진행을 해야할듯 합니다.  감사합니다"
+    },
+    {
+      "error_code": "0006",
+      "count": 3,
+      "lines": "Line10 ; Line11 ; Line7 ; Line8",
+      "processes": "Aging ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; Packing ; SVI ; VI",
+      "equipment": "IR/OCV ; Pallet ; SVI ; Tray",
+      "sample_message": "@SKBA.MES.AE   안녕하세요  8라인 Packing Mes 0006 발생 하여 설비 정지 중 입니다 Cell ID G8081F7PP7317454  운영 로그 확인 시 패킹 StratReport 누락 확인 됩니다 긴급 확인 부탁 드립니다"
+    },
+    {
+      "error_code": "S04614",
+      "count": 3,
+      "lines": "",
+      "processes": "VI",
+      "equipment": "Tray",
+      "sample_message": "Cell loader gripper1 data mismatch error Tray code: S04614 @A/kevinG/TeamLead"
+    },
+    {
+      "error_code": "1650",
+      "count": 2,
+      "lines": "",
+      "processes": "",
+      "equipment": "",
+      "sample_message": "That is not a MES code. Equipment is sending message of the code 1650 which is an equipment alarm code."
+    },
+    {
+      "error_code": "E3002",
+      "count": 2,
+      "lines": "",
+      "processes": "VI",
+      "equipment": "Pallet",
+      "sample_message": "The following pallets have ERP-E3002 error in Module when they try to register to run.  Please advise. G5CP037CPE10002 G5CP037CPE10003 G5CP037CPE10004"
+    },
+    {
+      "error_code": "0011",
+      "count": 2,
+      "lines": "",
+      "processes": "Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; VI",
+      "equipment": "IR/OCV ; Tray",
+      "sample_message": "@SKBA.MES.AE  RTA#2 입고 완료 후 MES error code 0011 발생 - MES error code 0011 : PRocess data of top/bottom Tray do not match  아래 Tray들의 경우 Degassing 언로더 배출 후 작업자의 개입이 없었던 Tray들입니다. MES 운영 Log 확인시 Degassing 에서 정상 배출 되었으나, Cell과 상이한 type & 공정으로 자동변경되어 RTA 입고 후 MES 에러 발생된 사례입니다.  현장에서 Cell 폐기 후 reformation 진행시 처리가능한 사례이나, 동일한 문제가 발생될수 있어 원인 확인하고자 내용 공유 드립니다.  ※ 아래 Tray들의 경우 MES \" view cell in tray\"에서 Tray 조회시 \"Category ( cell qty )\"가 Tray 내 실제 수량보다 많은 상태 였습니다.  ▶ RTA#2 입고 후 MES error 0011 발생 Tray List -"
+    },
+    {
+      "error_code": "E1059",
+      "count": 2,
+      "lines": "",
+      "processes": "",
+      "equipment": "Pallet",
+      "sample_message": "@SKBA.MES.AE  Need to cancel ERP palletID G2CPE029DA005 to remove hold cell, but ERP-E1059 error."
+    },
+    {
+      "error_code": "4505",
+      "count": 2,
+      "lines": "",
+      "processes": "VI",
+      "equipment": "Pallet",
+      "sample_message": "4505 error occur when the cell is mapped with either boxid or palletbaseid"
+    },
+    {
+      "error_code": "4570",
+      "count": 2,
+      "lines": "",
+      "processes": "",
+      "equipment": "",
+      "sample_message": "Error Code: 4570   G1029E25P2007710 G1029E1WP1104347 G1029E24P2013987 G1029E24P2017855 G1029E25P2007733 G1029E24P2007106 G1029E24P2009464 G1029E25P2007740"
+    },
+    {
+      "error_code": "9001",
+      "count": 2,
+      "lines": "Line1 ; Line20 ; Line3 ; Line5 ; Line6",
+      "processes": "Aging ; Cell Packing ; Charge ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "IR/OCV ; PLC ; PPC ; Pallet ; Rack ; SVI ; Tray",
+      "sample_message": "We’re not receiving the reply of release order from the equipment which is causing 9001 error. Can anyone check?"
+    },
+    {
+      "error_code": "0019",
+      "count": 2,
+      "lines": "Line1 ; Line2 ; Line2-3 ; Line3 ; Line3-1 ; Line4 ; Line5 ; Line6",
+      "processes": "Aging ; Charge ; Degassing ; Discharge ; Formation ; IR ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "Cable ; Clip ; Conveyor ; PPC ; Pallet ; Rack ; SVI ; Sensor ; Tray",
+      "sample_message": "[SKBA1] Entire Formation 님과 카카오톡 대화\r 저장한 날짜 : 2023-11-14 22:51:37\r \r --------------- 2023년 5월 9일 화요일 ---------------\r [samkoo/gi/KTL] [오후 7:04] 삭제된 메시지입니다.\r [samkoo/gi/KTL] [오후 7:05] @Form(B)/Diamond/Supv Line5 Folding There is no delivery Please confirm. \r [Form(B)/Diamond/Supv] [오후 7:08] We’re are currently running the rest of C221’s out of packing will purge packing then continue with C223s. Thank you. \r [Samkoo/Junny/KTL] [오후 7:51] 삭제된 메시지입니다.\r [Samkoo/Junny/KTL] [오후 7:57] @SKBA/Trevis/Super"
+    },
+    {
+      "error_code": "0015",
+      "count": 2,
+      "lines": "Line1 ; Line20 ; Line3 ; Line5 ; Line6",
+      "processes": "Aging ; Cell Packing ; Charge ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "IR/OCV ; PLC ; PPC ; Pallet ; Rack ; SVI ; Tray",
+      "sample_message": "[SKBA1] MES issue request 님과 카카오톡 대화\r 저장한 날짜 : 2023-11-14 22:47:53\r \r --------------- 2023년 1월 30일 월요일 ---------------\r [samkoo/KO/KTL] [오전 2:49] @SKBA.MES.OP Z928375 2L Z928689 2L  V111901 3L Box id 누락되었습니다 정보 보정부탁드립니다\r [SKBA.MES.OP] [오전 2:50] 네 운영자님께 전달 드리겠습니다.\r [samkoo/KO/KTL] [오전 4:29] @SKBA.MES.OP V111900 4L, Z928827 4L Box id 누락되었습니다 정보 보정부탁드립니다\r [SKBA.MES.OP] [오전 4:30] 네 전달 드리겠습니다\r [SK C&C/강동우/MES] [오전 9:23] Z928475 Z928689 V111901 V111900 Z928827 박스 아이디 보정 했습니다 \r [SK C&C/채 성민/MES] [오후 2:"
+    },
+    {
+      "error_code": "3503",
+      "count": 2,
+      "lines": "Line1 ; Line20 ; Line3 ; Line4 ; Line5 ; Line6",
+      "processes": "Aging ; Cell Packing ; Charge ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "IR/OCV ; PLC ; PPC ; Pallet ; Rack ; SVI ; Tray",
+      "sample_message": "[SKBA1] MES issue request 님과 카카오톡 대화\r 저장한 날짜 : 2023-11-14 22:47:53\r \r --------------- 2023년 1월 30일 월요일 ---------------\r [samkoo/KO/KTL] [오전 2:49] @SKBA.MES.OP Z928375 2L Z928689 2L  V111901 3L Box id 누락되었습니다 정보 보정부탁드립니다\r [SKBA.MES.OP] [오전 2:50] 네 운영자님께 전달 드리겠습니다.\r [samkoo/KO/KTL] [오전 4:29] @SKBA.MES.OP V111900 4L, Z928827 4L Box id 누락되었습니다 정보 보정부탁드립니다\r [SKBA.MES.OP] [오전 4:30] 네 전달 드리겠습니다\r [SK C&C/강동우/MES] [오전 9:23] Z928475 Z928689 V111901 V111900 Z928827 박스 아이디 보정 했습니다 \r [SK C&C/채 성민/MES] [오후 2:"
+    },
+    {
+      "error_code": "4575",
+      "count": 2,
+      "lines": "Line1 ; Line10 ; Line2 ; Line20 ; Line3 ; Line32 ; Line4 ; Line5 ; Line6",
+      "processes": "Aging ; Cell Packing ; Charge ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "Cable ; IR/OCV ; Jig ; PLC ; PPC ; Pallet ; Rack ; SVI ; Tray",
+      "sample_message": "[SKBA1] MES issue request 님과 카카오톡 대화\r 저장한 날짜 : 2023-11-14 22:47:53\r \r --------------- 2023년 1월 30일 월요일 ---------------\r [samkoo/KO/KTL] [오전 2:49] @SKBA.MES.OP Z928375 2L Z928689 2L  V111901 3L Box id 누락되었습니다 정보 보정부탁드립니다\r [SKBA.MES.OP] [오전 2:50] 네 운영자님께 전달 드리겠습니다.\r [samkoo/KO/KTL] [오전 4:29] @SKBA.MES.OP V111900 4L, Z928827 4L Box id 누락되었습니다 정보 보정부탁드립니다\r [SKBA.MES.OP] [오전 4:30] 네 전달 드리겠습니다\r [SK C&C/강동우/MES] [오전 9:23] Z928475 Z928689 V111901 V111900 Z928827 박스 아이디 보정 했습니다 \r [SK C&C/채 성민/MES] [오후 2:"
+    },
+    {
+      "error_code": "8912",
+      "count": 2,
+      "lines": "Line12",
+      "processes": "Degassing",
+      "equipment": "Pallet ; Rack ; Tray",
+      "sample_message": "@SKBA.MES.AE  Ford Old Lot 재화성 후 충방으로 투입하려는 Tray가 Track16169 BCR구간에서 8912에러 발생되어 충방투입이 안되고 있습니다. 해당트레이는 SOC 28% 타입 재화성 트레이 이며, SOC 58% 재화성 타입은 충방 정상 투입 되고있습니다. 예시 Tray ID : L04571, L58139 확인가능 하실까요?"
+    },
+    {
+      "error_code": "4598",
+      "count": 2,
+      "lines": "Line10 ; Line11 ; Line7 ; Line8 ; Line9",
+      "processes": "Aging ; IR ; Inspection ; Packing ; SVI ; VI",
+      "equipment": "Barcode ; PLC ; Pallet ; Rack ; SVI ; Tray",
+      "sample_message": "There was a 4598 Nack in the Mount report. Due to the above Nack, the field may have selected the NG code PM0Z manually, and because of that, the equipment returned an NG report. The reason why the 4598 error occurred is that any of the IR, CR, AN_TAP_POS, CA_TAP_POS values ​​uploaded in the CpmEqpCellStatusReport report is missing."
+    },
+    {
+      "error_code": "4568",
+      "count": 2,
+      "lines": "Line10",
+      "processes": "Inspection ; Packing ; SVI ; VI",
+      "equipment": "SVI",
+      "sample_message": "@SKBA.MES.AE   Line10 R5A4 Type SVI NG#3,4번 관련 VI 확인 시 양품 Cell Rework 후 Packing 투입시 Mes Error 발생하여 문의드립니다.  MES Code : 4568 Ship Validation Out.:Step 6. SVI Data Missing  예시로 1Cell ID 공유드립니다. GA081F5MP5107929"
+    },
+    {
+      "error_code": "4522",
+      "count": 2,
+      "lines": "",
+      "processes": "Aging ; Formation ; IR ; Packing",
+      "equipment": "Pallet",
+      "sample_message": "@SKBA.MES.AE Good morning! We have a pallet base ID H043519 that has been reworked multiple times through the BPM. It shows in the MES-EQP Communication Log that there is no basic packaging information (MES error code 4522). Can you help us to figure out why this pallet will not complete BPM process?"
+    },
+    {
+      "error_code": "4533",
+      "count": 2,
+      "lines": "",
+      "processes": "Cell Packing ; Packing",
+      "equipment": "Pallet",
+      "sample_message": "Goodmorning, i have a MES issue at our Box Packing line. Code 4533: \"There are multiple number of boxes tied to the pallet\" I believe it's due to this cell: GC081FANPA101989  The base ID of the pallet is HG22A01"
+    },
+    {
+      "error_code": "0001",
+      "count": 2,
+      "lines": "Line3",
+      "processes": "Degassing",
+      "equipment": "Tray",
+      "sample_message": "0001 에러 발생하고 있나요"
+    },
+    {
+      "error_code": "9104",
+      "count": 2,
+      "lines": "Line1 ; Line3 ; Line4 ; Line5",
+      "processes": "Degassing ; IR ; Inspection ; PPC",
+      "equipment": "PPC ; Pallet ; Rack ; Tray",
+      "sample_message": "07/09 야간 공정 특이사항  ■ EOL 1. Line 3 폴딩 외측 Ca위치 Crack 발생으로 인한 점검 및 모니터링(19:50~20:58 68분)  → 원인: 사이징 롤러 폴딩Ca 하단부 간섭으로 Crack 발생  → 조치: 사이징 롤러 2.5mm 상승 조정후 1시간 보전측 모니터링 진행  2. Line4_Lane2 Stage#1 Vacuum Error 다수 발생(01:30~02:00 30분)  → 원인: Y축 볼스크류 구간 볼트 미체결로 유닛 흔들림 및 셀 틀어짐으로 인한 진공 에러 발생 추정  → 조치: 볼트 18개소 체결(Lane1,2), 가/감속 변경(100 → 500), Unload 티칭값 조정  ■ 물류 1. HTA2 Lane1 Lift 9104 에러 발생(18:12~20:28, 136분)  → 원인: Power Moller 케이블 단선 발생  → 조치: Power Moller, 컨트롤러 교체  2. HTA2 Lane2 Output Track#9157 Door Op"
+    },
+    {
+      "error_code": "0043",
+      "count": 2,
+      "lines": "Line1 ; Line2 ; Line3 ; Line5 ; Line6",
+      "processes": "Aging ; IR ; IR/OCV ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "IR/OCV ; PPC ; Pallet ; SVI ; Tray",
+      "sample_message": "08/20 주간 특이사항  ■ 현장 관리  1. EOL CPM NG#3, 4 Rework, Defect 삼구 진행  2. MES 폐기, 재화성, 재작업 이력 확인 후 현지 SPV 내용 공유 및 이력 작성 방법 교육 실시  → 각 shift 근무 시 확인 및 진행 요망  3. SVI NG#3, 4 VI master 검사 후 CPM Rework 미실시 상태로 재투입되어 Packing NG #3, 4 배출 확인  → SPV, VI master, Time Leader 각 shift 근무 시 확인 및 교육 진행 요망  4. AM/PM 05:00 Ins, CPM 재화성 여부확인 및 폐기 Cell 처리 여부 확인요망  ■ EOL  1. Line 1 EOL 재가동 (8/19 ~)  → R169 Type(Delta V 재화성) 설비 가동중  2. Line5 mes0043 Error Master spec Check by...OCV Delta V  → Rework 재투입 진행 (전일 MES 업데이트 과"
+    },
+    {
+      "error_code": "0000",
+      "count": 2,
+      "lines": "Line10 ; Line7 ; Line8",
+      "processes": "Aging ; Degassing ; Inspection ; PPC ; VI",
+      "equipment": "PPC ; Pallet ; Rack ; Sensor ; Tray",
+      "sample_message": "2025.06.26 야간 특이사항  ■ 공정 특이사항 ⊙공통  1) Ford Empty Tray 부족으로 320H Hyundai Tray 교체 작업 진행 중 현재 약 300개 제작 완료 - Tay Eng    2) R2CL Type 반자동 출고 후 충방전 진행 중( 106Tray ) - Ivan Eng    3) Ford E805C 모듈 리턴 셀 재작업 요청 - Jason Eng [ 완료 ]  - 총 1,171Cell 리턴 완료시 재작업 후 현장 대기  → Cell list : Daily Report 7L E805C 25.06.26 업로드   4) Line7~12 MES Code 0000 MES T1 time out 현상 발생  - MES 네트워크 통신 순단 현상 발생  - MES 정상 복구 후 설비 내 정보 상이 Cell 유실 및 설비 원점 진행 후 정상 가동(01:55~3:00)  - 현지 ATT 회선문제로 통품감 시스템 알람 지속발생 중, 설비 이상여부 모니터링 필요  ⊙Lin"
+    },
+    {
+      "error_code": "6028",
+      "count": 2,
+      "lines": "",
+      "processes": "",
+      "equipment": "Pallet",
+      "sample_message": "@Form / YC Choi / Eng  모듈 현장 내 Final Process OUT으로 되어있는 1단 Pallet BPM 재투입 진행하였으나 'pallet that have been warehouse can not be re-input' MES Code 6028 발생되었습니다  - Pallet 정보 Base ID : H146171 Pallet ID : G5CP081CPF40071  Base ID : H054972 Pallet ID : G6CP081CPF50983  Base ID : H060966 Pallet ID : G6CP081CPF60449  - Pallet 내 504 Cell 모두 양품이며, WMS 입고 처리되어 BPM 재투입 불가하오니 확인 부탁드립니다"
+    },
+    {
+      "error_code": "01427",
+      "count": 2,
+      "lines": "Line5",
+      "processes": "Aging ; Formation",
+      "equipment": "Tray",
+      "sample_message": "@B/Latracie/SPV @B / Denarius / TL Unreleased all Hyundai r-types due to ORA-01427 error, causing logistics traffic issues and delays to FCH."
+    },
+    {
+      "error_code": "0035",
+      "count": 1,
+      "lines": "",
+      "processes": "PPC",
+      "equipment": "PPC ; Tray",
+      "sample_message": "안녕하세요 Mes 0035 : 에러관련 경로를 찾을수없다 현상 -> PPC에서 공트레이 수동출고 화면[mt0900]에서 출고시 발생됩니다 혹시 원인알수있을까요 (Tray 수동출고 안되는 현상) 운영로그 금일일자로 A16640 Tray 확인햐주시면 됩니다"
+    },
+    {
+      "error_code": "E0854",
+      "count": 1,
+      "lines": "Line1 ; Line2",
+      "processes": "IR ; VI",
+      "equipment": "Pallet",
+      "sample_message": "@SKBA.MES.AE  Page: MT3200 Pallet: G2CPE029E40002 Error code: E0854  When trying to confirm warehousing for this pallet, the error occurs. The pallet is made of line 1 and line 2 cells attempting to be sent to Module, please advise on this issue."
+    },
+    {
+      "error_code": "1500",
+      "count": 1,
+      "lines": "Line1",
+      "processes": "Formation",
+      "equipment": "Conveyor ; Tray",
+      "sample_message": "@SKBA.MES.AE  From Assembly Line 1 Output conveyor BCR, trays are getting MES error code 1500.  Example Tray ID A36487, A17520  Showing 0 cells in tray data, but has 36 cells in actual tray, so I think Assembly is manually sending trays to Formation without data. Can you please check?"
+    },
+    {
+      "error_code": "0034",
+      "count": 1,
+      "lines": "Line1 ; Line20 ; Line3 ; Line5 ; Line6",
+      "processes": "Aging ; Cell Packing ; Charge ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "IR/OCV ; PLC ; PPC ; Pallet ; Rack ; SVI ; Tray",
+      "sample_message": "[SKBA1] MES issue request 님과 카카오톡 대화\r 저장한 날짜 : 2023-11-14 22:47:53\r \r --------------- 2023년 1월 30일 월요일 ---------------\r [samkoo/KO/KTL] [오전 2:49] @SKBA.MES.OP Z928375 2L Z928689 2L  V111901 3L Box id 누락되었습니다 정보 보정부탁드립니다\r [SKBA.MES.OP] [오전 2:50] 네 운영자님께 전달 드리겠습니다.\r [samkoo/KO/KTL] [오전 4:29] @SKBA.MES.OP V111900 4L, Z928827 4L Box id 누락되었습니다 정보 보정부탁드립니다\r [SKBA.MES.OP] [오전 4:30] 네 전달 드리겠습니다\r [SK C&C/강동우/MES] [오전 9:23] Z928475 Z928689 V111901 V111900 Z928827 박스 아이디 보정 했습니다 \r [SK C&C/채 성민/MES] [오후 2:"
+    },
+    {
+      "error_code": "4585",
+      "count": 1,
+      "lines": "Line1 ; Line20 ; Line3 ; Line5 ; Line6",
+      "processes": "Aging ; Cell Packing ; Charge ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "IR/OCV ; PLC ; PPC ; Pallet ; Rack ; SVI ; Tray",
+      "sample_message": "[SKBA1] MES issue request 님과 카카오톡 대화\r 저장한 날짜 : 2023-11-14 22:47:53\r \r --------------- 2023년 1월 30일 월요일 ---------------\r [samkoo/KO/KTL] [오전 2:49] @SKBA.MES.OP Z928375 2L Z928689 2L  V111901 3L Box id 누락되었습니다 정보 보정부탁드립니다\r [SKBA.MES.OP] [오전 2:50] 네 운영자님께 전달 드리겠습니다.\r [samkoo/KO/KTL] [오전 4:29] @SKBA.MES.OP V111900 4L, Z928827 4L Box id 누락되었습니다 정보 보정부탁드립니다\r [SKBA.MES.OP] [오전 4:30] 네 전달 드리겠습니다\r [SK C&C/강동우/MES] [오전 9:23] Z928475 Z928689 V111901 V111900 Z928827 박스 아이디 보정 했습니다 \r [SK C&C/채 성민/MES] [오후 2:"
+    },
+    {
+      "error_code": "0037",
+      "count": 1,
+      "lines": "Line1 ; Line10 ; Line2 ; Line3 ; Line32 ; Line4 ; Line5",
+      "processes": "Aging ; Cell Packing ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "Cable ; IR/OCV ; Jig ; PLC ; PPC ; Pallet ; Rack ; SVI ; Tray",
+      "sample_message": "[SKBA 1동] 화성 이슈 공유방 55 님과 카카오톡 대화\r 저장한 날짜 : 2023년 5월 30일 오후 12:12  \r 2022년 12월 1일 오전 10:09\r 2022년 12월 1일 오전 10:09, 삼구/김응준/공정님이 들어왔습니다. 운영정책을 위반한 메시지로 신고 접수 시 카카오톡 이용에 제한이 있을 수 있습니다. 운영정책 보기\r 2022년 12월 1일 오전 10:09, 방장봇 : 들어오시면 프로필 수정 바랍니다  회사 / 이름 / 직책(담당: 기구, 제어, 공정, 외관 등)  수정이 없을 시 강퇴처리 됩니다\r 2022년 12월 1일 오전 10:32, SKon/이정원/공정기술님이 나갔습니다.\r 2022년 12월 1일 오전 10:55, 삼구/권계욱/공정님이 들어왔습니다.\r 2022년 12월 1일 오전 10:55, 방장봇 : 들어오시면 프로필 수정 바랍니다  회사 / 이름 / 직책(담당: 기구, 제어, 공정, 외관 등)  수정이 없을 시 강퇴처리 됩니다\r 2022년 12월 1일"
+    },
+    {
+      "error_code": "4525",
+      "count": 1,
+      "lines": "Line1 ; Line10 ; Line2 ; Line3 ; Line32 ; Line4 ; Line5",
+      "processes": "Aging ; Cell Packing ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "Cable ; IR/OCV ; Jig ; PLC ; PPC ; Pallet ; Rack ; SVI ; Tray",
+      "sample_message": "[SKBA 1동] 화성 이슈 공유방 55 님과 카카오톡 대화\r 저장한 날짜 : 2023년 5월 30일 오후 12:12  \r 2022년 12월 1일 오전 10:09\r 2022년 12월 1일 오전 10:09, 삼구/김응준/공정님이 들어왔습니다. 운영정책을 위반한 메시지로 신고 접수 시 카카오톡 이용에 제한이 있을 수 있습니다. 운영정책 보기\r 2022년 12월 1일 오전 10:09, 방장봇 : 들어오시면 프로필 수정 바랍니다  회사 / 이름 / 직책(담당: 기구, 제어, 공정, 외관 등)  수정이 없을 시 강퇴처리 됩니다\r 2022년 12월 1일 오전 10:32, SKon/이정원/공정기술님이 나갔습니다.\r 2022년 12월 1일 오전 10:55, 삼구/권계욱/공정님이 들어왔습니다.\r 2022년 12월 1일 오전 10:55, 방장봇 : 들어오시면 프로필 수정 바랍니다  회사 / 이름 / 직책(담당: 기구, 제어, 공정, 외관 등)  수정이 없을 시 강퇴처리 됩니다\r 2022년 12월 1일"
+    },
+    {
+      "error_code": "4557",
+      "count": 1,
+      "lines": "Line1 ; Line10 ; Line2 ; Line3 ; Line32 ; Line4 ; Line5",
+      "processes": "Aging ; Cell Packing ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "Cable ; IR/OCV ; Jig ; PLC ; PPC ; Pallet ; Rack ; SVI ; Tray",
+      "sample_message": "[SKBA 1동] 화성 이슈 공유방 55 님과 카카오톡 대화\r 저장한 날짜 : 2023년 5월 30일 오후 12:12  \r 2022년 12월 1일 오전 10:09\r 2022년 12월 1일 오전 10:09, 삼구/김응준/공정님이 들어왔습니다. 운영정책을 위반한 메시지로 신고 접수 시 카카오톡 이용에 제한이 있을 수 있습니다. 운영정책 보기\r 2022년 12월 1일 오전 10:09, 방장봇 : 들어오시면 프로필 수정 바랍니다  회사 / 이름 / 직책(담당: 기구, 제어, 공정, 외관 등)  수정이 없을 시 강퇴처리 됩니다\r 2022년 12월 1일 오전 10:32, SKon/이정원/공정기술님이 나갔습니다.\r 2022년 12월 1일 오전 10:55, 삼구/권계욱/공정님이 들어왔습니다.\r 2022년 12월 1일 오전 10:55, 방장봇 : 들어오시면 프로필 수정 바랍니다  회사 / 이름 / 직책(담당: 기구, 제어, 공정, 외관 등)  수정이 없을 시 강퇴처리 됩니다\r 2022년 12월 1일"
+    },
+    {
+      "error_code": "4559",
+      "count": 1,
+      "lines": "Line1 ; Line10 ; Line2 ; Line3 ; Line32 ; Line4 ; Line5",
+      "processes": "Aging ; Cell Packing ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "Cable ; IR/OCV ; Jig ; PLC ; PPC ; Pallet ; Rack ; SVI ; Tray",
+      "sample_message": "[SKBA 1동] 화성 이슈 공유방 55 님과 카카오톡 대화\r 저장한 날짜 : 2023년 5월 30일 오후 12:12  \r 2022년 12월 1일 오전 10:09\r 2022년 12월 1일 오전 10:09, 삼구/김응준/공정님이 들어왔습니다. 운영정책을 위반한 메시지로 신고 접수 시 카카오톡 이용에 제한이 있을 수 있습니다. 운영정책 보기\r 2022년 12월 1일 오전 10:09, 방장봇 : 들어오시면 프로필 수정 바랍니다  회사 / 이름 / 직책(담당: 기구, 제어, 공정, 외관 등)  수정이 없을 시 강퇴처리 됩니다\r 2022년 12월 1일 오전 10:32, SKon/이정원/공정기술님이 나갔습니다.\r 2022년 12월 1일 오전 10:55, 삼구/권계욱/공정님이 들어왔습니다.\r 2022년 12월 1일 오전 10:55, 방장봇 : 들어오시면 프로필 수정 바랍니다  회사 / 이름 / 직책(담당: 기구, 제어, 공정, 외관 등)  수정이 없을 시 강퇴처리 됩니다\r 2022년 12월 1일"
+    },
+    {
+      "error_code": "6000",
+      "count": 1,
+      "lines": "Line1 ; Line10 ; Line2 ; Line3 ; Line32 ; Line4 ; Line5",
+      "processes": "Aging ; Cell Packing ; Degassing ; Formation ; IR ; IR/OCV ; Inspection ; OCV ; PPC ; Packing ; SVI ; VI",
+      "equipment": "Cable ; IR/OCV ; Jig ; PLC ; PPC ; Pallet ; Rack ; SVI ; Tray",
+      "sample_message": "[SKBA 1동] 화성 이슈 공유방 55 님과 카카오톡 대화\r 저장한 날짜 : 2023년 5월 30일 오후 12:12  \r 2022년 12월 1일 오전 10:09\r 2022년 12월 1일 오전 10:09, 삼구/김응준/공정님이 들어왔습니다. 운영정책을 위반한 메시지로 신고 접수 시 카카오톡 이용에 제한이 있을 수 있습니다. 운영정책 보기\r 2022년 12월 1일 오전 10:09, 방장봇 : 들어오시면 프로필 수정 바랍니다  회사 / 이름 / 직책(담당: 기구, 제어, 공정, 외관 등)  수정이 없을 시 강퇴처리 됩니다\r 2022년 12월 1일 오전 10:32, SKon/이정원/공정기술님이 나갔습니다.\r 2022년 12월 1일 오전 10:55, 삼구/권계욱/공정님이 들어왔습니다.\r 2022년 12월 1일 오전 10:55, 방장봇 : 들어오시면 프로필 수정 바랍니다  회사 / 이름 / 직책(담당: 기구, 제어, 공정, 외관 등)  수정이 없을 시 강퇴처리 됩니다\r 2022년 12월 1일"
+    },
+    {
+      "error_code": "1022",
+      "count": 1,
+      "lines": "",
+      "processes": "Formation",
+      "equipment": "Tray",
+      "sample_message": "Line - Formation Line Common  Equipment Cod - ECS #2 Representative Equipment  Tray ID - L01454  Log Date - 3/9/2025 11:52  Error Code : 1022 입니다"
+    },
+    {
+      "error_code": "M938",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "Stacker",
+      "sample_message": "ERROR code : M938 Stacker :1321 LANE 2 1 FLOOR  CAUSE: occurs when there is an ECS TASK but stacker is not working  ACTION: restart stacker  Program debugging   This issue is persistent in RTA3."
+    },
+    {
+      "error_code": "4551",
+      "count": 1,
+      "lines": "",
+      "processes": "Packing",
+      "equipment": "Pallet",
+      "sample_message": "@SKBA.MES.AE   안녕하세요  12Line Packing 에서  Mes Error code 4551 발생 하였는데  운영 로그 확인시 H045062 Pallet Pos 08 01 23 위치에 Packing data 누락 확인되어 Cell Mount NG 로 배출 되었습니다  Pos 08 01 23 위치에 Cell Add in Pallet 사용 시도 했으나 Pallet 배출 이전이라 Box ID 미생성으로 불가 합니다  해당 셀 보고 없이 다음 단수로 넘어가 적재된 이유 알수 있을까요? 동일 에러 발생시 MES UI 처리 할 수 있는 방법도 문의 드립니다  에러 조치 되었고 설비 가동 중 이여서 운영자님께 전달 해주시면 감사하겠습니다"
+    },
+    {
+      "error_code": "8902",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "",
+      "sample_message": "네 8905, 8904, 8902 에러 발생중입니다"
+    },
+    {
+      "error_code": "8904",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "",
+      "sample_message": "방금 통화 드렸었고 ECS 서버 및 클라이언트 동작 상태는 문제 없다고 내용 전달 받았습니다. 트레이를 ECS 상태서 다음 BCR로 보내도 8904 에러 재 발생후 멈추고, 그 바로 이전 트레이도 이전 BCR에서 동일 에러 발생하는 상황입니다."
+    },
+    {
+      "error_code": "4511",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "Pallet",
+      "sample_message": "Pallet ID : HFB8B88 Cell ID : GB081FASPA107751  Error code :  4511 ParentLotIdof the cell do not match with the one in the equipment"
+    },
+    {
+      "error_code": "8999",
+      "count": 1,
+      "lines": "",
+      "processes": "VI",
+      "equipment": "Barcode ; Tray",
+      "sample_message": "That data looks good, but when we send the tray to a barcode via ECS, it is giving a 8999 error. MES code 35… unsure what that is"
+    },
+    {
+      "error_code": "8905",
+      "count": 1,
+      "lines": "Line12 ; Line9",
+      "processes": "Degassing ; SVI ; VI",
+      "equipment": "SVI ; Sensor ; Tray",
+      "sample_message": "2025.10.23  공정 야간 특이사항   ■ 공정특이사항  [공통]  1) 1,2F ECS서버 다운 현상 발생(23:20~00:45, 85분)  - S/C 및 Conver BCR구간 ECS상 Err Code 8905 및 에러 메세지 없음  - BCR 구간에 대기 중인 Tray 다른 BCR구간으로 보냈을 시 도착 후 Code 8905 발생하며 미 동작  - 해당 Code에 대해 ECS, MES 측 확인 불가  - 원인 파악 후 공유 예정   [Line9]  1) SVI LMS#1 AUTO COUPLER CYLINDER IN SENSOR ALARM(03:40~04:20, 40분)  - L/D, ULD LMS 리니어 모터 사이 Cell 낙하 및 협착  - LD1 CELL VACUUM ERROR, UN1 LMS VACUUM TIME OUT Err메세지(03:40분) 이력 확인 진공에러로 Cell 낙하됐으나 실물 확인없이 가동 및 협착된 것으로 추정  - 메인터너스 측 에서  밍글공유  "
+    },
+    {
+      "error_code": "8203",
+      "count": 1,
+      "lines": "Line9",
+      "processes": "Formation ; IR",
+      "equipment": "Pallet",
+      "sample_message": "2026.01.17 주간 공정 특이사항  [공통]  1. 전체 물류 ECS BCR 구간  Error Code : 8203, 8913 발생 하여 작동 불가 ( 10:20 ~ 11:20 )  - ECS 서버 재부팅 후 물류 정상 작동하나  ECS Client 최신화 불가 현상 발생  - 12:30 이후 ECS Client 정상 표기 및 물류 정상 작동  ■ Engineer 요청 사항  1. IR Reformation Type ( R5AS, R5CS ) 2Pallet, Line9 CPM 투입 완료\r \r 2026년 1월 18일 일요일"
+    },
+    {
+      "error_code": "152",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "",
+      "sample_message": "5LINE  Cell Body Terrace Edge Right Top 21ea Spec 72.85-75.85 G5081F3TP3111216 Mes 333.32 실측73.00-가성 G5081F3TP3110999 Mes 334.3 실측72.86-진성근접 G5081F3TP3110993 Mes 725.06 실측73.13-가성 G5081F3TP3111408 Mes 152.79 실측72.68 -진성불량  실측 결과  가성. 진성 같이  나오고 있습니다 *Mes 측정값 오류 확인부탁드립니다"
+    },
+    {
+      "error_code": "333",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "",
+      "sample_message": "5LINE  Cell Body Terrace Edge Right Top 21ea Spec 72.85-75.85 G5081F3TP3111216 Mes 333.32 실측73.00-가성 G5081F3TP3110999 Mes 334.3 실측72.86-진성근접 G5081F3TP3110993 Mes 725.06 실측73.13-가성 G5081F3TP3111408 Mes 152.79 실측72.68 -진성불량  실측 결과  가성. 진성 같이  나오고 있습니다 *Mes 측정값 오류 확인부탁드립니다"
+    },
+    {
+      "error_code": "334",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "",
+      "sample_message": "5LINE  Cell Body Terrace Edge Right Top 21ea Spec 72.85-75.85 G5081F3TP3111216 Mes 333.32 실측73.00-가성 G5081F3TP3110999 Mes 334.3 실측72.86-진성근접 G5081F3TP3110993 Mes 725.06 실측73.13-가성 G5081F3TP3111408 Mes 152.79 실측72.68 -진성불량  실측 결과  가성. 진성 같이  나오고 있습니다 *Mes 측정값 오류 확인부탁드립니다"
+    },
+    {
+      "error_code": "725",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "",
+      "sample_message": "5LINE  Cell Body Terrace Edge Right Top 21ea Spec 72.85-75.85 G5081F3TP3111216 Mes 333.32 실측73.00-가성 G5081F3TP3110999 Mes 334.3 실측72.86-진성근접 G5081F3TP3110993 Mes 725.06 실측73.13-가성 G5081F3TP3111408 Mes 152.79 실측72.68 -진성불량  실측 결과  가성. 진성 같이  나오고 있습니다 *Mes 측정값 오류 확인부탁드립니다"
+    },
+    {
+      "error_code": "364",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "",
+      "sample_message": "@SKBA/ Jun/ Egr  3-2 Cell Width Cathode Pouch ~Anode Tab 20ea 발생  Spec 364.5~366.5  G3081F5WP5108264 Mes 364.09 실측365.15  G3081F5WP5109395 Mes 364.15 실측365.22  G3081F5WP5106148 Mes 365.23 실측365.07  G3081F5WP5106128 Mes 364.44 실측365.20  CheckTime19:05~19:14"
+    },
+    {
+      "error_code": "365",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "",
+      "sample_message": "@SKBA/ Jun/ Egr  3-2 Cell Width Cathode Pouch ~Anode Tab 20ea 발생  Spec 364.5~366.5  G3081F5WP5108264 Mes 364.09 실측365.15  G3081F5WP5109395 Mes 364.15 실측365.22  G3081F5WP5106148 Mes 365.23 실측365.07  G3081F5WP5106128 Mes 364.44 실측365.20  CheckTime19:05~19:14"
+    },
+    {
+      "error_code": "3501",
+      "count": 1,
+      "lines": "",
+      "processes": "Inspection",
+      "equipment": "",
+      "sample_message": "@SKBA/ Jun/ Egr @Form/Daeyun_Key/Engr  R530 Type 등급 셋팅이 안되어있어 Inspection  MES CODE: 3501  발생되고 있습니다. 확인  필요합니다."
+    },
+    {
+      "error_code": "8044",
+      "count": 1,
+      "lines": "",
+      "processes": "Formation",
+      "equipment": "",
+      "sample_message": "####Formation <Maintenance BM> ▪︎Date : 3/6/2025 ▪︎Line : RTA 3 ▪︎Process :  ▪︎Unit : 3-3-1 ▪︎Start Time : 3:30am ▪︎End Time :  ▪︎Issue : lifter 8044 error ▪︎Cause:  ▪︎Troubleshooting:"
+    },
+    {
+      "error_code": "S04405",
+      "count": 1,
+      "lines": "Line6",
+      "processes": "",
+      "equipment": "Tray",
+      "sample_message": "EOL line 6  Tray force out mes   S04405"
+    },
+    {
+      "error_code": "S05165",
+      "count": 1,
+      "lines": "Line6",
+      "processes": "",
+      "equipment": "Tray",
+      "sample_message": "EOL line 6  Tray force out mes   S05165"
+    },
+    {
+      "error_code": "2151",
+      "count": 1,
+      "lines": "",
+      "processes": "Formation",
+      "equipment": "Tray",
+      "sample_message": "#### < Maintenance BM > Formation ▪︎Date: 06/03/2025 ▪︎Line: RTA1 ▪︎Process: RTA1 ▪︎Unit: S/C 3-3F  ▪︎Start Time: 10:50 ▪︎End Time: 10:57 ▪︎Issue: lifter 2151 error  ▪︎Cause: tray not centered   ▪︎Troubleshooting:  - Centered tray  - Restarted process \r 메시지가 삭제되었습니다."
+    },
+    {
+      "error_code": "S24612",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "Tray",
+      "sample_message": "EOL 4 Tray Status1 code1 error Tray code: S24612  @B/SWIFT/LOGISTIC"
+    },
+    {
+      "error_code": "S06497",
+      "count": 1,
+      "lines": "",
+      "processes": "VI",
+      "equipment": "Tray",
+      "sample_message": "Cell loader gripper1 data mismatch error Tray code: S06497  @A/kevinG/TeamLead"
+    },
+    {
+      "error_code": "S12943",
+      "count": 1,
+      "lines": "",
+      "processes": "VI",
+      "equipment": "Sensor ; Tray",
+      "sample_message": "Grip-2 sensor check MESA data check msmatch  Tray code: S12943 @A/kevinG/TeamLead"
+    },
+    {
+      "error_code": "S17273",
+      "count": 1,
+      "lines": "",
+      "processes": "VI",
+      "equipment": "Tray",
+      "sample_message": "Tray status code1 error Tray code: S17273  I had to force out that tray because we had a data error @A/kevinG/TeamLead"
+    },
+    {
+      "error_code": "S10363",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "Tray",
+      "sample_message": "Line: 3 Tray: S10363  Error: tray mismatch error Trouble shoot: sent to 8393"
+    },
+    {
+      "error_code": "12087",
+      "count": 1,
+      "lines": "",
+      "processes": "VI",
+      "equipment": "Pallet",
+      "sample_message": "@SKBA/Xong/Specialist  Base ID:HF9E014 Pallet ID: G5CP081CPF90190 Is giving a post Date error I tried to cancel ERP before I can change the date it  gave  me a 12087 Error can you help assist please and thank you"
+    },
+    {
+      "error_code": "1207",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "",
+      "sample_message": "@SKBA/Xong/Specialist   HG27023 G6CP081CPG20155 Code: 1207"
+    },
+    {
+      "error_code": "247",
+      "count": 1,
+      "lines": "",
+      "processes": "Formation ; PPC",
+      "equipment": "PPC",
+      "sample_message": "####Formation <Maintenance BM> ▪︎Date : 01/21/25 ▪︎Line : 1 ▪︎Process : RTA1  ▪︎Sub-Process(PPC,DGS): 1-2F ▪︎Unit : SRC # 1-2F ▪︎Sub-Unit(PPC,DGS) :  ▪︎Start Time: 03:30 ▪︎End Time: 04:30 ▪︎issue:  Error Code 247 Extinguisher 수위 알람  ▪︎Cause : 워터 탱크 수위 센서 Fail 추정 ▪︎Troubleshooting:  SRC # 1-2F 화면 내 Water High 및  Water Low 동시 점등 상태 확인. Water 탱크 내 수위 센서 커넥터 재체결 후 알람 해지 불가 IO Box 내 Water High (X0F) 케이블 분리 후 알람 해지 및 S/C 정상 작동 수위 센서 재고 확인 및 교체 필요"
+    },
+    {
+      "error_code": "X1381",
+      "count": 1,
+      "lines": "",
+      "processes": "Aging ; Formation",
+      "equipment": "",
+      "sample_message": "#### Formation     <Maintenance BM>     - Date: 05/30/25     - Shift: A     - Line: 5     - Process: Packaging       - Start Time: 07:40     - End Time: 07:44  Issue :Aling out transfer 01 detected alarm X1381 error Cause  Why?:Align out doesn't move Why?:the data Mes cell doesn't match with the real position and it was defaced one step before. Why?:The vacuum # 2 turn off   Correct action  The transfer was moved the manual way and the data were moved according to physical cells and matched betw"
+    },
+    {
+      "error_code": "639",
+      "count": 1,
+      "lines": "Line1",
+      "processes": "Formation ; PPC",
+      "equipment": "PPC ; Tray",
+      "sample_message": "🔹PPC total Output 12:00~13:00🔹  ♦️1L: 880 (timed trays)   ♦️2L: 0 (timed trays) ~cross production with line 1  ♦️3L: 320 (timed trays)          ♦️4L: 633 (timed trays)  ♦️5L: 1040   ♦️6L: 639  Error sending information from HPC to Main PP"
+    },
+    {
+      "error_code": "2505",
+      "count": 1,
+      "lines": "",
+      "processes": "Degassing",
+      "equipment": "Tray",
+      "sample_message": "🔹Hourly report: Degassing Output 1100~1200  ♦️1L : 324 Issue: rear chamber6 piercing errors  ♦️2L : 0  ♦️3L : 216 Issue: timed trays  ♦️4L: 0 Issue: timed trays  ♦️5L : 900  ♦️6L : 720 Issue: precut shuttle uld stage not detect cell//mes code 2505"
+    },
+    {
+      "error_code": "X1476",
+      "count": 1,
+      "lines": "",
+      "processes": "Formation ; IR",
+      "equipment": "Cable ; PLC ; Sensor",
+      "sample_message": "<Maintenance BM> ####### Formation  ▪︎Date : 09/16/25 ▪︎Lane : EOL 3-2 ▪︎Process: Folding  ▪︎Unit: Cell transfer#7 ▪︎Start Time: 07:30 ▪︎End Time: 08:30 ▪︎Cause : Sensor cable damaged ▪︎Troubleshooting:  ✅ Check I/O (PLC) ✔️ Confirmed X1476 error in the PLC ✔️ Removed all cells (TR#1-13) and checked for cable disconnection      - X1476(TR#7 detect sensor) ✅ Replaced sensor  ✔️Part no : OBT30-R3-E0-P  ✔️Q-code : Q2C1001509  -W/O Q2C1001509"
+    },
+    {
+      "error_code": "V8446",
+      "count": 1,
+      "lines": "",
+      "processes": "Aging ; Charge ; Degassing ; Formation",
+      "equipment": "Conveyor ; Tray",
+      "sample_message": "#### ECS Report Date: 10/25/2025 Time: 14:00 ECS system ✅️Aging rooms ✅Degassing ✅Folding ✅Conveyor -C/V8446 error ✅Press Pre Charge ✅️Formation Charge ✅️ Traywasher 1, 2"
+    },
+    {
+      "error_code": "4536",
+      "count": 1,
+      "lines": "",
+      "processes": "SVI ; VI",
+      "equipment": "PLC ; Pallet ; SVI ; Sensor ; Tray",
+      "sample_message": "05/21 공정 주간조 EOL 특이사항  [1라인] • 불량 Cell 특이사항 - 특이사항 없음  • 설비 특이사항 # Taping - 현상 : Tape Position x1 Error 발생 - 원인 : Limit Sensor 위치 틀어짐 - 조치 : Limit Sensor 위치 2mm 조정 후 설비 가동 (13:25~13:45)  # SVI - 현상 : Middle P&P Time Over Error 발생 - 원인 : 캐리어 내 Cell 안착 후 PLC 미 신호 - 조치 : PLC 프로그램 보안 수정 (11:00~12:00)  • 작업자 특이사항 - 특이사항 없음  [2라인] • 불량 Cell 특이사항 - 특이사항 없음  • 설비 특이사항 - C119 (A Material) Type 투입 정지 > C199, C126 Type 혼재 투입되어 CPM MES NG 다수 발생 > MES Code 4536 Models Mix > C126 Type 투입 가동 (16:40~  # SVI > 손"
+    },
+    {
+      "error_code": "4569",
+      "count": 1,
+      "lines": "",
+      "processes": "Aging",
+      "equipment": "",
+      "sample_message": "[MES Update Notice]  The MES update will take place between 15:20~15:40  - 4569 Error: Modified to pass verification when hold is applied after entering cell packaging machine"
+    },
+    {
+      "error_code": "4071",
+      "count": 1,
+      "lines": "",
+      "processes": "Charge ; Formation ; VI",
+      "equipment": "Tray",
+      "sample_message": "@SK C&C/Doehoon/MES  @SKBA.MES.AE   5Line EOL Line Process: 90-degree Folding Loader Tray Input Section  Issue: When inserting Tray ID S05168, an MES error code 4071 occurs.  The tray is of P551 type.  The previous formation process was completed normally.  No type mixing was detected.   The error log indicates \"Step 9 charge defect\", but this formation type only exists up to Step 6.  Please investigate the issue and share the root cause."
+    },
+    {
+      "error_code": "04088",
+      "count": 1,
+      "lines": "",
+      "processes": "Formation ; Packing ; VI",
+      "equipment": "Pallet",
+      "sample_message": "Good morning  Last night BShift could not ship due to product warehouse issues on logistics end. When packing line Operator was trying Cancel WHS and ERP (Formation tab ERP and Warehousing) it’s giving 3 error  1) ORA-01013 user requested cancel operation 2. ORA-04088 Error during Execution of trigger SKIWMS. TR_Cell_WMS Receipt material cancel 3.Lock out by user error   I will keep you updated on situation however the pallets do seem to warehouse on logistics end slowly threw out the day and we"
+    },
+    {
+      "error_code": "4550",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "",
+      "sample_message": "*Mes기준 - 1단 1행 data 보고 안된채 Field에서 1단 2행부터 mount 보고 시작하여 ng code 4550 nack 보냄 *Field기준 - 1단 1,2행 정상 mount보고 후  ack 정상 받음. 2단 1행부터 ng code 4550 nack 받음"
+    },
+    {
+      "error_code": "4523",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "",
+      "sample_message": "Sorry for interrupting, but how do we solve 4523 error?"
+    },
+    {
+      "error_code": "T05234",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "Tray",
+      "sample_message": "MES team,  Tray ID: T05234  Error: \"invalid format\" when registering tray.   Can the team assist on how to handle this issue?"
+    },
+    {
+      "error_code": "3004",
+      "count": 1,
+      "lines": "",
+      "processes": "Charge ; Discharge",
+      "equipment": "Tray",
+      "sample_message": "Currently at Charging/Discharging Equipment 030510 (MES Location: 06-05-10), after initializing the FCH stage, I issued a manual discharge command for tray S10456, but the same 3004 error (\"Tray data equipment and MRS do not match\") continues to occur.  Is there any way to resolve this error? Or should I proceed with manual handling/discharge instead?"
+    },
+    {
+      "error_code": "5002",
+      "count": 1,
+      "lines": "",
+      "processes": "Packing",
+      "equipment": "Pallet",
+      "sample_message": "There are pallets have same issue that Junbeom shared on 3/30 which are 4522,5002 error codes of Box Packing Machine.   [4522] H010160  [5002] H008228 H008540 H009773 H008237  I tried to find any solution by seaching history of this chat room but couldn’t find.  Last time, Admin fixed it.  Would you make me know how to fix by ourside?"
+    },
+    {
+      "error_code": "E1054",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "",
+      "sample_message": "Is ERP-E1054 error code?"
+    },
+    {
+      "error_code": "S21037",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "",
+      "sample_message": "@SK C&C/Jeonghun/MES   S21037 S19879  FCH 2Lane BCr 을 읽었으나 입고 명령을 받지 못하는 문제 발생중입니다.   운영로그 조회 시 9001 을 받으며 메세지는 다음과 같습니다  failed to send request message received message in null  해당 트레이외에 문제가 연속으로 발생되는데 확인 부탁드립니다."
+    },
+    {
+      "error_code": "2500",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "",
+      "sample_message": "Does error code 2500 occur?"
+    },
+    {
+      "error_code": "3617",
+      "count": 1,
+      "lines": "",
+      "processes": "",
+      "equipment": "",
+      "sample_message": "@SKBA.MES.AE  What is MES code 3617 for?"
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "process:Formation",
+      "count": 32984,
+      "category": "process",
+      "value": "Formation"
+    },
+    {
+      "keyword": "equipment:Tray",
+      "count": 32772,
+      "category": "equipment",
+      "value": "Tray"
+    },
+    {
+      "keyword": "process:Packing",
+      "count": 25320,
+      "category": "process",
+      "value": "Packing"
+    },
+    {
+      "keyword": "process:VI",
+      "count": 24394,
+      "category": "process",
+      "value": "VI"
+    },
+    {
+      "keyword": "line:Line6",
+      "count": 20514,
+      "category": "line",
+      "value": "Line6"
+    },
+    {
+      "keyword": "line:Line5",
+      "count": 20164,
+      "category": "line",
+      "value": "Line5"
+    },
+    {
+      "keyword": "process:PPC",
+      "count": 19070,
+      "category": "process",
+      "value": "PPC"
+    },
+    {
+      "keyword": "equipment:PPC",
+      "count": 19070,
+      "category": "equipment",
+      "value": "PPC"
+    },
+    {
+      "keyword": "line:Line3",
+      "count": 16977,
+      "category": "line",
+      "value": "Line3"
+    },
+    {
+      "keyword": "process:Degassing",
+      "count": 14025,
+      "category": "process",
+      "value": "Degassing"
+    },
+    {
+      "keyword": "line:Line4",
+      "count": 13267,
+      "category": "line",
+      "value": "Line4"
+    },
+    {
+      "keyword": "line:Line2",
+      "count": 12129,
+      "category": "line",
+      "value": "Line2"
+    },
+    {
+      "keyword": "line:Line1",
+      "count": 11808,
+      "category": "line",
+      "value": "Line1"
+    },
+    {
+      "keyword": "process:IR",
+      "count": 9972,
+      "category": "process",
+      "value": "IR"
+    },
+    {
+      "keyword": "process:Inspection",
+      "count": 7392,
+      "category": "process",
+      "value": "Inspection"
+    },
+    {
+      "keyword": "equipment:Barcode",
+      "count": 6537,
+      "category": "equipment",
+      "value": "Barcode"
+    },
+    {
+      "keyword": "process:Aging",
+      "count": 6420,
+      "category": "process",
+      "value": "Aging"
+    },
+    {
+      "keyword": "process:SVI",
+      "count": 5950,
+      "category": "process",
+      "value": "SVI"
+    },
+    {
+      "keyword": "equipment:SVI",
+      "count": 5950,
+      "category": "equipment",
+      "value": "SVI"
+    },
+    {
+      "keyword": "equipment:Sensor",
+      "count": 5825,
+      "category": "equipment",
+      "value": "Sensor"
+    },
+    {
+      "keyword": "equipment:Conveyor",
+      "count": 5020,
+      "category": "equipment",
+      "value": "Conveyor"
+    },
+    {
+      "keyword": "equipment:Pallet",
+      "count": 4912,
+      "category": "equipment",
+      "value": "Pallet"
+    },
+    {
+      "keyword": "process:Charge",
+      "count": 4436,
+      "category": "process",
+      "value": "Charge"
+    },
+    {
+      "keyword": "equipment:Rack",
+      "count": 3220,
+      "category": "equipment",
+      "value": "Rack"
+    },
+    {
+      "keyword": "process:OCV",
+      "count": 3005,
+      "category": "process",
+      "value": "OCV"
+    },
+    {
+      "keyword": "equipment:PLC",
+      "count": 1788,
+      "category": "equipment",
+      "value": "PLC"
+    },
+    {
+      "keyword": "process:Cell Packing",
+      "count": 1653,
+      "category": "process",
+      "value": "Cell Packing"
+    },
+    {
+      "keyword": "process:IR/OCV",
+      "count": 1621,
+      "category": "process",
+      "value": "IR/OCV"
+    },
+    {
+      "keyword": "equipment:IR/OCV",
+      "count": 1621,
+      "category": "equipment",
+      "value": "IR/OCV"
+    },
+    {
+      "keyword": "equipment:Cable",
+      "count": 1051,
+      "category": "equipment",
+      "value": "Cable"
+    },
+    {
+      "keyword": "equipment:Stacker",
+      "count": 816,
+      "category": "equipment",
+      "value": "Stacker"
+    },
+    {
+      "keyword": "equipment:Clip",
+      "count": 497,
+      "category": "equipment",
+      "value": "Clip"
+    },
+    {
+      "keyword": "equipment:Stacker Crane",
+      "count": 471,
+      "category": "equipment",
+      "value": "Stacker Crane"
+    },
+    {
+      "keyword": "line:Line10",
+      "count": 373,
+      "category": "line",
+      "value": "Line10"
+    },
+    {
+      "keyword": "equipment:Bracket",
+      "count": 367,
+      "category": "equipment",
+      "value": "Bracket"
+    },
+    {
+      "keyword": "line:Line8",
+      "count": 367,
+      "category": "line",
+      "value": "Line8"
+    },
+    {
+      "keyword": "line:Line7",
+      "count": 353,
+      "category": "line",
+      "value": "Line7"
+    },
+    {
+      "keyword": "line:Line9",
+      "count": 351,
+      "category": "line",
+      "value": "Line9"
+    },
+    {
+      "keyword": "line:Line12",
+      "count": 313,
+      "category": "line",
+      "value": "Line12"
+    },
+    {
+      "keyword": "process:Discharge",
+      "count": 300,
+      "category": "process",
+      "value": "Discharge"
+    },
+    {
+      "keyword": "line:Line11",
+      "count": 300,
+      "category": "line",
+      "value": "Line11"
+    },
+    {
+      "keyword": "error:4007",
+      "count": 238,
+      "category": "error",
+      "value": "4007"
+    },
+    {
+      "keyword": "equipment:Jig",
+      "count": 225,
+      "category": "equipment",
+      "value": "Jig"
+    },
+    {
+      "keyword": "line:Line1-1",
+      "count": 215,
+      "category": "line",
+      "value": "Line1-1"
+    },
+    {
+      "keyword": "line:Line1-2",
+      "count": 191,
+      "category": "line",
+      "value": "Line1-2"
+    },
+    {
+      "keyword": "line:Line2-1",
+      "count": 176,
+      "category": "line",
+      "value": "Line2-1"
+    },
+    {
+      "keyword": "line:Line2-2",
+      "count": 104,
+      "category": "line",
+      "value": "Line2-2"
+    },
+    {
+      "keyword": "error:1000",
+      "count": 100,
+      "category": "error",
+      "value": "1000"
+    },
+    {
+      "keyword": "process:IR OCV",
+      "count": 87,
+      "category": "process",
+      "value": "IR OCV"
+    },
+    {
+      "keyword": "line:Line6-1",
+      "count": 74,
+      "category": "line",
+      "value": "Line6-1"
+    },
+    {
+      "keyword": "line:Line5-1",
+      "count": 73,
+      "category": "line",
+      "value": "Line5-1"
+    },
+    {
+      "keyword": "error:1100",
+      "count": 73,
+      "category": "error",
+      "value": "1100"
+    },
+    {
+      "keyword": "error:1400",
+      "count": 71,
+      "category": "error",
+      "value": "1400"
+    },
+    {
+      "keyword": "error:1200",
+      "count": 71,
+      "category": "error",
+      "value": "1200"
+    },
+    {
+      "keyword": "error:0700",
+      "count": 67,
+      "category": "error",
+      "value": "0700"
+    },
+    {
+      "keyword": "error:1300",
+      "count": 66,
+      "category": "error",
+      "value": "1300"
+    },
+    {
+      "keyword": "line:Line5-2",
+      "count": 59,
+      "category": "line",
+      "value": "Line5-2"
+    },
+    {
+      "keyword": "error:1600",
+      "count": 59,
+      "category": "error",
+      "value": "1600"
+    },
+    {
+      "keyword": "error:0800",
+      "count": 59,
+      "category": "error",
+      "value": "0800"
+    },
+    {
+      "keyword": "error:9999",
+      "count": 57,
+      "category": "error",
+      "value": "9999"
+    },
+    {
+      "keyword": "error:1500",
+      "count": 56,
+      "category": "error",
+      "value": "1500"
+    },
+    {
+      "keyword": "process:Sorting",
+      "count": 55,
+      "category": "process",
+      "value": "Sorting"
+    },
+    {
+      "keyword": "line:Line6-2",
+      "count": 55,
+      "category": "line",
+      "value": "Line6-2"
+    },
+    {
+      "keyword": "line:Line4-1",
+      "count": 53,
+      "category": "line",
+      "value": "Line4-1"
+    },
+    {
+      "keyword": "error:0900",
+      "count": 53,
+      "category": "error",
+      "value": "0900"
+    },
+    {
+      "keyword": "error:3018",
+      "count": 51,
+      "category": "error",
+      "value": "3018"
+    },
+    {
+      "keyword": "error:1700",
+      "count": 47,
+      "category": "error",
+      "value": "1700"
+    },
+    {
+      "keyword": "line:Line3-1",
+      "count": 42,
+      "category": "line",
+      "value": "Line3-1"
+    },
+    {
+      "keyword": "process:Rolling",
+      "count": 38,
+      "category": "process",
+      "value": "Rolling"
+    },
+    {
+      "keyword": "line:Line4-2",
+      "count": 38,
+      "category": "line",
+      "value": "Line4-2"
+    },
+    {
+      "keyword": "error:0600",
+      "count": 38,
+      "category": "error",
+      "value": "0600"
+    },
+    {
+      "keyword": "error:1040",
+      "count": 33,
+      "category": "error",
+      "value": "1040"
+    },
+    {
+      "keyword": "line:Line3-2",
+      "count": 30,
+      "category": "line",
+      "value": "Line3-2"
+    },
+    {
+      "keyword": "error:1080",
+      "count": 30,
+      "category": "error",
+      "value": "1080"
+    },
+    {
+      "keyword": "error:8393",
+      "count": 28,
+      "category": "error",
+      "value": "8393"
+    },
+    {
+      "keyword": "error:1800",
+      "count": 26,
+      "category": "error",
+      "value": "1800"
+    },
+    {
+      "keyword": "error:1160",
+      "count": 23,
+      "category": "error",
+      "value": "1160"
+    },
+    {
+      "keyword": "equipment:Charger",
+      "count": 21,
+      "category": "equipment",
+      "value": "Charger"
+    },
+    {
+      "keyword": "error:4003",
+      "count": 21,
+      "category": "error",
+      "value": "4003"
+    },
+    {
+      "keyword": "line:Line0",
+      "count": 20,
+      "category": "line",
+      "value": "Line0"
+    },
+    {
+      "keyword": "error:3100",
+      "count": 19,
+      "category": "error",
+      "value": "3100"
+    },
+    {
+      "keyword": "error:1120",
+      "count": 18,
+      "category": "error",
+      "value": "1120"
+    },
+    {
+      "keyword": "error:0830",
+      "count": 17,
+      "category": "error",
+      "value": "0830"
+    },
+    {
+      "keyword": "error:40104",
+      "count": 16,
+      "category": "error",
+      "value": "40104"
+    },
+    {
+      "keyword": "error:1320",
+      "count": 15,
+      "category": "error",
+      "value": "1320"
+    },
+    {
+      "keyword": "error:0016",
+      "count": 15,
+      "category": "error",
+      "value": "0016"
+    },
+    {
+      "keyword": "error:0026",
+      "count": 15,
+      "category": "error",
+      "value": "0026"
+    },
+    {
+      "keyword": "error:10403",
+      "count": 15,
+      "category": "error",
+      "value": "10403"
+    },
+    {
+      "keyword": "error:S05523",
+      "count": 15,
+      "category": "error",
+      "value": "S05523"
+    },
+    {
+      "keyword": "line:Line20",
+      "count": 14,
+      "category": "line",
+      "value": "Line20"
+    },
+    {
+      "keyword": "line:Line60",
+      "count": 14,
+      "category": "line",
+      "value": "Line60"
+    },
+    {
+      "keyword": "error:0930",
+      "count": 14,
+      "category": "error",
+      "value": "0930"
+    },
+    {
+      "keyword": "error:0645",
+      "count": 14,
+      "category": "error",
+      "value": "0645"
+    },
+    {
+      "keyword": "error:0007",
+      "count": 14,
+      "category": "error",
+      "value": "0007"
+    },
+    {
+      "keyword": "error:0027",
+      "count": 14,
+      "category": "error",
+      "value": "0027"
+    },
+    {
+      "keyword": "error:S20532",
+      "count": 14,
+      "category": "error",
+      "value": "S20532"
+    },
+    {
+      "keyword": "error:8024",
+      "count": 14,
+      "category": "error",
+      "value": "8024"
+    },
+    {
+      "keyword": "error:1340",
+      "count": 13,
+      "category": "error",
+      "value": "1340"
+    },
+    {
+      "keyword": "error:1345",
+      "count": 13,
+      "category": "error",
+      "value": "1345"
+    },
+    {
+      "keyword": "error:I2404",
+      "count": 13,
+      "category": "error",
+      "value": "I2404"
+    },
+    {
+      "keyword": "error:4004",
+      "count": 12,
+      "category": "error",
+      "value": "4004"
+    },
+    {
+      "keyword": "error:4553",
+      "count": 12,
+      "category": "error",
+      "value": "4553"
+    },
+    {
+      "keyword": "error:20101",
+      "count": 12,
+      "category": "error",
+      "value": "20101"
+    },
+    {
+      "keyword": "error:1030",
+      "count": 11,
+      "category": "error",
+      "value": "1030"
+    },
+    {
+      "keyword": "error:9346",
+      "count": 11,
+      "category": "error",
+      "value": "9346"
+    },
+    {
+      "keyword": "error:9347",
+      "count": 11,
+      "category": "error",
+      "value": "9347"
+    },
+    {
+      "keyword": "error:3500",
+      "count": 11,
+      "category": "error",
+      "value": "3500"
+    },
+    {
+      "keyword": "error:2502",
+      "count": 11,
+      "category": "error",
+      "value": "2502"
+    },
+    {
+      "keyword": "error:S20950",
+      "count": 11,
+      "category": "error",
+      "value": "S20950"
+    },
+    {
+      "keyword": "error:30405",
+      "count": 11,
+      "category": "error",
+      "value": "30405"
+    },
+    {
+      "keyword": "line:Line3-6",
+      "count": 10,
+      "category": "line",
+      "value": "Line3-6"
+    },
+    {
+      "keyword": "error:1540",
+      "count": 10,
+      "category": "error",
+      "value": "1540"
+    },
+    {
+      "keyword": "error:1530",
+      "count": 10,
+      "category": "error",
+      "value": "1530"
+    },
+    {
+      "keyword": "error:1015",
+      "count": 10,
+      "category": "error",
+      "value": "1015"
+    },
+    {
+      "keyword": "error:8031",
+      "count": 10,
+      "category": "error",
+      "value": "8031"
+    },
+    {
+      "keyword": "error:1650",
+      "count": 10,
+      "category": "error",
+      "value": "1650"
+    },
+    {
+      "keyword": "error:E1330",
+      "count": 10,
+      "category": "error",
+      "value": "E1330"
+    },
+    {
+      "keyword": "error:8064",
+      "count": 10,
+      "category": "error",
+      "value": "8064"
+    },
+    {
+      "keyword": "error:20808",
+      "count": 10,
+      "category": "error",
+      "value": "20808"
+    },
+    {
+      "keyword": "error:9194",
+      "count": 10,
+      "category": "error",
+      "value": "9194"
+    },
+    {
+      "keyword": "error:21206",
+      "count": 10,
+      "category": "error",
+      "value": "21206"
+    },
+    {
+      "keyword": "error:1515",
+      "count": 10,
+      "category": "error",
+      "value": "1515"
+    },
+    {
+      "keyword": "error:1240",
+      "count": 10,
+      "category": "error",
+      "value": "1240"
+    },
+    {
+      "keyword": "error:3110",
+      "count": 10,
+      "category": "error",
+      "value": "3110"
+    },
+    {
+      "keyword": "error:S12498",
+      "count": 10,
+      "category": "error",
+      "value": "S12498"
+    },
+    {
+      "keyword": "error:3182",
+      "count": 10,
+      "category": "error",
+      "value": "3182"
+    },
+    {
+      "keyword": "error:3181",
+      "count": 10,
+      "category": "error",
+      "value": "3181"
+    },
+    {
+      "keyword": "error:0950",
+      "count": 9,
+      "category": "error",
+      "value": "0950"
+    },
+    {
+      "keyword": "error:0935",
+      "count": 9,
+      "category": "error",
+      "value": "0935"
+    },
+    {
+      "keyword": "error:6147",
+      "count": 9,
+      "category": "error",
+      "value": "6147"
+    },
+    {
+      "keyword": "error:3770",
+      "count": 9,
+      "category": "error",
+      "value": "3770"
+    },
+    {
+      "keyword": "error:S13229",
+      "count": 9,
+      "category": "error",
+      "value": "S13229"
+    },
+    {
+      "keyword": "error:S22819",
+      "count": 9,
+      "category": "error",
+      "value": "S22819"
+    },
+    {
+      "keyword": "error:10507",
+      "count": 9,
+      "category": "error",
+      "value": "10507"
+    },
+    {
+      "keyword": "error:20409",
+      "count": 9,
+      "category": "error",
+      "value": "20409"
+    },
+    {
+      "keyword": "error:S24716",
+      "count": 9,
+      "category": "error",
+      "value": "S24716"
+    },
+    {
+      "keyword": "error:S14328",
+      "count": 9,
+      "category": "error",
+      "value": "S14328"
+    },
+    {
+      "keyword": "error:1430",
+      "count": 8,
+      "category": "error",
+      "value": "1430"
+    },
+    {
+      "keyword": "error:1440",
+      "count": 8,
+      "category": "error",
+      "value": "1440"
+    },
+    {
+      "keyword": "error:1410",
+      "count": 8,
+      "category": "error",
+      "value": "1410"
+    },
+    {
+      "keyword": "error:8452",
+      "count": 8,
+      "category": "error",
+      "value": "8452"
+    },
+    {
+      "keyword": "error:0640",
+      "count": 8,
+      "category": "error",
+      "value": "0640"
+    },
+    {
+      "keyword": "error:0014",
+      "count": 8,
+      "category": "error",
+      "value": "0014"
+    },
+    {
+      "keyword": "error:4568",
+      "count": 8,
+      "category": "error",
+      "value": "4568"
+    },
+    {
+      "keyword": "error:3017",
+      "count": 8,
+      "category": "error",
+      "value": "3017"
+    },
+    {
+      "keyword": "error:9104",
+      "count": 8,
+      "category": "error",
+      "value": "9104"
+    },
+    {
+      "keyword": "error:S08595",
+      "count": 8,
+      "category": "error",
+      "value": "S08595"
+    },
+    {
+      "keyword": "error:S13045",
+      "count": 8,
+      "category": "error",
+      "value": "S13045"
+    },
+    {
+      "keyword": "error:S03362",
+      "count": 8,
+      "category": "error",
+      "value": "S03362"
+    },
+    {
+      "keyword": "error:30407",
+      "count": 8,
+      "category": "error",
+      "value": "30407"
+    },
+    {
+      "keyword": "error:1045",
+      "count": 8,
+      "category": "error",
+      "value": "1045"
+    },
+    {
+      "keyword": "error:V9307",
+      "count": 8,
+      "category": "error",
+      "value": "V9307"
+    },
+    {
+      "keyword": "error:11000",
+      "count": 8,
+      "category": "error",
+      "value": "11000"
+    },
+    {
+      "keyword": "error:S00081",
+      "count": 8,
+      "category": "error",
+      "value": "S00081"
+    },
+    {
+      "keyword": "error:S10363",
+      "count": 8,
+      "category": "error",
+      "value": "S10363"
+    },
+    {
+      "keyword": "error:S00208",
+      "count": 8,
+      "category": "error",
+      "value": "S00208"
+    },
+    {
+      "keyword": "error:S03485",
+      "count": 8,
+      "category": "error",
+      "value": "S03485"
+    },
+    {
+      "keyword": "error:3089",
+      "count": 8,
+      "category": "error",
+      "value": "3089"
+    },
+    {
+      "keyword": "error:11109",
+      "count": 8,
+      "category": "error",
+      "value": "11109"
+    },
+    {
+      "keyword": "line:Line18",
+      "count": 7,
+      "category": "line",
+      "value": "Line18"
+    },
+    {
+      "keyword": "error:1740",
+      "count": 7,
+      "category": "error",
+      "value": "1740"
+    },
+    {
+      "keyword": "error:0835",
+      "count": 7,
+      "category": "error",
+      "value": "0835"
+    },
+    {
+      "keyword": "error:0945",
+      "count": 7,
+      "category": "error",
+      "value": "0945"
+    },
+    {
+      "keyword": "error:1305",
+      "count": 7,
+      "category": "error",
+      "value": "1305"
+    },
+    {
+      "keyword": "error:0850",
+      "count": 7,
+      "category": "error",
+      "value": "0850"
+    },
+    {
+      "keyword": "error:0805",
+      "count": 7,
+      "category": "error",
+      "value": "0805"
+    },
+    {
+      "keyword": "error:1110",
+      "count": 7,
+      "category": "error",
+      "value": "1110"
+    },
+    {
+      "keyword": "error:9147",
+      "count": 7,
+      "category": "error",
+      "value": "9147"
+    },
+    {
+      "keyword": "error:1425",
+      "count": 7,
+      "category": "error",
+      "value": "1425"
+    },
+    {
+      "keyword": "error:6146",
+      "count": 7,
+      "category": "error",
+      "value": "6146"
+    },
+    {
+      "keyword": "error:1450",
+      "count": 7,
+      "category": "error",
+      "value": "1450"
+    },
+    {
+      "keyword": "error:1051",
+      "count": 7,
+      "category": "error",
+      "value": "1051"
+    },
+    {
+      "keyword": "error:8044",
+      "count": 7,
+      "category": "error",
+      "value": "8044"
+    },
+    {
+      "keyword": "error:E1059",
+      "count": 7,
+      "category": "error",
+      "value": "E1059"
+    },
+    {
+      "keyword": "error:00001",
+      "count": 7,
+      "category": "error",
+      "value": "00001"
+    },
+    {
+      "keyword": "error:4522",
+      "count": 7,
+      "category": "error",
+      "value": "4522"
+    },
+    {
+      "keyword": "error:S05168",
+      "count": 7,
+      "category": "error",
+      "value": "S05168"
+    },
+    {
+      "keyword": "error:S16851",
+      "count": 7,
+      "category": "error",
+      "value": "S16851"
+    },
+    {
+      "keyword": "error:3007",
+      "count": 7,
+      "category": "error",
+      "value": "3007"
+    },
+    {
+      "keyword": "error:20408",
+      "count": 7,
+      "category": "error",
+      "value": "20408"
+    },
+    {
+      "keyword": "error:10502",
+      "count": 7,
+      "category": "error",
+      "value": "10502"
+    },
+    {
+      "keyword": "error:8011",
+      "count": 7,
+      "category": "error",
+      "value": "8011"
+    },
+    {
+      "keyword": "error:20410",
+      "count": 7,
+      "category": "error",
+      "value": "20410"
+    },
+    {
+      "keyword": "error:10805",
+      "count": 7,
+      "category": "error",
+      "value": "10805"
+    },
+    {
+      "keyword": "error:10604",
+      "count": 7,
+      "category": "error",
+      "value": "10604"
+    },
+    {
+      "keyword": "error:S19682",
+      "count": 7,
+      "category": "error",
+      "value": "S19682"
+    },
+    {
+      "keyword": "error:S03767",
+      "count": 7,
+      "category": "error",
+      "value": "S03767"
+    },
+    {
+      "keyword": "error:3161",
+      "count": 7,
+      "category": "error",
+      "value": "3161"
+    },
+    {
+      "keyword": "error:X1160",
+      "count": 7,
+      "category": "error",
+      "value": "X1160"
+    },
+    {
+      "keyword": "line:Line5-6",
+      "count": 6,
+      "category": "line",
+      "value": "Line5-6"
+    },
+    {
+      "keyword": "line:Line22",
+      "count": 6,
+      "category": "line",
+      "value": "Line22"
+    },
+    {
+      "keyword": "error:9117",
+      "count": 6,
+      "category": "error",
+      "value": "9117"
+    },
+    {
+      "keyword": "error:1310",
+      "count": 6,
+      "category": "error",
+      "value": "1310"
+    },
+    {
+      "keyword": "error:1525",
+      "count": 6,
+      "category": "error",
+      "value": "1525"
+    },
+    {
+      "keyword": "error:1350",
+      "count": 6,
+      "category": "error",
+      "value": "1350"
+    },
+    {
+      "keyword": "error:1330",
+      "count": 6,
+      "category": "error",
+      "value": "1330"
+    },
+    {
+      "keyword": "error:1810",
+      "count": 6,
+      "category": "error",
+      "value": "1810"
+    },
+    {
+      "keyword": "error:0810",
+      "count": 6,
+      "category": "error",
+      "value": "0810"
+    },
+    {
+      "keyword": "error:0915",
+      "count": 6,
+      "category": "error",
+      "value": "0915"
+    },
+    {
+      "keyword": "error:1615",
+      "count": 6,
+      "category": "error",
+      "value": "1615"
+    },
+    {
+      "keyword": "error:1135",
+      "count": 6,
+      "category": "error",
+      "value": "1135"
+    },
+    {
+      "keyword": "error:6104",
+      "count": 6,
+      "category": "error",
+      "value": "6104"
+    },
+    {
+      "keyword": "error:0920",
+      "count": 6,
+      "category": "error",
+      "value": "0920"
+    },
+    {
+      "keyword": "error:1445",
+      "count": 6,
+      "category": "error",
+      "value": "1445"
+    },
+    {
+      "keyword": "error:0720",
+      "count": 6,
+      "category": "error",
+      "value": "0720"
+    },
+    {
+      "keyword": "error:1651",
+      "count": 6,
+      "category": "error",
+      "value": "1651"
+    },
+    {
+      "keyword": "error:A25197",
+      "count": 6,
+      "category": "error",
+      "value": "A25197"
+    },
+    {
+      "keyword": "error:1325",
+      "count": 6,
+      "category": "error",
+      "value": "1325"
+    },
+    {
+      "keyword": "error:0001",
+      "count": 6,
+      "category": "error",
+      "value": "0001"
+    },
+    {
+      "keyword": "error:4505",
+      "count": 6,
+      "category": "error",
+      "value": "4505"
+    },
+    {
+      "keyword": "error:0021",
+      "count": 6,
+      "category": "error",
+      "value": "0021"
+    },
+    {
+      "keyword": "error:01427",
+      "count": 6,
+      "category": "error",
+      "value": "01427"
+    },
+    {
+      "keyword": "error:4552",
+      "count": 6,
+      "category": "error",
+      "value": "4552"
+    },
+    {
+      "keyword": "error:19000",
+      "count": 6,
+      "category": "error",
+      "value": "19000"
+    },
+    {
+      "keyword": "error:4511",
+      "count": 6,
+      "category": "error",
+      "value": "4511"
+    },
+    {
+      "keyword": "error:8905",
+      "count": 6,
+      "category": "error",
+      "value": "8905"
+    },
+    {
+      "keyword": "error:1023",
+      "count": 6,
+      "category": "error",
+      "value": "1023"
+    },
+    {
+      "keyword": "error:S06836",
+      "count": 6,
+      "category": "error",
+      "value": "S06836"
+    },
+    {
+      "keyword": "error:S22702",
+      "count": 6,
+      "category": "error",
+      "value": "S22702"
+    },
+    {
+      "keyword": "error:1545",
+      "count": 6,
+      "category": "error",
+      "value": "1545"
+    },
+    {
+      "keyword": "error:5501",
+      "count": 6,
+      "category": "error",
+      "value": "5501"
+    },
+    {
+      "keyword": "error:10210",
+      "count": 6,
+      "category": "error",
+      "value": "10210"
+    },
+    {
+      "keyword": "error:40608",
+      "count": 6,
+      "category": "error",
+      "value": "40608"
+    },
+    {
+      "keyword": "error:30509",
+      "count": 6,
+      "category": "error",
+      "value": "30509"
+    },
+    {
+      "keyword": "error:8053",
+      "count": 6,
+      "category": "error",
+      "value": "8053"
+    },
+    {
+      "keyword": "error:0815",
+      "count": 6,
+      "category": "error",
+      "value": "0815"
+    },
+    {
+      "keyword": "error:1105",
+      "count": 6,
+      "category": "error",
+      "value": "1105"
+    },
+    {
+      "keyword": "error:1221",
+      "count": 6,
+      "category": "error",
+      "value": "1221"
+    },
+    {
+      "keyword": "error:1548",
+      "count": 6,
+      "category": "error",
+      "value": "1548"
+    },
+    {
+      "keyword": "error:9307",
+      "count": 6,
+      "category": "error",
+      "value": "9307"
+    },
+    {
+      "keyword": "error:S07318",
+      "count": 6,
+      "category": "error",
+      "value": "S07318"
+    },
+    {
+      "keyword": "error:S19801",
+      "count": 6,
+      "category": "error",
+      "value": "S19801"
+    },
+    {
+      "keyword": "error:S03618",
+      "count": 6,
+      "category": "error",
+      "value": "S03618"
+    },
+    {
+      "keyword": "error:1130",
+      "count": 6,
+      "category": "error",
+      "value": "1130"
+    },
+    {
+      "keyword": "error:S02806",
+      "count": 6,
+      "category": "error",
+      "value": "S02806"
+    },
+    {
+      "keyword": "error:12000",
+      "count": 6,
+      "category": "error",
+      "value": "12000"
+    },
+    {
+      "keyword": "error:22000",
+      "count": 6,
+      "category": "error",
+      "value": "22000"
+    },
+    {
+      "keyword": "error:1550",
+      "count": 6,
+      "category": "error",
+      "value": "1550"
+    },
+    {
+      "keyword": "error:20909",
+      "count": 6,
+      "category": "error",
+      "value": "20909"
+    },
+    {
+      "keyword": "error:X1120",
+      "count": 6,
+      "category": "error",
+      "value": "X1120"
+    },
+    {
+      "keyword": "error:S02923",
+      "count": 6,
+      "category": "error",
+      "value": "S02923"
+    },
+    {
+      "keyword": "equipment:Jigsition",
+      "count": 5,
+      "category": "equipment",
+      "value": "Jigsition"
+    },
+    {
+      "keyword": "line:Line19",
+      "count": 5,
+      "category": "line",
+      "value": "Line19"
+    },
+    {
+      "keyword": "line:Line10-1",
+      "count": 5,
+      "category": "line",
+      "value": "Line10-1"
+    },
+    {
+      "keyword": "line:Line15",
+      "count": 5,
+      "category": "line",
+      "value": "Line15"
+    },
+    {
+      "keyword": "line:Line02",
+      "count": 5,
+      "category": "line",
+      "value": "Line02"
+    },
+    {
+      "keyword": "line:Line06",
+      "count": 5,
+      "category": "line",
+      "value": "Line06"
+    },
+    {
+      "keyword": "error:4243",
+      "count": 5,
+      "category": "error",
+      "value": "4243"
+    },
+    {
+      "keyword": "error:1245",
+      "count": 5,
+      "category": "error",
+      "value": "1245"
+    },
+    {
+      "keyword": "error:1725",
+      "count": 5,
+      "category": "error",
+      "value": "1725"
+    },
+    {
+      "keyword": "error:0753",
+      "count": 5,
+      "category": "error",
+      "value": "0753"
+    },
+    {
+      "keyword": "error:1115",
+      "count": 5,
+      "category": "error",
+      "value": "1115"
+    },
+    {
+      "keyword": "error:0821",
+      "count": 5,
+      "category": "error",
+      "value": "0821"
+    },
+    {
+      "keyword": "error:1716",
+      "count": 5,
+      "category": "error",
+      "value": "1716"
+    },
+    {
+      "keyword": "error:9146",
+      "count": 5,
+      "category": "error",
+      "value": "9146"
+    },
+    {
+      "keyword": "error:1355",
+      "count": 5,
+      "category": "error",
+      "value": "1355"
+    },
+    {
+      "keyword": "error:1009",
+      "count": 5,
+      "category": "error",
+      "value": "1009"
+    },
+    {
+      "keyword": "error:0630",
+      "count": 5,
+      "category": "error",
+      "value": "0630"
+    },
+    {
+      "keyword": "error:0341",
+      "count": 5,
+      "category": "error",
+      "value": "0341"
+    },
+    {
+      "keyword": "error:0909",
+      "count": 5,
+      "category": "error",
+      "value": "0909"
+    },
+    {
+      "keyword": "error:2250",
+      "count": 5,
+      "category": "error",
+      "value": "2250"
+    },
+    {
+      "keyword": "error:2040",
+      "count": 5,
+      "category": "error",
+      "value": "2040"
+    },
+    {
+      "keyword": "error:0025",
+      "count": 5,
+      "category": "error",
+      "value": "0025"
+    },
+    {
+      "keyword": "error:X1284",
+      "count": 5,
+      "category": "error",
+      "value": "X1284"
+    },
+    {
+      "keyword": "error:X1288",
+      "count": 5,
+      "category": "error",
+      "value": "X1288"
+    },
+    {
+      "keyword": "error:1235",
+      "count": 5,
+      "category": "error",
+      "value": "1235"
+    },
+    {
+      "keyword": "error:1140",
+      "count": 5,
+      "category": "error",
+      "value": "1140"
+    },
+    {
+      "keyword": "error:21009",
+      "count": 5,
+      "category": "error",
+      "value": "21009"
+    },
+    {
+      "keyword": "error:4570",
+      "count": 5,
+      "category": "error",
+      "value": "4570"
+    },
+    {
+      "keyword": "error:0019",
+      "count": 5,
+      "category": "error",
+      "value": "0019"
+    },
+    {
+      "keyword": "error:6203",
+      "count": 5,
+      "category": "error",
+      "value": "6203"
+    },
+    {
+      "keyword": "error:1022",
+      "count": 5,
+      "category": "error",
+      "value": "1022"
+    },
+    {
+      "keyword": "error:0020",
+      "count": 5,
+      "category": "error",
+      "value": "0020"
+    },
+    {
+      "keyword": "error:0006",
+      "count": 5,
+      "category": "error",
+      "value": "0006"
+    },
+    {
+      "keyword": "error:0043",
+      "count": 5,
+      "category": "error",
+      "value": "0043"
+    },
+    {
+      "keyword": "error:S16066",
+      "count": 5,
+      "category": "error",
+      "value": "S16066"
+    },
+    {
+      "keyword": "error:S03520",
+      "count": 5,
+      "category": "error",
+      "value": "S03520"
+    },
+    {
+      "keyword": "error:21006",
+      "count": 5,
+      "category": "error",
+      "value": "21006"
+    },
+    {
+      "keyword": "error:0910",
+      "count": 5,
+      "category": "error",
+      "value": "0910"
+    },
+    {
+      "keyword": "error:11106",
+      "count": 5,
+      "category": "error",
+      "value": "11106"
+    },
+    {
+      "keyword": "error:2134",
+      "count": 5,
+      "category": "error",
+      "value": "2134"
+    },
+    {
+      "keyword": "error:9193",
+      "count": 5,
+      "category": "error",
+      "value": "9193"
+    },
+    {
+      "keyword": "error:40407",
+      "count": 5,
+      "category": "error",
+      "value": "40407"
+    },
+    {
+      "keyword": "error:S04368",
+      "count": 5,
+      "category": "error",
+      "value": "S04368"
+    },
+    {
+      "keyword": "error:6028",
+      "count": 5,
+      "category": "error",
+      "value": "6028"
+    },
+    {
+      "keyword": "error:20507",
+      "count": 5,
+      "category": "error",
+      "value": "20507"
+    },
+    {
+      "keyword": "error:1535",
+      "count": 5,
+      "category": "error",
+      "value": "1535"
+    },
+    {
+      "keyword": "error:M8507",
+      "count": 5,
+      "category": "error",
+      "value": "M8507"
+    },
+    {
+      "keyword": "error:1640",
+      "count": 5,
+      "category": "error",
+      "value": "1640"
+    },
+    {
+      "keyword": "error:1730",
+      "count": 5,
+      "category": "error",
+      "value": "1730"
+    },
+    {
+      "keyword": "error:3099",
+      "count": 5,
+      "category": "error",
+      "value": "3099"
+    },
+    {
+      "keyword": "error:S00357",
+      "count": 5,
+      "category": "error",
+      "value": "S00357"
+    },
+    {
+      "keyword": "error:7258",
+      "count": 5,
+      "category": "error",
+      "value": "7258"
+    },
+    {
+      "keyword": "error:V6147",
+      "count": 5,
+      "category": "error",
+      "value": "V6147"
+    },
+    {
+      "keyword": "error:6205",
+      "count": 5,
+      "category": "error",
+      "value": "6205"
+    },
+    {
+      "keyword": "error:1405",
+      "count": 5,
+      "category": "error",
+      "value": "1405"
+    },
+    {
+      "keyword": "error:1610",
+      "count": 5,
+      "category": "error",
+      "value": "1610"
+    },
+    {
+      "keyword": "error:S04429",
+      "count": 5,
+      "category": "error",
+      "value": "S04429"
+    },
+    {
+      "keyword": "error:2035",
+      "count": 5,
+      "category": "error",
+      "value": "2035"
+    },
+    {
+      "keyword": "error:S22400",
+      "count": 5,
+      "category": "error",
+      "value": "S22400"
+    },
+    {
+      "keyword": "error:S21927",
+      "count": 5,
+      "category": "error",
+      "value": "S21927"
+    },
+    {
+      "keyword": "error:8004",
+      "count": 5,
+      "category": "error",
+      "value": "8004"
+    },
+    {
+      "keyword": "error:S00112",
+      "count": 5,
+      "category": "error",
+      "value": "S00112"
+    },
+    {
+      "keyword": "error:S27070",
+      "count": 5,
+      "category": "error",
+      "value": "S27070"
+    },
+    {
+      "keyword": "error:3192",
+      "count": 5,
+      "category": "error",
+      "value": "3192"
+    },
+    {
+      "keyword": "error:1701",
+      "count": 5,
+      "category": "error",
+      "value": "1701"
+    },
+    {
+      "keyword": "error:1332",
+      "count": 5,
+      "category": "error",
+      "value": "1332"
+    },
+    {
+      "keyword": "error:1415",
+      "count": 5,
+      "category": "error",
+      "value": "1415"
+    },
+    {
+      "keyword": "error:X1122",
+      "count": 5,
+      "category": "error",
+      "value": "X1122"
+    },
+    {
+      "keyword": "error:1121",
+      "count": 5,
+      "category": "error",
+      "value": "1121"
+    },
+    {
+      "keyword": "line:Line3-4",
+      "count": 4,
+      "category": "line",
+      "value": "Line3-4"
+    },
+    {
+      "keyword": "line:Line17",
+      "count": 4,
+      "category": "line",
+      "value": "Line17"
+    },
+    {
+      "keyword": "line:Line23",
+      "count": 4,
+      "category": "line",
+      "value": "Line23"
+    },
+    {
+      "keyword": "line:Line00",
+      "count": 4,
+      "category": "line",
+      "value": "Line00"
+    },
+    {
+      "keyword": "line:Line08",
+      "count": 4,
+      "category": "line",
+      "value": "Line08"
+    },
+    {
+      "keyword": "error:3194",
+      "count": 4,
+      "category": "error",
+      "value": "3194"
+    },
+    {
+      "keyword": "error:0833",
+      "count": 4,
+      "category": "error",
+      "value": "0833"
+    },
+    {
+      "keyword": "error:0741",
+      "count": 4,
+      "category": "error",
+      "value": "0741"
+    },
+    {
+      "keyword": "error:1025",
+      "count": 4,
+      "category": "error",
+      "value": "1025"
+    },
+    {
+      "keyword": "error:1230",
+      "count": 4,
+      "category": "error",
+      "value": "1230"
+    },
+    {
+      "keyword": "error:1250",
+      "count": 4,
+      "category": "error",
+      "value": "1250"
+    },
+    {
+      "keyword": "error:1239",
+      "count": 4,
+      "category": "error",
+      "value": "1239"
+    },
+    {
+      "keyword": "error:0701",
+      "count": 4,
+      "category": "error",
+      "value": "0701"
+    },
+    {
+      "keyword": "error:1006",
+      "count": 4,
+      "category": "error",
+      "value": "1006"
+    },
+    {
+      "keyword": "error:0137",
+      "count": 4,
+      "category": "error",
+      "value": "0137"
+    },
+    {
+      "keyword": "error:0715",
+      "count": 4,
+      "category": "error",
+      "value": "0715"
+    },
+    {
+      "keyword": "error:1035",
+      "count": 4,
+      "category": "error",
+      "value": "1035"
+    },
+    {
+      "keyword": "error:1512",
+      "count": 4,
+      "category": "error",
+      "value": "1512"
+    },
+    {
+      "keyword": "error:0657",
+      "count": 4,
+      "category": "error",
+      "value": "0657"
+    },
+    {
+      "keyword": "error:4011",
+      "count": 4,
+      "category": "error",
+      "value": "4011"
+    },
+    {
+      "keyword": "error:1557",
+      "count": 4,
+      "category": "error",
+      "value": "1557"
+    },
+    {
+      "keyword": "error:4208",
+      "count": 4,
+      "category": "error",
+      "value": "4208"
+    },
+    {
+      "keyword": "error:0142",
+      "count": 4,
+      "category": "error",
+      "value": "0142"
+    },
+    {
+      "keyword": "error:0128",
+      "count": 4,
+      "category": "error",
+      "value": "0128"
+    },
+    {
+      "keyword": "error:0009",
+      "count": 4,
+      "category": "error",
+      "value": "0009"
+    },
+    {
+      "keyword": "error:14402",
+      "count": 4,
+      "category": "error",
+      "value": "14402"
+    },
+    {
+      "keyword": "error:1954",
+      "count": 4,
+      "category": "error",
+      "value": "1954"
+    },
+    {
+      "keyword": "error:4000",
+      "count": 4,
+      "category": "error",
+      "value": "4000"
+    },
+    {
+      "keyword": "error:0452",
+      "count": 4,
+      "category": "error",
+      "value": "0452"
+    },
+    {
+      "keyword": "error:2550",
+      "count": 4,
+      "category": "error",
+      "value": "2550"
+    },
+    {
+      "keyword": "error:4307",
+      "count": 4,
+      "category": "error",
+      "value": "4307"
+    },
+    {
+      "keyword": "error:2200",
+      "count": 4,
+      "category": "error",
+      "value": "2200"
+    },
+    {
+      "keyword": "error:1620",
+      "count": 4,
+      "category": "error",
+      "value": "1620"
+    },
+    {
+      "keyword": "error:0000",
+      "count": 4,
+      "category": "error",
+      "value": "0000"
+    },
+    {
+      "keyword": "error:10000",
+      "count": 4,
+      "category": "error",
+      "value": "10000"
+    },
+    {
+      "keyword": "error:2127",
+      "count": 4,
+      "category": "error",
+      "value": "2127"
+    },
+    {
+      "keyword": "error:2116",
+      "count": 4,
+      "category": "error",
+      "value": "2116"
+    },
+    {
+      "keyword": "error:A32259",
+      "count": 4,
+      "category": "error",
+      "value": "A32259"
+    },
+    {
+      "keyword": "error:L1649",
+      "count": 4,
+      "category": "error",
+      "value": "L1649"
+    },
+    {
+      "keyword": "error:6002",
+      "count": 4,
+      "category": "error",
+      "value": "6002"
+    },
+    {
+      "keyword": "error:3503",
+      "count": 4,
+      "category": "error",
+      "value": "3503"
+    },
+    {
+      "keyword": "error:6553",
+      "count": 4,
+      "category": "error",
+      "value": "6553"
+    },
+    {
+      "keyword": "error:6230",
+      "count": 4,
+      "category": "error",
+      "value": "6230"
+    },
+    {
+      "keyword": "error:8441",
+      "count": 4,
+      "category": "error",
+      "value": "8441"
+    },
+    {
+      "keyword": "error:9157",
+      "count": 4,
+      "category": "error",
+      "value": "9157"
+    },
+    {
+      "keyword": "error:4242",
+      "count": 4,
+      "category": "error",
+      "value": "4242"
+    },
+    {
+      "keyword": "error:10510",
+      "count": 4,
+      "category": "error",
+      "value": "10510"
+    },
+    {
+      "keyword": "error:9144",
+      "count": 4,
+      "category": "error",
+      "value": "9144"
+    },
+    {
+      "keyword": "error:S18451",
+      "count": 4,
+      "category": "error",
+      "value": "S18451"
+    },
+    {
+      "keyword": "error:S02132",
+      "count": 4,
+      "category": "error",
+      "value": "S02132"
+    },
+    {
+      "keyword": "error:S11232",
+      "count": 4,
+      "category": "error",
+      "value": "S11232"
+    },
+    {
+      "keyword": "error:S02788",
+      "count": 4,
+      "category": "error",
+      "value": "S02788"
+    },
+    {
+      "keyword": "error:S17722",
+      "count": 4,
+      "category": "error",
+      "value": "S17722"
+    },
+    {
+      "keyword": "error:S23354",
+      "count": 4,
+      "category": "error",
+      "value": "S23354"
+    },
+    {
+      "keyword": "error:S21994",
+      "count": 4,
+      "category": "error",
+      "value": "S21994"
+    },
+    {
+      "keyword": "error:2720",
+      "count": 4,
+      "category": "error",
+      "value": "2720"
+    },
+    {
+      "keyword": "error:4248",
+      "count": 4,
+      "category": "error",
+      "value": "4248"
+    },
+    {
+      "keyword": "error:4262",
+      "count": 4,
+      "category": "error",
+      "value": "4262"
+    },
+    {
+      "keyword": "error:S00870",
+      "count": 4,
+      "category": "error",
+      "value": "S00870"
+    },
+    {
+      "keyword": "error:1414",
+      "count": 4,
+      "category": "error",
+      "value": "1414"
+    },
+    {
+      "keyword": "error:4074",
+      "count": 4,
+      "category": "error",
+      "value": "4074"
+    },
+    {
+      "keyword": "error:10704",
+      "count": 4,
+      "category": "error",
+      "value": "10704"
+    },
+    {
+      "keyword": "error:11103",
+      "count": 4,
+      "category": "error",
+      "value": "11103"
+    },
+    {
+      "keyword": "error:S04614",
+      "count": 4,
+      "category": "error",
+      "value": "S04614"
+    },
+    {
+      "keyword": "error:6393",
+      "count": 4,
+      "category": "error",
+      "value": "6393"
+    },
+    {
+      "keyword": "error:10503",
+      "count": 4,
+      "category": "error",
+      "value": "10503"
+    },
+    {
+      "keyword": "error:20802",
+      "count": 4,
+      "category": "error",
+      "value": "20802"
+    },
+    {
+      "keyword": "error:20703",
+      "count": 4,
+      "category": "error",
+      "value": "20703"
+    },
+    {
+      "keyword": "error:40504",
+      "count": 4,
+      "category": "error",
+      "value": "40504"
+    },
+    {
+      "keyword": "error:10105",
+      "count": 4,
+      "category": "error",
+      "value": "10105"
+    },
+    {
+      "keyword": "error:20407",
+      "count": 4,
+      "category": "error",
+      "value": "20407"
+    },
+    {
+      "keyword": "error:40305",
+      "count": 4,
+      "category": "error",
+      "value": "40305"
+    },
+    {
+      "keyword": "error:40607",
+      "count": 4,
+      "category": "error",
+      "value": "40607"
+    },
+    {
+      "keyword": "error:21106",
+      "count": 4,
+      "category": "error",
+      "value": "21106"
+    },
+    {
+      "keyword": "error:11104",
+      "count": 4,
+      "category": "error",
+      "value": "11104"
+    },
+    {
+      "keyword": "error:4261",
+      "count": 4,
+      "category": "error",
+      "value": "4261"
+    },
+    {
+      "keyword": "error:1630",
+      "count": 4,
+      "category": "error",
+      "value": "1630"
+    },
+    {
+      "keyword": "error:1252",
+      "count": 4,
+      "category": "error",
+      "value": "1252"
+    },
+    {
+      "keyword": "error:1710",
+      "count": 4,
+      "category": "error",
+      "value": "1710"
+    },
+    {
+      "keyword": "error:3080",
+      "count": 4,
+      "category": "error",
+      "value": "3080"
+    },
+    {
+      "keyword": "error:S11974",
+      "count": 4,
+      "category": "error",
+      "value": "S11974"
+    },
+    {
+      "keyword": "error:S19640",
+      "count": 4,
+      "category": "error",
+      "value": "S19640"
+    },
+    {
+      "keyword": "error:2106",
+      "count": 4,
+      "category": "error",
+      "value": "2106"
+    },
+    {
+      "keyword": "error:1020",
+      "count": 4,
+      "category": "error",
+      "value": "1020"
+    },
+    {
+      "keyword": "error:S01512",
+      "count": 4,
+      "category": "error",
+      "value": "S01512"
+    },
+    {
+      "keyword": "error:1247",
+      "count": 4,
+      "category": "error",
+      "value": "1247"
+    },
+    {
+      "keyword": "error:1705",
+      "count": 4,
+      "category": "error",
+      "value": "1705"
+    },
+    {
+      "keyword": "error:1616",
+      "count": 4,
+      "category": "error",
+      "value": "1616"
+    },
+    {
+      "keyword": "error:1655",
+      "count": 4,
+      "category": "error",
+      "value": "1655"
+    },
+    {
+      "keyword": "error:2124",
+      "count": 4,
+      "category": "error",
+      "value": "2124"
+    },
+    {
+      "keyword": "error:2014",
+      "count": 4,
+      "category": "error",
+      "value": "2014"
+    },
+    {
+      "keyword": "error:A57599",
+      "count": 4,
+      "category": "error",
+      "value": "A57599"
+    },
+    {
+      "keyword": "error:2113",
+      "count": 4,
+      "category": "error",
+      "value": "2113"
+    },
+    {
+      "keyword": "error:6157",
+      "count": 4,
+      "category": "error",
+      "value": "6157"
+    },
+    {
+      "keyword": "error:3090",
+      "count": 4,
+      "category": "error",
+      "value": "3090"
+    },
+    {
+      "keyword": "error:8116",
+      "count": 4,
+      "category": "error",
+      "value": "8116"
+    },
+    {
+      "keyword": "error:S19301",
+      "count": 4,
+      "category": "error",
+      "value": "S19301"
+    },
+    {
+      "keyword": "error:S19118",
+      "count": 4,
+      "category": "error",
+      "value": "S19118"
+    },
+    {
+      "keyword": "error:S12082",
+      "count": 4,
+      "category": "error",
+      "value": "S12082"
+    },
+    {
+      "keyword": "error:S04002",
+      "count": 4,
+      "category": "error",
+      "value": "S04002"
+    },
+    {
+      "keyword": "error:S22251",
+      "count": 4,
+      "category": "error",
+      "value": "S22251"
+    },
+    {
+      "keyword": "error:S19153",
+      "count": 4,
+      "category": "error",
+      "value": "S19153"
+    },
+    {
+      "keyword": "error:S18254",
+      "count": 4,
+      "category": "error",
+      "value": "S18254"
+    },
+    {
+      "keyword": "error:S00927",
+      "count": 4,
+      "category": "error",
+      "value": "S00927"
+    },
+    {
+      "keyword": "error:S26550",
+      "count": 4,
+      "category": "error",
+      "value": "S26550"
+    },
+    {
+      "keyword": "error:0957",
+      "count": 4,
+      "category": "error",
+      "value": "0957"
+    },
+    {
+      "keyword": "error:1645",
+      "count": 4,
+      "category": "error",
+      "value": "1645"
+    },
+    {
+      "keyword": "error:11002",
+      "count": 4,
+      "category": "error",
+      "value": "11002"
+    },
+    {
+      "keyword": "error:1409",
+      "count": 4,
+      "category": "error",
+      "value": "1409"
+    },
+    {
+      "keyword": "error:4227",
+      "count": 4,
+      "category": "error",
+      "value": "4227"
+    },
+    {
+      "keyword": "error:X1252",
+      "count": 4,
+      "category": "error",
+      "value": "X1252"
+    },
+    {
+      "keyword": "error:10607",
+      "count": 4,
+      "category": "error",
+      "value": "10607"
+    },
+    {
+      "keyword": "error:20606",
+      "count": 4,
+      "category": "error",
+      "value": "20606"
+    },
+    {
+      "keyword": "error:30301",
+      "count": 4,
+      "category": "error",
+      "value": "30301"
+    },
+    {
+      "keyword": "error:1520",
+      "count": 4,
+      "category": "error",
+      "value": "1520"
+    },
+    {
+      "keyword": "error:3083",
+      "count": 4,
+      "category": "error",
+      "value": "3083"
+    },
+    {
+      "keyword": "error:1420",
+      "count": 4,
+      "category": "error",
+      "value": "1420"
+    },
+    {
+      "keyword": "error:2491",
+      "count": 4,
+      "category": "error",
+      "value": "2491"
+    },
+    {
+      "keyword": "error:40710",
+      "count": 4,
+      "category": "error",
+      "value": "40710"
+    },
+    {
+      "keyword": "error:1331",
+      "count": 4,
+      "category": "error",
+      "value": "1331"
+    },
+    {
+      "keyword": "error:2481",
+      "count": 4,
+      "category": "error",
+      "value": "2481"
+    },
+    {
+      "keyword": "error:3004",
+      "count": 4,
+      "category": "error",
+      "value": "3004"
+    },
+    {
+      "keyword": "error:1708",
+      "count": 4,
+      "category": "error",
+      "value": "1708"
+    },
+    {
+      "keyword": "error:4550",
+      "count": 4,
+      "category": "error",
+      "value": "4550"
+    },
+    {
+      "keyword": "error:6939",
+      "count": 4,
+      "category": "error",
+      "value": "6939"
+    },
+    {
+      "keyword": "error:1278",
+      "count": 4,
+      "category": "error",
+      "value": "1278"
+    },
+    {
+      "keyword": "error:1882",
+      "count": 4,
+      "category": "error",
+      "value": "1882"
+    },
+    {
+      "keyword": "error:3242",
+      "count": 4,
+      "category": "error",
+      "value": "3242"
+    },
+    {
+      "keyword": "error:1669",
+      "count": 4,
+      "category": "error",
+      "value": "1669"
+    },
+    {
+      "keyword": "error:10109",
+      "count": 4,
+      "category": "error",
+      "value": "10109"
+    },
+    {
+      "keyword": "error:11206",
+      "count": 4,
+      "category": "error",
+      "value": "11206"
+    },
+    {
+      "keyword": "error:20110",
+      "count": 4,
+      "category": "error",
+      "value": "20110"
+    },
+    {
+      "keyword": "line:Line07",
+      "count": 3,
+      "category": "line",
+      "value": "Line07"
+    },
+    {
+      "keyword": "line:Line01",
+      "count": 3,
+      "category": "line",
+      "value": "Line01"
+    },
+    {
+      "keyword": "line:Line80",
+      "count": 3,
+      "category": "line",
+      "value": "Line80"
+    },
+    {
+      "keyword": "line:Line10-2",
+      "count": 3,
+      "category": "line",
+      "value": "Line10-2"
+    },
+    {
+      "keyword": "line:Line8-1",
+      "count": 3,
+      "category": "line",
+      "value": "Line8-1"
+    },
+    {
+      "keyword": "line:Line16",
+      "count": 3,
+      "category": "line",
+      "value": "Line16"
+    },
+    {
+      "keyword": "line:Line99",
+      "count": 3,
+      "category": "line",
+      "value": "Line99"
+    },
+    {
+      "keyword": "line:Line21",
+      "count": 3,
+      "category": "line",
+      "value": "Line21"
+    },
+    {
+      "keyword": "error:0003",
+      "count": 3,
+      "category": "error",
+      "value": "0003"
+    },
+    {
+      "keyword": "error:0820",
+      "count": 3,
+      "category": "error",
+      "value": "0820"
+    },
+    {
+      "keyword": "error:0855",
+      "count": 3,
+      "category": "error",
+      "value": "0855"
+    },
+    {
+      "keyword": "error:X1100",
+      "count": 3,
+      "category": "error",
+      "value": "X1100"
+    },
+    {
+      "keyword": "error:0750",
+      "count": 3,
+      "category": "error",
+      "value": "0750"
+    },
+    {
+      "keyword": "error:1033",
+      "count": 3,
+      "category": "error",
+      "value": "1033"
+    },
+    {
+      "keyword": "error:11000B",
+      "count": 3,
+      "category": "error",
+      "value": "11000B"
+    },
+    {
+      "keyword": "error:1237",
+      "count": 3,
+      "category": "error",
+      "value": "1237"
+    },
+    {
+      "keyword": "error:1427",
+      "count": 3,
+      "category": "error",
+      "value": "1427"
+    },
+    {
+      "keyword": "error:1102",
+      "count": 3,
+      "category": "error",
+      "value": "1102"
+    },
+    {
+      "keyword": "error:0707",
+      "count": 3,
+      "category": "error",
+      "value": "0707"
+    },
+    {
+      "keyword": "error:0925",
+      "count": 3,
+      "category": "error",
+      "value": "0925"
+    },
+    {
+      "keyword": "error:1144",
+      "count": 3,
+      "category": "error",
+      "value": "1144"
+    },
+    {
+      "keyword": "error:1633",
+      "count": 3,
+      "category": "error",
+      "value": "1633"
+    },
+    {
+      "keyword": "error:0201",
+      "count": 3,
+      "category": "error",
+      "value": "0201"
+    },
+    {
+      "keyword": "error:1602",
+      "count": 3,
+      "category": "error",
+      "value": "1602"
+    },
+    {
+      "keyword": "error:9181",
+      "count": 3,
+      "category": "error",
+      "value": "9181"
+    },
+    {
+      "keyword": "error:1208",
+      "count": 3,
+      "category": "error",
+      "value": "1208"
+    },
+    {
+      "keyword": "error:1609",
+      "count": 3,
+      "category": "error",
+      "value": "1609"
+    },
+    {
+      "keyword": "error:1037",
+      "count": 3,
+      "category": "error",
+      "value": "1037"
+    },
+    {
+      "keyword": "error:0617",
+      "count": 3,
+      "category": "error",
+      "value": "0617"
+    },
+    {
+      "keyword": "error:1039",
+      "count": 3,
+      "category": "error",
+      "value": "1039"
+    },
+    {
+      "keyword": "error:9451",
+      "count": 3,
+      "category": "error",
+      "value": "9451"
+    },
+    {
+      "keyword": "error:01400",
+      "count": 3,
+      "category": "error",
+      "value": "01400"
+    },
+    {
+      "keyword": "error:3107",
+      "count": 3,
+      "category": "error",
+      "value": "3107"
+    },
+    {
+      "keyword": "error:A52635",
+      "count": 3,
+      "category": "error",
+      "value": "A52635"
+    },
+    {
+      "keyword": "error:0011",
+      "count": 3,
+      "category": "error",
+      "value": "0011"
+    },
+    {
+      "keyword": "error:9001",
+      "count": 3,
+      "category": "error",
+      "value": "9001"
+    },
+    {
+      "keyword": "error:4525",
+      "count": 3,
+      "category": "error",
+      "value": "4525"
+    },
+    {
+      "keyword": "error:0015",
+      "count": 3,
+      "category": "error",
+      "value": "0015"
+    },
+    {
+      "keyword": "error:30602",
+      "count": 3,
+      "category": "error",
+      "value": "30602"
+    },
+    {
+      "keyword": "error:0037",
+      "count": 3,
+      "category": "error",
+      "value": "0037"
+    },
+    {
+      "keyword": "error:40806",
+      "count": 3,
+      "category": "error",
+      "value": "40806"
+    },
+    {
+      "keyword": "error:3313",
+      "count": 3,
+      "category": "error",
+      "value": "3313"
+    },
+    {
+      "keyword": "error:4598",
+      "count": 3,
+      "category": "error",
+      "value": "4598"
+    },
+    {
+      "keyword": "error:5200",
+      "count": 3,
+      "category": "error",
+      "value": "5200"
+    },
+    {
+      "keyword": "error:M56320",
+      "count": 3,
+      "category": "error",
+      "value": "M56320"
+    },
+    {
+      "keyword": "error:4551",
+      "count": 3,
+      "category": "error",
+      "value": "4551"
+    },
+    {
+      "keyword": "error:01013",
+      "count": 3,
+      "category": "error",
+      "value": "01013"
+    },
+    {
+      "keyword": "error:L98292",
+      "count": 3,
+      "category": "error",
+      "value": "L98292"
+    },
+    {
+      "keyword": "error:4005",
+      "count": 3,
+      "category": "error",
+      "value": "4005"
+    },
+    {
+      "keyword": "error:8904",
+      "count": 3,
+      "category": "error",
+      "value": "8904"
+    },
+    {
+      "keyword": "error:S07312",
+      "count": 3,
+      "category": "error",
+      "value": "S07312"
+    },
+    {
+      "keyword": "error:T98196",
+      "count": 3,
+      "category": "error",
+      "value": "T98196"
+    },
+    {
+      "keyword": "error:12404",
+      "count": 3,
+      "category": "error",
+      "value": "12404"
+    },
+    {
+      "keyword": "error:T99189",
+      "count": 3,
+      "category": "error",
+      "value": "T99189"
+    },
+    {
+      "keyword": "error:S13492",
+      "count": 3,
+      "category": "error",
+      "value": "S13492"
+    },
+    {
+      "keyword": "error:S17778",
+      "count": 3,
+      "category": "error",
+      "value": "S17778"
+    },
+    {
+      "keyword": "error:X1082",
+      "count": 3,
+      "category": "error",
+      "value": "X1082"
+    },
+    {
+      "keyword": "error:6247",
+      "count": 3,
+      "category": "error",
+      "value": "6247"
+    }
+  ],
+  "handover": [
+    {
+      "timestamp": "2024-03-01 15:01:00",
+      "sender": "CS/이호섭",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "금일(3/1)\n충방전 1호기 모니터링 및 프로그램 확인 후  내용 공유 드립니다.\n\n충방전 #1호기 점검 사항 \n - PLC Monitoring 시 승하강 위치 Data 값 및 CC Link 통신 이상없음\n - PLC Module Alarm History 특이사항 없음\n - CC Link 통신 케이블 순간 Hunting으로 추정되며 재발 시 추가 점검 예정"
+    },
+    {
+      "timestamp": "2024-04-22 17:47:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진 충방전기 5라인 (단폭) / 충방 3라인( 장폭)\n\n2. 작업 일자 : 04월 22일, 08:00 ~ 17:30\n\n3. 작업자 : 9명\n\n4. 금일 작업 사항 : 신규 E603C  스토퍼 추가(단폭)\n잡체인지 잡체인지 개조작업\n\n진행 스테이지: 5라인 54대\n3라인 10대(장폭)\n\n5. 금일 특이사항 및 Issue : 특이사항 없음\n\n6. 명일 작업 사항 :  3.4라인(장폭) E603C 잡체인지 작업#"
+    },
+    {
+      "timestamp": "2024-04-23 08:44:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "IR; IR OCV; OCV",
+      "message": "1. 업체, 설비, Line : \n갑진 충방전기 잡체인지 개조작업\n\n2. 작업 일자/ 인원 : \n04월 23일. 9명\n\n3. 진행 현황 : \n5/6 단폭라인 잡체인지 전부 완료(154/154)\nir ocv 잡체인지 전부완료 (9/9)\n\n3/4라인 (장폭) 진행중(236/10)\n\n4. 금일 작업 사항 : \n3/4라인 10대 작업예정\n\n\n5. 금일 특이사항 및 Issue : \n특이사항 없음"
+    },
+    {
+      "timestamp": "2024-04-23 19:43:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진 충방전기\n3.4/5.6 라인  잡체인지 개조건\n\n2. 작업 일자 : 04월 23일, 08:00 ~ 17:30\n\n3. 작업자 : 9명\n\n4. 금일 작업 사항 : 신규 E603C  \n잡체인지 잡체인지 개조작업(장폭)\n\n진행 스테이지: \n3라인 10대(장폭) (256 중 20대완)\n\n5. 금일 특이사항 및 Issue : 특이사항 없음\n\n6. 명일 작업 사항 :  3.4라인(장폭) E603C 잡체인지 작업#"
+    },
+    {
+      "timestamp": "2024-04-24 08:45:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : \n갑진 충방전기 잡체인지 개조작업\n\n2. 작업 일자/ 인원 : \n04월 24일. 9명\n\n3. 진행 현황 : \n\n3/4라인 (장폭) 진행중(236/20)\n\n4. 금일 작업 사항 : \n3/4라인 15대 작업예정\n\n\n5. 금일 특이사항 및 Issue : \n특이사항 없음"
+    },
+    {
+      "timestamp": "2024-04-24 17:45:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진 충방전기\n3.4/5.6 라인  잡체인지 개조건\n\n2. 작업 일자 : 04월 24일, 08:00 ~ 17:30\n\n3. 작업자 : 9명\n\n4. 금일 작업 사항 : 신규 E603C  \n잡체인지 잡체인지 개조작업(장폭)\n\n진행 스테이지: \n3/4 라인 15대(장폭)\n(236대중 35대 완료)\n\n5. 금일 특이사항 및 Issue : 특이사항 없음\n\n6. 명일 작업 사항 :  3.4라인(장폭) E603C 잡체인지 작업"
+    },
+    {
+      "timestamp": "2024-04-25 17:53:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진 충방전기\n3.4/5.6 라인  잡체인지 개조건\n\n2. 작업 일자 : 04월 25일, 08:00 ~ 17:30\n\n3. 작업자 : 9명\n\n4. 금일 작업 사항 : 신규 E603C  \n잡체인지 잡체인지 개조작업(장폭)\n\n진행 스테이지: \n3/4 라인 15대(장폭)(236대중 50대 완료)\n\n5. 금일 특이사항 및 Issue : 특이사항 없음\n\n6. 명일 작업 사항 :  3.4라인(장폭) E603C 잡체인지 작업"
+    },
+    {
+      "timestamp": "2024-04-26 17:33:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진 충방전기\n3.4/5.6 라인  잡체인지 개조건\n\n2. 작업 일자 : 04월 26일, 08:00 ~ 17:00\n\n3. 작업자 : 9명\n\n4. 금일 작업 사항 : 신규 E603C  \n잡체인지 잡체인지 개조작업(장폭)\n\n진행 스테이지: \n3/4 라인 15대(장폭)(236대중 65대 완료)\n\n5. 금일 특이사항 및 Issue : 특이사항 없음\n\n6. 명일 작업 사항 :  3.4라인(장폭) E603C 잡체인지 작업"
+    },
+    {
+      "timestamp": "2024-04-29 17:43:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진 충방전기\n3.4/5.6 라인  잡체인지 개조건\n\n2. 작업 일자 : 04월 29일, 08:00 ~ 17:00\n\n3. 작업자 : 9명\n\n4. 금일 작업 사항 : 신규 E603C  \n잡체인지 잡체인지 개조작업(장폭)\n\n진행 스테이지: \n3/4 라인 15대(장폭) \n(236 대중 80 완료)\n\n5. 금일 특이사항 및 Issue : 특이사항 없음\n\n6. 명일 작업 사항 :  3.4라인(장폭) E603C 잡체인지 작업"
+    },
+    {
+      "timestamp": "2024-04-30 17:19:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진 충방전기\n3.4/5.6 라인  잡체인지 개조건\n\n2. 작업 일자 : 04월 30일, \n          .            08:00 ~ 17:00\n\n3. 작업자 : 9명\n\n4. 금일 작업 사항 : 신규 E603C  \n잡체인지 잡체인지 개조작업(장폭)\n\n진행 스테이지: \n3/4 라인 18대(장폭) \n(236 대중 98 완료)\n\n5. 금일 특이사항 및 Issue : 특이사항 없음\n\n6. 명일 작업 사항 :  3.4라인(장폭) E603C 잡체인지 작업"
+    },
+    {
+      "timestamp": "2024-05-01 17:00:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진 충방전기\n3.4/5.6 라인  잡체인지 개조건\n\n2. 작업 일자 : 05월 01일,\n                      08:00 ~ 17:00\n\n3. 작업자 : 9명\n\n4. 금일 작업 사항 : 신규 E603C  \n잡체인지 잡체인지 개조작업(장폭)\n\n진행 스테이지: \n3/4 라인 20대(장폭)\n(236/118)\n\n5. 금일 특이사항 및 Issue : 특이사항 없음\n\n6. 명일 작업 사항 :  3.4라인(장폭) E603C 잡체인지 작업"
+    },
+    {
+      "timestamp": "2024-05-02 18:20:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진 충방전기\n3.4/5.6 라인  잡체인지 개조건\n\n2. 작업 일자 : 05월 02일,\n                      08:00 ~ 17:00\n\n3. 작업자 : 9명\n\n4. 금일 작업 사항 : 신규 E603C  \n잡체인지 잡체인지 개조작업(장폭)\n\n진행 스테이지: \n3/4 라인 20대(장폭)\n(236/138)\n\n5. 금일 특이사항 및 Issue : 특이사항 없음\n\n6. 명일 작업 사항 :  3.4라인(장폭) E603C 잡체인지 작업"
+    },
+    {
+      "timestamp": "2024-05-03 16:49:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진 충방전기\n3.4/5.6 라인  잡체인지 개조건\n\n2. 작업 일자 : 05월 03일,\n                      08:00 ~ 17:00\n\n3. 작업자 : 9명\n\n4. 금일 작업 사항 : 신규 E603C  \n잡체인지 잡체인지 개조작업(장폭)\n\n진행 스테이지: \n3/4 라인 20대(장폭)\n(236/158)\n\n5. 금일 특이사항 및 Issue : 특이사항 없음\n\n6. 명일 작업 사항 :  3.4라인(장폭) E603C 잡체인지 작업"
+    },
+    {
+      "timestamp": "2024-05-03 17:22:00",
+      "sender": "이노메트리/박상철/프로",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 이노메트리,\nx-ray,5,6,L\n\n2. 작업 일자 : 05월 03일, 08:30 ~ 17:30\n\n3. 작업자 : 1명\n\n4. 금일 작업 사항 : \n 5,6L stage align 교체 완료\n\n5. 금일 특이사항 및 Issue : \n 특이사항 없음\n\n6. 명일 작업 사항 : \n5L colimeter ,masterjig setting\n(3인투입예정)"
+    },
+    {
+      "timestamp": "2024-05-04 16:28:00",
+      "sender": "이노메트리/박상철/프로",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "Inspection",
+      "message": "1. 업체, 설비, Line : 이노메트리,\nx-ray,5,6,L\n\n2. 작업 일자 : 05월 04일, 08:30 ~ 17:00\n\n3. 작업자 : 3명\n\n4. 금일 작업 사항 : \n 5L master jig align setting\n       1,2 inspection pos plc teaching\n      완료\n\n5. 금일 특이사항 및 Issue : \n 특이사항 없음\n\n6. 명일 작업 사항 : \n6L colimeter ,masterjig setting"
+    },
+    {
+      "timestamp": "2024-05-05 14:28:00",
+      "sender": "이노메트리/박상철/프로",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "Inspection",
+      "message": "1. 업체, 설비, Line : 이노메트리,\nx-ray,5,6,L\n\n2. 작업 일자 : 05월 05일, 08:30 ~ 14:00\n\n3. 작업자 : 3명\n\n4. 금일 작업 사항 : \n 6L master jig align setting\n       1,2 inspection pos plc teaching\n      완료\n\n5. 금일 특이사항 및 Issue : \n 특이사항 없음\n\n6. 명일 작업 사항 : \n5L colimeter setting"
+    },
+    {
+      "timestamp": "2024-05-06 18:46:00",
+      "sender": "이노메트리/박상철/프로",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 이노메트리, X-ray, #5, 6L\n\n2. 작업 일자 : 05월 06일 (월) 08:30 ~ 17:30\n\n3. 작업 인원 : 1명 (기구 1)\n\n4. 작업 사항 : #5L colimeter setting(기구)\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 1명 (기구 1)\n\n7. 명일 작업 예정 사항 : 6L Collimater setting (기구)"
+    },
+    {
+      "timestamp": "2024-05-06 19:13:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진, 충방전기, #3,4, 5, 6L\n\n2. 작업 일자 : 05월 06일 (월) 08:00 ~ 17:00\n\n3. 작업 인원 : 9명 (기구 9)\n\n4. 작업 사항 : #3,4 잡체인지 개조 및setting(기구)\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 9명 (기구 9)\n\n7. 명일 작업 예정 사항 : 3,4라인 잡체인지 개조 및 setting (기구)"
+    },
+    {
+      "timestamp": "2024-05-06 19:18:00",
+      "sender": "SKO화성양산/PM/최석원",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진, 충방전기, #3,4L\n\n2. 작업 일자 : 05월 06일 (월) 08:00 ~ 17:00\n\n3. 작업 인원 : 9명 (기구 9)\n\n4. 작업 사항 : #3,4L 20개 호기 하부 Shaft 측 상부 Block 및 하부 Stage 교체 (기구), E603C Stopper 추가 (기구), Clip Ass’y 높이 -5mm 조정 (기구)\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 9명 (기구 9)\n\n7. 명일 작업 예정 사항 : #3,4L 20개 호기 하부 Shaft 측 상부 Block 및 하부 Stage 교체 (기구), E603C Stopper 추가 (기구), Clip Ass’y 높이 -5mm 조정 (기구)"
+    },
+    {
+      "timestamp": "2024-05-06 22:06:00",
+      "sender": "SKO화성양산/PM/최석원",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "Inspection",
+      "message": "1. 업체, 설비, Line : SFA Cell 포장기 5, 6L\n\n2. 작업 일자 : 05월 06일 (월) 09:00 ~ 20:00\n\n3. 작업 인원 : 7명(기구5명,전장2명)\n\n4. 작업 사항 : #5,6 EOL Inspection, Cell 포장기 해체 철거\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 2명 (기구 2명)\n\n7. 명일 작업 예정 사항 : #5,6 바닥 앙카볼트 그라인딩\r\n\r\n2024년 5월 7일 화요일"
+    },
+    {
+      "timestamp": "2024-05-07 14:29:00",
+      "sender": "SKO화성양산/PM/최석원",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "5, 6L EOL CAM, CPK 철거 완료했습니다.\n참고 부탁드립니다.\n\n1. 업체, 설비, Line : SFA Cell 포장기 5, 6L\n\n2. 작업 일자 : 05월 07일 (화) 09:00 ~ 14:00\n\n3. 작업 인원 : 2명(기구2명)\n\n4. 작업 사항 : #5,6 바닥 앙카볼트 그라인딩\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : X\n\n7. 명일 작업 예정 사항 : X"
+    },
+    {
+      "timestamp": "2024-05-07 14:31:00",
+      "sender": "이노메트리/박상철/프로",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 이노메트리, X-ray, #5, 6L\n\n2. 작업 일자 : 05월 06일 (월) 08:30 ~ 14:30\n3. 작업 인원 : 1명 (기구 1)\n\n4. 작업 사항 : #6L colimeter setting(기구)\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 1명 (기구 1)\n\n7. 명일 작업 예정 사항 : \nMaster cell 수령 후 5L 검출력 setting 진행(sw)"
+    },
+    {
+      "timestamp": "2024-05-07 18:07:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진, 충방전기, #3,4L\n\n2. 작업 일자 : 05월 07일 (화) 08:00 ~ 17:00\n\n3. 작업 인원 : 9명 (기구 9)\n\n4. 작업 사항 : #3,4L 18개 호기\n(236/196)\n하부 Shaft 측 상부 Block 및 하부 Stage 교체 (기구), E603C Stopper 추가 (기구), Clip Ass’y 높이 -5mm 조정 (기구)\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 9명 (기구 9)\n\n7. 명일 작업 예정 사항 : #3,4L 15개 호기 \n하부 Shaft 측 상부 Block 및 하부 Stage 교체 (기구), E603C Stopper 추가 (기구), Clip Ass’y 높이 -5mm 조정 (기구)"
+    },
+    {
+      "timestamp": "2024-05-08 16:05:00",
+      "sender": "이노메트리/박상철/프로",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "Inspection",
+      "message": "1. 업체, 설비, Line : 이노메트리, X-ray, #5, 6L\n\n2. 작업 일자 : 05월 08일 (수)\n08:30 ~ 16:00\n3. 작업 인원 : 1명 (기구 1)\n\n4. 작업 사항 : #5L master cell\nInspection roi setting(sw)\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 1명 (기구 1)\n\n7. 명일 작업 예정 사항 : \n  #6L master cell\nInspection roi setting(sw)"
+    },
+    {
+      "timestamp": "2024-05-08 19:19:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진, 충방전기, #3,4L\n\n2. 작업 일자 : 05월 08일 (수) 08:00 ~ 16:30\n\n3. 작업 인원 : 9명 (기구 9)\n\n4. 작업 사항 : #3,4L 15개 호기\n(236/211)\n하부 Shaft 측 상부 Block 및 하부 Stage 교체 (기구), E603C Stopper 추가 (기구), Clip Ass’y 높이 -5mm 조정 (기구)\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 9명 (기구 9)\n\n7. 명일 작업 예정 사항 : #3,4L 15개 호기 \n하부 Shaft 측 상부 Block 및 하부 Stage 교체 (기구), E603C Stopper 추가 (기구), Clip Ass’y 높이 -5mm 조정 (기구)"
+    },
+    {
+      "timestamp": "2024-05-09 16:00:00",
+      "sender": "이노메트리/박상철/프로",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "Inspection",
+      "message": "1. 업체, 설비, Line : 이노메트리, X-ray, #5, 6L\n\n2. 작업 일자 : 05월 08일 (수)\n08:30 ~ 16:00\n3. 작업 인원 : 1명 (기구 1)\n\n4. 작업 사항 : #6master cell\nInspection roi setting(sw)\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 1명 (기구 1)\n\n7. 명일 작업 예정 사항 : \n  #6L master cell\nInspection roi setting(sw)"
+    },
+    {
+      "timestamp": "2024-05-09 16:06:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진, 충방전기, #3,4L\n\n2. 작업 일자 : 05월 09일 (목) 08:00 ~ 16:00\n\n3. 작업 인원 : 9명 (기구 9)\n\n4. 작업 사항 : #3,4L 15개 호기\n(236/226)\n하부 Shaft 측 상부 Block 및 하부 Stage 교체 (기구), E603C Stopper 추가 (기구), Clip Ass’y 높이 -5mm 조정 (기구)\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 9명 (기구 9)\n\n7. 명일 작업 예정 사항 : #3,4L 10개 호기 \n하부 Shaft 측 상부 Block 및 하부 Stage 교체 (기구), E603C Stopper 추가 (기구), Clip Ass’y 높이 -5mm 조정 (기구)"
+    },
+    {
+      "timestamp": "2024-05-10 16:16:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진, 충방전기, #3,4L\n\n2. 작업 일자 : 05월 10일 (금) 08:00 ~ 16:00\n\n3. 작업 인원 : 9명 (기구 9)\n\n4. 작업 사항 : #3,4L 10개 호기\n(236/236)\n하부 Shaft 측 상부 Block 및 하부 Stage 교체 (기구), E603C Stopper 추가 (기구), Clip Ass’y 높이 -5mm 조정 (기구)\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 9명 (기구 9)\n\n7. 명일 작업 예정 사항 : #5,6라인\n스테이지 안착 위치 사이즈 확인 지그 \n테스트 샘플 확인"
+    },
+    {
+      "timestamp": "2024-05-11 13:36:00",
+      "sender": "SFA/남상수",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA Cell 포장기 5, 6L\n\n2. 작업 일자 : 05월 11일(토) 09:00 ~ 13:00\n\n3. 작업 인원 : 2명(기구2명)\n\n4. 작업 사항 : #5,6 SVI, 연결물류 라인마킹\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : X\n\n7. 명일 작업 예정 사항 : X"
+    },
+    {
+      "timestamp": "2024-05-13 16:01:00",
+      "sender": "이노메트리/박상철/프로",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "Inspection",
+      "message": "1. 업체, 설비, Line : 이노메트리, X-ray, #5, 6L\n\n2. 작업 일자 : 05월 13일 (월)\n08:30 ~ 16:00\n3. 작업 인원 : 1명 (기구 1)\n\n4. 작업 사항 : #6master cell\nInspection roi setting(sw)\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 1명 (기구 1)\n\n7. 명일 작업 예정 사항 : \n  #6L  Inspection roi setting(sw)"
+    },
+    {
+      "timestamp": "2024-05-13 19:05:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진, 충방전기, #3,4L\n\n2. 작업 일자 : 05월 13일 (월) 08:00 ~ 16:00\n\n3. 작업 인원 : 9명 (기구 9)\n\n4. 작업 사항 : #3,4L 작업 재 확인\n스테이지 점검 지그 확인(조립)\n#5.6 2차 단동 테스트\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 9명 (기구 9)\n\n7. 명일 작업 예정 사항 : #3,4  2차 단동 테스트\n#5.6 2차 단동 테스트"
+    },
+    {
+      "timestamp": "2024-05-14 17:52:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진, 충방전기, #3,4L\n\n2. 작업 일자 : 05월 14일 (화) 08:00 ~ 17:30\n\n3. 작업 인원 : 9명 (기구 9)\n\n4. 작업 사항 : #5.6 2차 단동 테스트\n(지그 전진 위치 확인)\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 9명 (기구 9)\n\n7. 명일 작업 예정 사항 : \n#3,4  2차 단동 테스트\n(지그 전지 위치 확인)"
+    },
+    {
+      "timestamp": "2024-05-15 16:39:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진, 충방전기, #3,4L\n\n2. 작업 일자 : 05월 15일 (수) 08:00 ~ 16:30\n\n3. 작업 인원 : 9명 (기구 9)\n\n4. 작업 사항 : #3,4,5,6라인\n 2차 단동 테스트 \n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 9명 (기구 9)\n\n7. 명일 작업 예정 사항 : \n#3,4  2차 단동 테스트\n(지그 전지 위치 재조정)"
+    },
+    {
+      "timestamp": "2024-05-15 17:56:00",
+      "sender": "SFA/남상수",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI, #5, 6\n\n2. 작업 일자 : 05월 15일 (수) 08:00 ~ 17:30\n\n3. 작업 인원 : 9명 \n(PM2, 기구 2, 도비 5)\n\n4. 작업 사항\n   - SVI 5호기 반입\n   - MPD 5, 6호기 반입\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 9명 \n(PM2, 기구 2, 도비 5)\n\n7. 명일 작업 예정 사항\n   - SVI 6호기 반입"
+    },
+    {
+      "timestamp": "2024-05-15 18:06:00",
+      "sender": "SKO화성양산/PM/최석원",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 디가스#5\n\n2. 작업 일자 : 05월 15일 (수) 08:00 ~ 17:30\n\n3. 작업 인원 : 5명 (기구 4, 제어 1)\n\n4. 작업 사항 : #5,6라인 형교환 툴 반입\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 5명 (기구 4, 제어 1)\n\n7. 명일 작업 예정 사항 : \n#챔버 부 툴 채인지"
+    },
+    {
+      "timestamp": "2024-05-16 17:37:00",
+      "sender": "wonikpne/HARKSUN KIM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 디가스#5\n\n2. 작업 일자 : 05월 16일 (목) 08:00 ~ 17:00\n\n3. 작업 인원 : 5명 (기구 4, 제어 1)\n\n4. 작업 사항 : #5 chamber sealing 교체\n                             기존 piercing 탈착 및 필요 가공품 해체\n                            \n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 5명 (기구 4, 제어 1)\n\n7. 명일 작업 예정 사항 : \n#챔버 부 툴 채인지 - 피어싱, 포켓"
+    },
+    {
+      "timestamp": "2024-05-16 18:39:00",
+      "sender": "SFA/남상수",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI, #5, 6\n\n2. 작업 일자 : 05월 16일 (목) 08:00 ~ 17:30\n\n3. 작업 인원 : 9명 \n(PM2, 기구 2, 도비 5)\n\n4. 작업 사항\n   - SVI 6호기 반입\n   - SVI 5호기 정위치 및 레벨링\n   - 폐기물 정리\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 9명 \n(PM2, 기구 2, 도비 5)\n\n7. 명일 작업 예정 사항\n   - 5호기 정위치 및 레벨링"
+    },
+    {
+      "timestamp": "2024-05-17 17:25:00",
+      "sender": "wonikpne/HARKSUN KIM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 디가스#5\n\n2. 작업 일자 : 05월 17일 (금) 08:00 ~ 17:00\n\n3. 작업 인원 : 5명 (기구 4, 제어 1)\n\n4. 작업 사항 : #5 피어싱 조립, 부착\n기존 포켓 탈거, 후면 포켓 부착\n\n                            \n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 5명 (기구 4, 제어 1)\n\n7. 명일 작업 예정 사항 : \n# 전면 포켓 부착\n    로더, pre cutting 부 툴 체인지\n    tap bcr 테스트"
+    },
+    {
+      "timestamp": "2024-05-17 17:28:00",
+      "sender": "SFA/남상수",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI, #5, 6\n\n2. 작업 일자 : 05월 17일 (금) 08:00 ~ 17:30\n\n3. 작업 인원 : 3명\n(PM1, 기구 2)\n\n4. 작업 사항\n   - SVI 6호기 정위치 및 레벨링\n   - 기구물 개조개선 건 Parts 정리\n   - 폐기물 정리\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원\n\n7. 명일 작업 예정 사항"
+    },
+    {
+      "timestamp": "2024-05-17 17:48:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "IR; OCV",
+      "message": "1. 업체, 설비, Line : 갑진, 충방전기, #3,4L\n\n2. 작업 일자 : 05월 17일 (금) 08:00 ~ 16:30\n\n3. 작업 인원 : 9명 (기구 9)\n\n4. 작업 사항 : #5,6라인 \n트레이 안착위치 사이즈 지그 확인 (50대)\n클립 회전(돌출) 50대\n충방 클립가이드 조립공차 확인 10대\nirocv 트레이 정위치 편차 9대\n\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 9명 (기구 9)\n\n7. 명일 작업 예정 사항 : \n#5,6라인 2차 단동테스트\n(스트록 기준 세팅)"
+    },
+    {
+      "timestamp": "2024-05-18 16:56:00",
+      "sender": "wonikpne/HARKSUN KIM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 디가스#5\n\n2. 작업 일자 : 05월 18일 (토) 09:00 17:00\n\n3. 작업 인원 : 5명 (기구 4, 제어 1)\n\n4. 작업 사항 : #5 전면 포켓 부착, 로더 컨베이어 스테이지 교체, 챔버 투입, 배출 셔틀 가이드 교체, 리실링 교체, pre cutting 50%교체 진행\n\n                            \n\n5. 작업 중 특이사항 및 Issue : Chamber sealing 승온\n\n6. 명일 작업 예정 인원 : 5명 (기구 4, 제어 1)\n\n7. 명일 작업 예정 사항 : \n# 포켓 pressn조정, sealing 두께 조정, pre cutting 툴 교환, 언로더 툴 교환"
+    },
+    {
+      "timestamp": "2024-05-19 14:49:00",
+      "sender": "SKO화성양산/PM/최석원",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "IR; IR/OCV; OCV; SVI; VI",
+      "message": "@Maint/Mgr/SG LEE \n\n1동 JC 공사가 본격적으로 시작되어,\n05월 20일(월)부터\n법인 1동 보전팀 JC 대응 업무 관련해서는 \n하기와 같이 협조 예정이오니\n참고 부탁드립니다.\n\n1. 1동 JC 관련 작업허가서 전달 및 현장 미팅은\n매일 08:30 #5, 6L EOL에서 진행 예정이오니, \n각 설비 담당 엔지니어분들께서는 참석해주시면 감사하겠습니다.\n\n2. JC 진행 현황 공유는\n1번 미팅 내용 기반으로\n매일 09:00 보전팀 미팅에서 자체적 내부 공유 부탁드립니다.\n(저는 특이사항 발생 혹은 필요 시에만 참석 예정입니다.)\n\n3. 05월 20일 기준, 공사 진행 및 투입 예정 업체 :\n갑진 (FCH, IR/OCV), YHT (FLD/INS #5, 6L), 하나기술 (FLD/INS #3, 4L), SFA (SVI),  원익PNE (DGS), 이노메트리 (X-Ray)"
+    },
+    {
+      "timestamp": "2024-05-19 16:24:00",
+      "sender": "wonikpne/HARKSUN KIM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 디가스#5\n\n2. 작업 일자 : 05월 18일 (토) 09:00 17:00\n\n3. 작업 인원 : 5명 (기구 4, 제어 1)\n\n4. 작업 사항 : #5 pre cutting, unloaded shuttle guide 교체\nchamber sealing 두께 SETTING 중, LOADER 물류 SETTING\n\n5. 작업 중 특이사항 및 Issue :\n\n6. 명일 작업 예정 인원 : 5명 (기구 4, 제어 1)\n\n7. 명일 작업 예정 사항 : \n# CHAMBER SEALING 두께 조정, DEAGS 물류 SETTING"
+    },
+    {
+      "timestamp": "2024-05-20 18:24:00",
+      "sender": "wonikpne/HARKSUN KIM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 디가스#5\n\n2. 작업 일자 : 05월 20일 (월) 08:00 18:00\n\n3. 작업 인원 : 5명 (기구 4, 제어 1)\n\n4. 작업 사항 : #5\nchamber sealing 두께 SETTING, Degas 물류 setting, pre cutting 물류 setting 중\n\n5. 작업 중 특이사항 및 Issue :\n\n6. 명일 작업 예정 인원 : 5명 (기구 4, 제어 1)\n\n7. 명일 작업 예정 사항 : \n# ,Pocket press 조정, sealing align, 높이 조정\npre cutting 물류 setting, hot press 물류 setting, Ins 물류 setting"
+    },
+    {
+      "timestamp": "2024-05-20 18:30:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진, 충방전기, #3,4L\n\n2. 작업 일자 : 05월 20일 (월) 08:00 ~ 16:30\n\n3. 작업 인원 : 7명 (기구 7)\n\n4. 작업 사항 : #5,6라인(장단폭)\n트레이 안착위치 폭 사이즈 지그 확인 100대 (156/156)\n클립 지그 전진위치 조정 120대 (156/120)\n\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 5명 (기구 5)\n\n7. 명일 작업 예정 사항 : #5.6(장단폭)\n충방 클립가이드 조립공차 확인 \n클립 지그 전진위치 조정"
+    },
+    {
+      "timestamp": "2024-05-20 19:12:00",
+      "sender": "SFA/남상수",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI, #5, 6\n\n2. 작업 일자 : 05월 20일 (월) 08:00 ~ 17:00\n\n3. 작업 인원 : 7명 \n(PM 2, 기구 2, 제어 2, 전장 1)\n\n4. 작업 사항\n   - 5호기 전장 포설 작업\n   - 5, 6호기 PC 설치\n   - 5, 6호기 기구물 개선건 작업\n   - 5, 6호기 로딩, 언로딩 TR해체\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 7명\n(PM 2, 기구 2, 제어 2, 전장 1)\n\n7. 명일 작업 예정 사항\n   - 5, 6호기 전장 포설 작업\n   - 기구물 개선 작업\n   - 5, 6호기 PC 설치"
+    },
+    {
+      "timestamp": "2024-05-21 10:06:00",
+      "sender": "SKO화성양산/PM/최석원",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : YHT INS/FLD #5,6L\n\n2. 작업 일자 : 05월 20일 (월) 08:00 ~ 18:00\n\n3. 작업 인원 : 6명 (기구 4 제어 2)\n\n4. 작업 사항 : \n#5 로딩부 <->TAB 얼라인 기본티칭\n#6 기구물 교체작업 (80%)\n#5 Align Unit I/O 배선작업(50%)\n\n\n5. 작업 중 특이사항 및 Issue : \nDOOR EMO 알람 지속 발생 (명일 점검 필요)\n\n6. 명일 작업 예정 인원 : 6명\n\n7. 명일 작업 예정 사항 : \n#5 기본티칭\n#5#6 전해액 감지센서 기구물 작업\nAlign Unit I/O 배선작업\n#5#6  Align Unit 공압 배선 작업"
+    },
+    {
+      "timestamp": "2024-05-21 17:22:00",
+      "sender": "SFA/남상수",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI, #5, 6\n\n2. 작업 일자 : 05월 21일 (화) 08:00 ~ 17:00\n\n3. 작업 인원 : 7명 \n(PM 2, 기구 2, 제어 2, 전장 1)\n\n4. 작업 사항\n   - 5, 6호기 전장 포설 작업\n   - 5, 6호기 기구물 개선건 작업\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 7명\n(PM 2, 기구 2, 제어 2, 전장 1)\n\n7. 명일 작업 예정 사항\n   - 5, 6호기 전장 포설 작업\n   - 기구물 개선 작업\n   - 5, 6호기 PC 설치"
+    },
+    {
+      "timestamp": "2024-05-21 17:48:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진, 충방전기, #3,4L\n\n2. 작업 일자 : 05월 21일 (화) 08:00 ~ 16:30\n\n3. 작업 인원 : 5명 (기구 5)\n\n4. 작업 사항 : #5,6라인(장단폭)\n클립 지그 전진위치 조정 36대 (156/156 완)\n클립 회전(가이드외부돌출) 확인 100대 (156/156 완)\n\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 5명 (기구 5)\n\n7. 명일 작업 예정 사항 : #5.6(장단폭)\n충방 클립가이드 조립공차 확인"
+    },
+    {
+      "timestamp": "2024-05-21 18:13:00",
+      "sender": "wonikpne/HARKSUN KIM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 디가스#5\n\n2. 작업 일자 : 05월 21일 (화) 08:00 18:00\n\n3. 작업 인원 : 5명 (기구 4, 제어 1)\n\n4. 작업 사항 : #5\npre cutting 물류 SETTING\nhot press 물류 SETTING \n포켓 프레스 조정\n챔버 1싸이클 이상 여부 확인\n전면부 실링 높이, 조정 및 두께 확인 및 조정\nresealing 두께 setting\n\n5. 작업 중 특이사항 및 Issue : 후면 7번 챔버 미세 리크\n\n6. 명일 작업 예정 인원 : 5명 (기구 4, 제어 1)\n\n7. 명일 작업 예정 사항 : \n# 전,후면 sealing 높이, 위치 조정, 두께 확인 및 조정\nre sealing 위치, 높이 조정, 두께 확인 및 조정\nINS, UNLOADER 물류 SETTING\n\n8. 사용셀\n# 금일 16ea\n# 누적 16ea"
+    },
+    {
+      "timestamp": "2024-05-21 20:23:00",
+      "sender": "SKO화성양산/PM/최석원",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "VI",
+      "message": "1. 업체, 설비, Line : 하나기술, FLD&INS,#3,4L\n\n2. 작업 일자 : 05월 21일 (화) 08:00 ~ 17:30\n\n3. 작업 인원 : 4명 (기구 4)\n\n4. 작업 사항 : \n-Cell loading p&p 센서레일교체작업 완료\n-Input cell turn pad plate 교체작업\n 3라인 완료 /4라인 30프로 진행중\n-Cell moving transfer plate 교체완료\n-Cell unloading p&p pad plate 교체완료\n-전해액 감지센서 브라켓 대칭 미제작으로 인해 \n 50프로 작업\n\n5. 작업 중 특이사항 및 Issue : \n미입고품목 셋팅용지그 6항목\n23일 핸드캐리어로 입고예정\n전해액 센서 브라켓 신규제작필요함\n입고일 일정확인필요\n\n6. 명일 작업 예정 인원 : 4명 (기구 4)\n\n7. 명일 작업 예정 사항 : \n4라인 Input cell turn pad plate 교체작업\nPad plate 교체품 진공상태 확인작업\n작업 완료 유닛"
+    },
+    {
+      "timestamp": "2024-05-21 21:41:00",
+      "sender": "SKO화성양산/PM/최석원",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : YHT INS/FLD #5,6L\n\n2. 작업 일자 : 05월 21일 (화) 08:00 ~ 18:00\n\n3. 작업 인원 : 6명 (기구 4 제어 2)\n\n4. 작업 사항 : \n#5 2LAINE TAB 얼라인 <-> 180도 폴딩 기본티칭\n#5#6 기구물 교체작업 (이슈자재 외 완료)\n#5#6 Align Unit 배관작업 완료\n#5 Align Unit I/O 배선작업(90%)\n#5 main 판넬 배선 작업 (90%)\n#5 전해액 감지센서 배선 (70%)\n\n\n5. 작업 중 특이사항 및 Issue : \n#5 INS DOOR 알람 발생\nFLD 히터 온도 상승 안됨 \n테라스컷 1싸이클 동작 안됨\n전해액 감지센서 수정가공 발주 얘정\n\n6. 명일 작업 예정 인원 : 6명\n\n7. 명일 작업 예정 사항 : \n#5#6 기본티칭\n#5 Align Unit I/O 배선작업\n#5 main 판넬 배선 작업 \n#5 전해액 감지센서 배선"
+    },
+    {
+      "timestamp": "2024-05-22 17:24:00",
+      "sender": "SFA/남상수",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI, #5, 6\n\n2. 작업 일자 : 05월 22일 (수) 08:00 ~ 17:00\n\n3. 작업 인원 : 7명 \n(PM 2, 기구 2, 제어 2, 전장 1)\n\n4. 작업 사항\n   - 5, 6호기 전장 포설 작업\n   - 5, 6호기 기구물 개선건 작업\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 7명\n(PM 2, 기구 2, 제어 2, 전장 1)\n\n7. 명일 작업 예정 사항\n   - 5, 6호기 전기 Turn-On\n   - 5, 6호기 전기 I/O Check\n   - 기구물 개선 작업"
+    },
+    {
+      "timestamp": "2024-05-22 18:41:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 갑진, 충방전기, #3,4L\n\n2. 작업 일자 : 05월 22일 (수) 08:00 ~ 16:30\n\n3. 작업 인원 : 5명 (기구 5)\n\n4. 작업 사항 : #3.4라인(장폭)\n클립 회전(가이드외부돌출) 확인 100대 (100/236 )\n트레이 안착위치확인 100대 (100/236)\n#5.6라인 (장단폭)\n클립가이드 조립공차 확인 20대 \n\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 5명 (기구 5)\n\n7. 명일 작업 예정 사항 : #3.4라인(장폭)\n충방 클립가이드 조립공차 확인 \n트레이 안착위치 확인\n클립 틀어짐 확인"
+    },
+    {
+      "timestamp": "2024-05-22 19:29:00",
+      "sender": "YHT/kyouhaw park/PM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : YHT INS/FLD #5,6L\n\n2. 작업 일자 : 05월 22일 (수) 08:00 ~ 18:00\n\n3. 작업 인원 : 6명 (기구 4 제어 2)\n\n4. 작업 사항 : \n#5 2LAINE FLD 기본티칭 완료\n#6 1LANE FLD 바디얼라인 까지 기본티칭\n#5 Align Unit I/O 배선작업 완료\n#5 main 판넬 배선 작업 완료\n#5 전해액 감지센서 배선 (80%)\n\n\n5. 작업 중 특이사항 및 Issue : \n없음\n\n6. 명일 작업 예정 인원 : 6명\n\n7. 명일 작업 예정 사항 : \n#5#6 기본티칭\n#6 Align Unit I/O 배선작업\n#6 main 판넬 배선 작업 \n#5 전해액 감지센서 배선"
+    },
+    {
+      "timestamp": "2024-05-22 19:47:00",
+      "sender": "wonikpne/HARKSUN KIM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 디가스#5 \n\n2. 작업 일자 : 05월 23일 (수) 08:00 19:50\n\n3. 작업 인원 : 5명 (기구 4, 제어 1) \n\n4. 작업 사항 : \n#5\nINS, X-ray, unloaded 물류 setting\n후면부 실링 높이, 조정 및 두께 확인 및 조정\nresealing 높이 조정 및 두께 확인 및 조정\n#6\nChamber sealing, 피어싱 해체 \n\n5. 작업 중 특이사항 및 Issue : \n#5 \n후면 4번 챔버 미세 리크\nhot press 3번 로드셀 이상(원점세팅 이상), hot press 3번 실린더 센서 이상\nunloaded tray 투입 요청\n#6\nsealing 온도센서 해체 불가 5ea \nunloaded tray 투입 요청 \n\n6. 명일 작업 예정 인원 : 5명 (기구 4, 제어 1) \n\n7. 명일 작업 예정 사항 : \n# sealing 부착, 피어싱 조립 및 부착 \n\n8. 사용 셀\n금일 사용 : 32ea\n누적 사용 : 48"
+    },
+    {
+      "timestamp": "2024-05-22 20:54:00",
+      "sender": "SKO화성양산/PM/최석원",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "VI",
+      "message": "1. 업체, 설비, Line : 하나기술, FLD&INS,#3,4L\n\n2. 작업 일자 : 05월 21일 (수) 08:00 ~ 17:00\n\n3. 작업 인원 : 4명 (기구 4)\n\n4. 작업 사항 : \n-Input cell turn pad plate 교체작업 완료\n-Cell stage unit 작업완료\n-Terrace vision unit 교체작업완료\n\n5. 작업 중 특이사항 및 Issue : \n\n6. 명일 작업 예정 인원 : 4명 (기구 4)\n\n7. 명일 작업 예정 사항 : \n-Terrace cutting unit 교체작업"
+    },
+    {
+      "timestamp": "2024-05-23 16:52:00",
+      "sender": "갑진/권오규/유지관리",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "IR; IR OCV; OCV",
+      "message": "1. 업체, 설비, Line : 갑진, 충방전기, #3,4L\n\n2. 작업 일자 : 05월 23일 (목) 08:00 ~ 16:30\n\n3. 작업 인원 : 5명 (기구 5)\n\n4. 작업 사항 : #3.4라인(장폭)\n클립 회전(가이드외부돌출) 확인 136대 (236/236 )\n트레이 안착위치확인 136대 (236/236)\n클립가이드 조립공차 확인 48대 \n\nIR OCV 3-3 클립가이드 조립공차 \n스테이지 조정 완료\n전면 좌:23.5 우: 24\n후면 좌:24     우:24\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 5명 (기구 5)\n\n7. 명일 작업 예정 사항 : \n#3.4라인(장폭) 2차 단동 테스트"
+    },
+    {
+      "timestamp": "2024-05-23 17:03:00",
+      "sender": "wonikpne/HARKSUN KIM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 디가스#5 \n\n2. 작업 일자 : 05월 23일 (목) 08:00 - 17:00\n\n3. 작업 인원 : 5명 (기구 4, 제어 1) \n\n4. 작업 사항 : \n#5\ndry run 및 프로그램 확인작업\n#6\nChamber sealing, piecing, pocket 부착\n전면 4번 chamber temp sensor 해체 안됨으로 인한 신규 sensor로 교체 및 센서선 커넥팅 작업 완료\n\n5. 작업 중 특이사항 및 Issue : \n#5 \n#6 전면 4번 chamber sealing Temp sensor  1ea 해체 안됨 -> 신규 센서로 교체 및 센서 선 connecting 작업 완료\n\n6. 명일 작업 예정 인원 : 5명 (기구 4, 제어 1) \n\n7. 명일 작업 예정 사항 : \n# loader stage, degas shuttle 투입배출 guide, pre cutting, re sealing 교체\n\n8. 사용 셀\n금일 사용 : 0\n누적 사용 : 48"
+    },
+    {
+      "timestamp": "2024-05-23 17:17:00",
+      "sender": "SFA/남상수",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI, #5, 6\n\n2. 작업 일자 : 05월 23일 (목) 08:00 ~ 17:30\n\n3. 작업 인원 : 5명 \n(PM 1, 기구 2, 제어 1, 전장 1)\n\n4. 작업 사항\n   - 5, 6호기 전기 Turn-On 완료\n   - 5, 6호기 J/C 기구물 개선건 작업\n   - 5호기 I/O Check\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 5명 \n(PM 1, 기구 2, 제어 1, 전장 1)\n\n7. 명일 작업 예정 사항\n   - 5, 6호기 I/O Check\n   - 5, 6호기 J/C 기구물 개선 작업"
+    },
+    {
+      "timestamp": "2024-05-23 21:01:00",
+      "sender": "YHT/kyouhaw park/PM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "IR",
+      "message": "1. 업체, 설비, Line : YHT INS/FLD #5,6L\n\n2. 작업 일자 : 05월 23일 (목) 08:00 ~ 18:00\n\n3. 작업 인원 : 6명 (기구 4 제어 2)\n\n4. 작업 사항 : \n#5 1LAINE FLD 바디얼라인 까지 완료(50%)\n#5 2LANE INS ACIR 까지 완료 (25%)\n#6 Align Unit I/O 배선작업(90%)\n#5 전해액 감지센서 배선 (95%)\n\n\n5. 작업 중 특이사항 및 Issue : \nFLD 탭 얼라인#1 얼라인 블럭 얼라인 불가로 인하여  8EA 설계발주 얘정\n\n6. 명일 작업 예정 인원 : 6명\n\n7. 명일 작업 예정 사항 : \n#5#6 기본티칭\n#6 Align Unit I/O 배선작업\n#6 main 판넬 배선 작업 \n#5#6 전해액 감지센서 배선"
+    },
+    {
+      "timestamp": "2024-05-24 17:32:00",
+      "sender": "SFA/남상수",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "IR; SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI, #5, 6\n\n2. 작업 일자 : 05월 24일 (금) 08:00 ~ 17:30\n\n3. 작업 인원 : 5명 \n(PM 1, 기구 2, 제어 1, 전장 1)\n\n4. 작업 사항\n   - 5, 6호기 캐리어 탭 받침 Setting\n   - 5, 6호기 Cell 감지센서 Setting\n   - 6호기 I/O Check\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 5명 \n(PM 1, 기구 2, 제어 1, 전장 1)\n\n7. 명일 작업 예정 사항\n   - Air Hook-up 확인\n   - 5, 6호기 Cell 감지센서 Setting\n   - 5호기 모듈점검 및 기구물 점검"
+    },
+    {
+      "timestamp": "2024-05-24 17:32:00",
+      "sender": "SFA/남상수",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI J/C, #3, 4\n\n2. 작업 일자 : 05월 24일 (금) 08:00 ~ 17:30\n\n3. 작업 인원 : 2명 \n(기구 1, 제어 1)\n\n4. 작업 사항\n   - 3Line Stage Pad 결합\n   - 3Line 진공관로 클리닝\n   - 3Line LM 라인 클리닝\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 2명\n(기구 1, 제어 1)\n\n7. 명일 작업 예정 사항\n   - 3Line Stage Cell 감지센서 세팅"
+    },
+    {
+      "timestamp": "2024-05-24 18:12:00",
+      "sender": "wonikpne/HARKSUN KIM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 디가스#5 \n\n2. 작업 일자 : 05월 24일 (금) 08:00 - 18:00\n\n3. 작업 인원 : 5명 (기구 4, 제어 1) \n\n4. 작업 사항 : \n#5\ndry run 및 프로그램 확인작업\n#6\npiecing 조정\nloader stage, degas 투입/배출 shuttle guide, pre cutting stage, resealing, unloaded guide, align 교체\n\n5. 작업 중 특이사항 및 Issue : \n#5 \n#6 \n\n6. 명일 작업 예정 인원 : 6명 (기구 5, 제어 1) \n\n7. 명일 작업 예정 사항 : \n#6 loader, degas 물류 setting\nChamber sealing 승온 및 setting\n\n8. 사용 셀\n금일 사용 : 0\n누적 사용 : 48"
+    },
+    {
+      "timestamp": "2024-05-24 19:12:00",
+      "sender": "YHT/kyouhaw park/PM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : YHT INS/FLD #5,6L\n\n2. 작업 일자 : 05월 24일 (금) 08:00 ~ 18:00\n\n3. 작업 인원 : 6명 (기구 4 제어 2)\n\n4. 작업 사항 : \n#5 FLD 기본티칭 완료\n#5 2lane INS 기본티칭 완료\n1. 6라인 1, 2 Lane 전해액 감지센서 배선 작업(95%)\n2. 6라인 Main 판넬 배선 작업 (90%)\n\n5. 작업 중 특이사항 및 Issue : \n\n\n6. 명일 작업 예정 인원 : 2명\n\n7. 명일 작업 예정 사항 :\n폴딩 270도폴딩 프레스 품질 확인\n도면 스케치"
+    },
+    {
+      "timestamp": "2024-05-25 11:23:00",
+      "sender": "SKO화성양산/PM/최석원",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "PPC",
+      "message": "1. 업체, 설비, Line : 하나 기술 / PPC / 3,4,5,6 라인\n\n2. 작업 일자 : 05월 24일 (금) 08:00 ~ 16:00\n\n3. 작업 인원 : 4명 (기구 4)\n\n4. 작업 사항 : \n- #5-1 HPC EPOXY PAD 교체 작업\n- #5-1 HPC 간지 교체 작업\n\n\n5. 작업 중 특이사항 및 Issue\n- HPC EPOXY PAD 거리 세팅시 이물 받지간섭으로 인하여 제품 세팅 치수 까지 조절이 안됌  일정확인후 공유예정\n\n6. 명일 작업 예정 인원 : 4명 (기구 4)\n\n7. 명일 작업 예정 사항 : \n- #5-1 물류 라인 세팅 작업\n- #5-2 HPC EPOXY PAD 교체 작업\n- #5-2 HPC 간지 교체 작업"
+    },
+    {
+      "timestamp": "2024-05-25 17:29:00",
+      "sender": "wonikpne/HARKSUN KIM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 디가스#5 \n\n2. 작업 일자 : 05월 25일 (토) 09:00 - 17:30\n\n3. 작업 인원 : 6명 (기구 5, 제어 1) \n\n4. 작업 사항 : \n#5\ndry run 및 프로그램 확인작업\n#6\npiecing 조정\nloader, degas 물류 setting\nalign 조정\nsealing setting\n\n5. 작업 중 특이사항 및 Issue : \n#5 \n#6 \n\n6. 명일 작업 예정 인원 : 6명 (기구 5, 제어 1) \n\n7. 명일 작업 예정 사항 : \n#6 degas, precutting 물류 setting\npocket 높이 setting\nChamber sealing 승온 및 setting \n\n8. 사용 셀\n금일 사용 : 0\n누적 사용 : 48"
+    },
+    {
+      "timestamp": "2024-05-26 17:20:00",
+      "sender": "wonikpne/HARKSUN KIM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 디가스#5 \n\n2. 작업 일자 : 05월 26일 (일) 09:00 - 17:00\n\n3. 작업 인원 : 6명 (기구 5, 제어 1) \n\n4. 작업 사항 : \n#5\n\n#6\nPocket 높이 setting\nsealing 온도 승온\nResealing 두께 setting\nChamber sealing 두께 setting\npre cutting 물류 setting\n\n5. 작업 중 특이사항 및 Issue : \n#5 \n#6 전면7번 후면7번 디지털 압력 스위치 점검 요청\n\n6. 명일 작업 예정 인원 : 6명 (기구 5, 제어 1) \n\n7. 명일 작업 예정 사항 : \n#6 Hot press, Ins 물류 setting\nChamber sealing 두께 setting\n\n8. 사용 셀\n금일 사용 : 0\n누적 사용 : 48"
+    },
+    {
+      "timestamp": "2024-05-27 17:40:00",
+      "sender": "wonikpne/HARKSUN KIM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 디가스#5 \n\n2. 작업 일자 : 05월 27일 (월) 08:00 - 17:00\n\n3. 작업 인원 : 6명 (기구 5, 제어 1) \n\n4. 작업 사항 : \n#5\nDry run\n\n#6\nChamber sealing 두께 setting\nHot press, Ins 물류 setting\n\n5. 작업 중 특이사항 및 Issue : \n#5 \n#6 \n\n6. 명일 작업 예정 인원 : 6명 (기구 5, 제어 1) \n\n7. 명일 작업 예정 사항 : \n#6\nChamber sealing 두께 setting\nChamber sealing 높이 확인 및 조정\nX-ray, unloader 물류 setting\n\n8. 사용 셀\n금일 사용 : 27\n누적 사용 : 75"
+    },
+    {
+      "timestamp": "2024-05-27 17:42:00",
+      "sender": "SFA/남상수",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "IR; SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI, #5, 6\n\n2. 작업 일자 : 05월 27일 (월) 08:00 ~ 17:00\n\n3. 작업 인원 : 8명\n(PM 1, 기구 3, 제어 2, 전장 1, SW 1)\n\n4. 작업 사항\n   - 5, 6호기 Air Hook-up 완료\n   - 5, 6호기 Cell 감지센서 Setting\n   - 5, 6호기 PC Setting\n   - 5, 6호기 모듈 및 Turn 축 점검\n   - 5, 6호기 단동 Test\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 8명\n(PM 1, 기구 3, 제어 2, 전장 1, SW 1)\n\n7. 명일 작업 예정 사항\n   - 5, 6호기 Cell 감지센서 Setting\n   - 5, 6호기 PC Setting\n   - 5, 6호기 모듈 및 Turn 축 점검\n   - 5, 6호기 단동 Test"
+    },
+    {
+      "timestamp": "2024-05-27 17:42:00",
+      "sender": "SFA/남상수",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI J/C, #3, 4\n\n2. 작업 일자 : 05월 27일 (월) 08:00 ~ 17:30\n\n3. 작업 인원 : 2명 \n(기구 1, 제어 1)\n\n4. 작업 사항\n   - 3Line Stage Cell 감지센서 세팅\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 2명\n(기구 1, 제어 1)\n\n7. 명일 작업 예정 사항\n   - 3Line TR 위치조정 및 P&P 높이조정\n   - 3Line Cell 흡착테스트"
+    },
+    {
+      "timestamp": "2024-05-28 16:56:00",
+      "sender": "SFA SVI 선임 조대연",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI, #5, 6\n\n2. 작업 일자 : 05월 28일 (화) 08:00 ~ 17:00\n\n3. 작업 인원 : 8명\n(PM 1, 기구 3, 제어 2, 전장 1, SW 1)\n\n4. 작업 사항\n   - 5, 6호기 Cell 감지센서 Setting\n   - 5, 6호기 PC Setting\n   - 5, 6호기 모듈 및 Turn 축 점검\n   - 5, 6호기 단동 Test\n   - 5, 6호기 클리닝 진행\n   - 5호기 LMS Dry Run Test\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 8명\n(PM 1, 기구 3, 제어 2, 전장 1, SW 1)\n\n7. 명일 작업 예정 사항\n   - 5, 6호기 PC Setting\n   - 5, 6호기 모듈 및 Turn 축 점검\n   - 5, 6호기 단동 Test\n   - 5, 6호기 LMS Dry Run Test"
+    },
+    {
+      "timestamp": "2024-05-28 16:58:00",
+      "sender": "SFA SVI 선임 김영주",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI J/C, #3, 4\n\n2. 작업 일자 : 05월 28일 (화) 08:00 ~ 17:00\n\n3. 작업 인원 : 2명 \n(기구 1, 제어 1)\n\n4. 작업 사항\n - 3Line \n : Cell 감지센서 세팅완료\n : TR 위치조정 및 P&P 높이조정 완료\n\n - 4Line\n : Cell 감지센서 세팅완료\n : TR 위치조정 및 P&P 높이조정 완료\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 2명\n(기구 1, 제어 1)\n\n7. 명일 작업 예정 사항\n - 3, 4Line\n : Dry Run 진행"
+    },
+    {
+      "timestamp": "2024-05-28 17:08:00",
+      "sender": "wonikpne/HARKSUN KIM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 디가스#5 \n\n2. 작업 일자 : 05월 28일 (화) 08:00 - 17:00\n\n3. 작업 인원 : 6명 (기구 5, 제어 1) \n\n4. 작업 사항 : \n#5\nDry run\nChamber Leak test\n\n#6\nChamber sealing 두께 setting (cell)\nRe-Sealing 두께 setting (cell)\nx-ray, unloader 물류 setting\nChamber leak test\n\n5. 작업 중 특이사항 및 Issue : \n#5 Chamber 후면 6,7 leak 발견\n#6 Chamber 전면 2,4,5,7\n                        후면 1,6,7\n      leak 발견\n\n6. 명일 작업 예정 인원 : 6명 (기구 5, 제어 1) \n\n7. 명일 작업 예정 사항 : \n#5 Cell run\n#6 dry run 및 Chamber leak 재확인\n \n8. 사용 셀\n금일 사용 : 39\n누적 사용 : 87"
+    },
+    {
+      "timestamp": "2024-05-28 17:21:00",
+      "sender": "YHT/kyouhaw park/PM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : YHT INS/FLD #5,6L\n\n2. 작업 일자 : 05월 28일 (화) 08:00 ~ 18:00\n\n3. 작업 인원 : 6명 (기구 4 제어 2)\n\n4. 작업 사항 : \n#5 2레인 자동 셀런 품질셋팅 (인스 배출단 까지)\n#5 #6 기구물 교환작업 \n#6-2 FLD기본티칭 25%\n 전해액 감지센서 프로그램 수정\n\n\n5. 작업 중 특이사항 및 Issue : \n5-2 INS 두께측정기 4번 실린더 동작이상\n5-2 INS. 프린트 탭컷팅 자동운전중 작업 진행 하지 않고 넘어감\n\n6. 명일 작업 예정 인원 : 6명\n\n7. 명일 작업 예정 사항 :\n\n#5 FLD 자동셀런 품질셋팅\n#6 FLD 기본 티칭"
+    },
+    {
+      "timestamp": "2024-05-29 17:38:00",
+      "sender": "SFA SVI 선임 김영주",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI J/C, #3, 4\n\n2. 작업 일자 : 05월 28일 (화) 08:00 ~ 17:30\n\n3. 작업 인원 : 2명 \n(기구 1, 제어 1)\n\n4. 작업 사항\n - 3Line \n : 흡착 테스트 진행\n : 교체 조정 후 기구 간섭여부 확인\n\n - 4Line\n : 흡착 테스트 진행\n : 교체 조정 후 기구 간섭여부 확인\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 2명\n(기구 1, 제어 1)\n\n7. 명일 작업 예정 사항\n - 3, 4Line\n : BCR 위치 재조정"
+    },
+    {
+      "timestamp": "2024-05-29 17:39:00",
+      "sender": "SFA SVI 선임 조대연",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI, #5, 6\n\n2. 작업 일자 : 05월 29일 (수) 08:30 ~ 17:30\n\n3. 작업 인원 : 8명\n(PM 1, 기구 3, 제어 2, 전장 1, SW 1)\n\n4. 작업 사항\n   - 5, 6호기 PC Setting\n   - 5, 6호기 모듈 및 Turn 축 점검\n   - 5, 6호기 단동 Test\n   - 5, 6호기 LMS Dry Run Test\n   - 6호기 P&P Unit 정밀 Setting\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 8명\n(PM 1, 기구 3, 제어 2, 전장 1, SW 1)\n\n7. 명일 작업 예정 사항\n   - 5, 6호기 PC Setting\n   - 5, 6호기 모듈 및 Turn 축 점검\n   - 5, 6호기 단동 Test\n   - 5, 6호기 LMS Dry Run Test\n   - 5호기 P&P Unit 정밀 Setting\n   - 5, 6호기 캐리어 Leak"
+    },
+    {
+      "timestamp": "2024-05-29 19:16:00",
+      "sender": "wonikpne/HARKSUN KIM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 디가스#5 \n\n2. 작업 일자 : 05월 29일 (수) 08:00 - 19:00\n\n3. 작업 인원 : 6명 (기구 5, 제어 1) \n\n4. 작업 사항 : \n#5\nCell run\n물류 확인 작업\n\n#6\n\n\n5. 작업 중 특이사항 및 Issue : \n#5 \n#6 \n\n6. 명일 작업 예정 인원 : 6명 (기구 5, 제어 1) \n\n7. 명일 작업 예정 사항 : \n#5 \n#6 dry run 및 cell run\n \n8. 사용 셀\n금일 사용 : 77\n누적 사용 : 164"
+    },
+    {
+      "timestamp": "2024-05-29 19:48:00",
+      "sender": "YHT/kyouhaw park/PM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : YHT INS/FLD #5,6L\n\n2. 작업 일자 : 05월 29일 (수) 08:00 ~ 18:00\n\n3. 작업 인원 : 6명 (기구 4 제어 2)\n\n4. 작업 사항 : \n#5 FLD 자동셀런 품질셋팅  (완료)\n#5 2lane INS 프리트기 / 탭컷팅 자동중 동작완료\n #6 2lane 기본 티칭 완료\n#6 1lane 바디얼라인까지 완료\n#5#6 베출부 BCR 기구물 부착 완료\n#6 2 Lane 전해액 감지 센서 통신 확인 완료\n\n5. 작업 중 특이사항 및 Issue : \n프린트기 / 탭컷팅 자동운전중 동작안되어 프로그램 수정 \n두께측정기 4번 프레스 하강 동작 이상으로 인하여 법인에서 확인후 릴레이 교체\n\n6. 명일 작업 예정 인원 : 6명\n\n7. 명일 작업 예정 사항 :\n#5 INS 자동런 품질 셋팅\n#6 FLD /INS 기본 티칭\n설비 Auto run 진행간 문제 발생 프로그램 수정 대응\n전해액 감지 센서 프로그램 수정"
+    },
+    {
+      "timestamp": "2024-05-30 16:33:00",
+      "sender": "SFA SVI 선임 조대연",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI, #5, 6\n\n2. 작업 일자 : 05월 30일 (목) 08:00 ~ 17:00\n\n3. 작업 인원 : 8명\n(PM 1, 기구 3, 제어 2, 전장 1, SW 1)\n\n4. 작업 사항\n   - 5, 6호기 PC Setting\n   - 5, 6호기 캐리어 Leak Test\n   - 5, 6호기 LMS Dry Run Test\n   - 5호기 P&P Unit 정밀 Setting\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 7명\n(PM 1, 기구 3, 제어 2, SW 1)\n\n7. 명일 작업 예정 사항\n   - 5, 6호기 PC Setting\n   - 5, 6호기 LMS Dry Run Test\n   - PLC 프로그램 업데이트"
+    },
+    {
+      "timestamp": "2024-05-30 16:40:00",
+      "sender": "SFA SVI 선임 김영주",
+      "source_zip": "2024.06.04.zip",
+      "lines": "Line2",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI J/C, 3-4Line\n\n2. 작업 일자 : 05월 30일 (목) 08:00 ~ 17:00\n\n3. 작업 인원 : 2명 \n(기구 1, 제어 1)\n\n4. 작업 사항\n - 3Line \n : 흡착 테스트 진행\n : Dry Run 및 부하율 확인\n\n - 4Line\n : 흡착 테스트 진행\n : Dry Run 및 부하율 확인\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 2명\n(기구 1, 제어 1)\n\n7. 명일 작업 예정 사항\n - 3, 4Line\n : Dry Run 진행"
+    },
+    {
+      "timestamp": "2024-05-30 18:31:00",
+      "sender": "wonikpne/HARKSUN KIM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 디가스#5 \n\n2. 작업 일자 : 05월 29일 (목) 08:00 - 19:00\n\n3. 작업 인원 : 6명 (기구 5, 제어 1) \n\n4. 작업 사항 : \n#5\n\n#6\nCell run 및 물류 확인 작업\n\n5. 작업 중 특이사항 및 Issue : \n#5 \n#6 \n\n6. 명일 작업 예정 인원 : 6명 (기구 5, 제어 1) \n\n7. 명일 작업 예정 사항 : \n#5 \n#6 cell run 및 물류 확인 작업\n \n8. 사용 셀\n금일 사용 : 48\n누적 사용 : 216"
+    },
+    {
+      "timestamp": "2024-05-30 18:47:00",
+      "sender": "YHT/kyouhaw park/PM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : YHT INS/FLD #5,6L\n\n2. 작업 일자 : 05월 30일 (목) 08:00 ~ 18:00\n\n3. 작업 인원 : 6명 (기구 4 제어 2)\n\n4. 작업 사항 : \n#5 INS 2lane 자동셀런 품질셋팅\n#6 1lane 기본티칭 완료\n인스펙션 설비 배출 CV Align 시퀀스 확인 및 디버깅전해액 감지 센서 프로그램 수정\n폴딩, 인스펙션 설비 auto run 진행간 프로그램 디버깅\n\n5. 작업 중 특이사항 및 Issue : \nFLD  TAB 얼라인 개선필요 (베이스 PAD 부착)\n\n6. 명일 작업 예정 인원 : 6명\n\n7. 명일 작업 예정 사항 :\n#5 INS 자동런 품질 셋팅\n#6 FLD /INS 기본 티칭\n전해액 감지 센서 프로그램 수정\n폴딩, 인스펙션 설비 auto run 진행간 프로그램 디버깅\r\n\r\n2024년 5월 31일 금요일"
+    },
+    {
+      "timestamp": "2024-05-31 16:24:00",
+      "sender": "SFA SVI 선임 조대연",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI, #5, 6\n\n2. 작업 일자 : 05월 31일 (금) 08:00 ~ 17:00\n\n3. 작업 인원 : 7명\n(PM 1, 기구 3, 제어 2, SW 1)\n\n4. 작업 사항\n   - 5, 6호기 PC Setting\n   - 5, 6호기 캐리어 Leak Test\n   - 5, 6호기 LMS Dry Run Test\n   - PLC 프로그램 업데이트\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원\n\n7. 명일 작업 예정 사항"
+    },
+    {
+      "timestamp": "2024-05-31 16:42:00",
+      "sender": "SFA SVI 선임 김영주",
+      "source_zip": "2024.06.04.zip",
+      "lines": "Line2",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI J/C, 3-4Line\n\n2. 작업 일자 : 05월 31일 (금) 08:00 ~ 17:00\n\n3. 작업 인원 : 2명 \n(기구 1, 제어 1)\n\n4. 작업 사항\n - 3Line \n : 흡착 테스트 진행\n : Dry Run 및 서보 부하율 확인\n : LMS 모터 부하율 확인\n\n - 4Line\n : 흡착 테스트 진행\n : Dry Run 및 서보 부하율 확인\n : LMS 모터 부하율 확인\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 2명\n(기구 1, 제어 1)\n\n7. 명일 작업 예정 사항\n - 3, 4Line\n : Dry Run 진행\n : 흡착 Run 진행"
+    },
+    {
+      "timestamp": "2024-05-31 18:17:00",
+      "sender": "wonikpne/HARKSUN KIM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 디가스#5 \n\n2. 작업 일자 : 05월 31일 (금) 08:00 - 17:30\n\n3. 작업 인원 : 6명 (기구 5, 제어 1) \n\n4. 작업 사항 : \n#5\n\n#6\nCell run 및 물류 확인 작업\nbcr 세팅\n\n5. 작업 중 특이사항 및 Issue : \n#5 pre cutting 진공 이젝터 파기 불량으로 인한 진공 이젝테 교체\n#6 pre cutting 진공 이젝터 파기 불량으로 인한 진공 이젝터 교체\n\n6. 명일 작업 예정 인원 : \n\n7. 명일 작업 예정 사항 : \n#5 \n#6 \n \n8. 사용 셀\n금일 사용 : 38\n누적 사용 : 252\r\n\r\n2024년 6월 1일 토요일"
+    },
+    {
+      "timestamp": "2024-06-03 17:01:00",
+      "sender": "SFA SVI 선임 조대연",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI, #5, 6\n\n2. 작업 일자 : 06월 03일 (월) 08:00 ~ 17:00\n\n3. 작업 인원 : 6명\n(PM 1, 기구 2, 제어 1, SW 2)\n\n4. 작업 사항\n   - 5, 6호기 스토리지 PC Setting\n   - 5, 6호기 캐리어 Leak Test\n   - 5, 6호기 LMS Dry Run Test\n   - 5호기 광학계 하드웨어 Setting\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 6명\n(PM 1, 기구 2, 제어 1, SW 2)\n\n7. 명일 작업 예정 사항\n   - 5, 6호기 LMS Dry Run Test\n   - 5호기 광학계 하드웨어 Setting\n   - PLC 프로그램 업데이트"
+    },
+    {
+      "timestamp": "2024-06-03 17:16:00",
+      "sender": "SFA/남상수",
+      "source_zip": "2024.06.04.zip",
+      "lines": "Line2",
+      "processes": "SVI; VI",
+      "message": "1. 업체, 설비, Line : SFA, SVI J/C, 3-4Line\n\n2. 작업 일자 : 06월 03일 (월) 08:00 ~ 17:00\n\n3. 작업 인원 : 3명 \n(PM1, 기구 1, 제어 1)\n\n4. 작업 사항\n - 3,4Line \n : LMS Dry Run Test\n : Stage 흡착 Test 진행\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 3명\n(PM1, 기구 1, 제어 1)\n\n7. 명일 작업 예정 사항\n - 3,4Line\n : LMS Dry Run Test\n : Stage 흡착 Test 진행"
+    },
+    {
+      "timestamp": "2024-06-03 17:16:00",
+      "sender": "SFA/남상수",
+      "source_zip": "2024.06.04.zip",
+      "lines": "Line2",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : SFA, 연결물류-Taping J/C, 3-4Line\n\n2. 작업 일자 : 06월 03일 (월) 08:00 ~ 17:00\n\n3. 작업 인원 : 2명\n(기구 2)\n\n4. 작업 사항\n - 3,4Line \n : 설비 상태 및 조정 Unit 확인\n : Touch 확인\n\n5. 작업 중 특이사항 및 Issue : 없음\n\n6. 명일 작업 예정 인원 : 2명\n(기구 2)\n\n7. 명일 작업 예정 사항\n - 3,4Line\n : Unit Parts 교체 및 조정 작업 진행(수동투입단~)"
+    },
+    {
+      "timestamp": "2024-06-03 19:19:00",
+      "sender": "YHT/kyouhaw park/PM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : YHT INS/FLD #5,6L\n\n2. 작업 일자 : 06월 03일 (월) 08:00 ~ 18:00\n\n3. 작업 인원 : 6명 (기구 4 제어 2)\n\n4. 작업 사항 : \n#5 자동셀런 품질셋팅 (완료)\n#6 자동셀런 품질셋팅 (25%)\n전해액 감지 센서 프로그램 수정\n인스펙션 설비 dry run 진행간 프로그램 디버깅\n폴딩, 인스펙션 설비 auto run 진행간 프로그램 디버깅\n\n5. 작업 중 특이사항 및 Issue : \n\n6. 명일 작업 예정 인원 : 6명\n\n7. 명일 작업 예정 사항 :\n#6 자동셀런 품질셋팅 \n프린터 Customer Code 추가건 프로그램 수정\n폴딩, 인스펙션 설비 auto run 진행간 프로그램 디버깅\n#5 DRY-RUN"
+    },
+    {
+      "timestamp": "2024-06-03 20:50:00",
+      "sender": "wonikpne/HARKSUN KIM",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "1. 업체, 설비, Line : 디가스#5 \n\n2. 작업 일자 : 06월 03일 (월) 08:00 - 19:45\n\n3. 작업 인원 : 6명 (기구 5, 제어 1) \n\n4. 작업 사항 : \n#5 \nCell run 및 물류 확인 작업\nbcr 세팅\n\n#6\nCell run 및 물류 확인 작업\nbcr 세팅\n\n5. 작업 중 특이사항 및 Issue : \n#5 pre cutting 진공 이젝터 파기 불량으로 인한 진공 이젝테 교체\n#6\n\n6. 명일 작업 예정 인원 : \n\n7. 명일 작업 예정 사항 : \n#5 Degas SAT\n#6 Degas SAT\n \n8. 사용 셀\n금일 사용 : \n누적 사용 : 252\r\n\r\n2024년 6월 4일 화요일"
+    },
+    {
+      "timestamp": "2024-04-25 06:17:00",
+      "sender": "Samkoo/Junny/KTL",
+      "source_zip": "2024.06.04.zip",
+      "lines": "Line1; Line3",
+      "processes": "SVI; VI",
+      "message": "2024.04.24 야간 특이사항\n\n■ 주재원 요청사항\n1. 홍순호 Eng 요청으로 Line 1,2 2월 불량 마감 모니터링 진행 (Eng,SPV 협업후 진행)\n> 금일 E3F Lot 진행완료\n\n■ Line 1\n□ 기타\n1. Ca Tab Welding부 Crack 관련 SVI Image 확보진행\n-> Daniel Enginner측 Image 확보 Cell List 공유후 SVI Vision PC 바탕화면 해당 Cell Image 확보완료\n> 확보대상 152Cell중 45Cell Image 누락상태확인. Daniel Enginner측 공유진행완료\n\n□ Folding\n1. 야간 근무간 Folding Lane#1 비가동진행\n> 사유 : 모듈 작업자 지원으로 인한 작업인원 부족 (18:40~06:00)\n\n2. 야간조 Folding면 Open Cell 14Cell 발생\n- R123 Type E42 Lot : 2Cell, E43 Lot : 8Cell\n- C118 Type E46 Lot : 4Cell\n- 원인 : 전극 얼라인 불량으로 발생\n- 조치 :\n1) 재화성 타입 비가동전환 및 설비청소(04/25 00:10~00:40)\n2) Eng 조립동 피드백완료\n\n3. Line1 Folding 정지후 Line3 EOL Line 설비청소 진행\n> 사유 : 현대 고객사 내방예정 (05:00~06:00)"
+    },
+    {
+      "timestamp": "2023-12-13 11:28:00",
+      "sender": "SK C&C/HYOSUNG/MES",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "배포 완료하였습니다. 확인 후 특이사항 발생 시 공유 부탁드립니다."
+    },
+    {
+      "timestamp": "2024-01-03 14:02:00",
+      "sender": "SK C&C/HYOSUNG/MES",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "배포 완료하였습니다. 특이사항 발생 시 공유 부탁드립니다."
+    },
+    {
+      "timestamp": "2024-01-04 11:01:00",
+      "sender": "C/Jin/Supervisor",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "네.. 특이사항은 1,2,5,6 라인 모두 적색이고 3,4라인은 녹색으로 통신 이상 없어보입니다\n\n다시 확인해보겠습니다"
+    },
+    {
+      "timestamp": "2024-01-08 08:25:00",
+      "sender": "SK C&C/Miyoung/MES",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "엔지니어님, 안녕하세요\n지난 주 금요일 이슈는 특정 시간대에 매일 진행하는 서버 백업으로 인한 이슈로 확인되었습니다\n현재 백업 스케줄을 정지했고 주말동안 특이사항 없음을 확인했습니다\n향후 정기 백업을 어떻게 진행할지는 다시 검토할 예정입니다.\n참고 부탁드립니다"
+    },
+    {
+      "timestamp": "2024-01-23 04:31:00",
+      "sender": "Samkoo/Sharon/KTL",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "@SK C&C/도숙지/MES\n네 알겠습니다. 계속해서 설비쪽 확인은 하고 있습니다만 별다른 특이사항은 보이지 않는 상황입니다."
+    },
+    {
+      "timestamp": "2024-01-27 05:49:00",
+      "sender": "Samkoo / John / KTL",
+      "source_zip": "2024.06.04.zip",
+      "lines": "Line2",
+      "processes": "VI",
+      "message": "@SKBA.MES.AE\nLine 2\nTray ID : A18102, A37590 / A12757, A36134\nMES UI : View Cell In Tray\n\n위 UI에서 해당 Tray Separate 진행시 \"startindex cannot be larger than length of string Parameter name : startindex\" 생성 되며 진행이 되지않는 현상이 발생되어 문의드립니다.\n운영자님께 전달해주실수 있으실까요? 지급건은 아닙니다.\n\n특이사항으로 A37590, A36134 Tray 조회시 MES Data상으로는 1단 Tray로 조회되며.\nA18102, A12757로 조회시에만 2단 Tray로 조회됩니다."
+    },
+    {
+      "timestamp": "2024-02-07 16:03:00",
+      "sender": "SK C&C/Miyoung/MES",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "배포 후 모니터링 상황 말씀드리면\n현재까지 \n일반적인 케이스로는 5초 ~ 8초 사이로 특이사항 없이 잘 처리되고 있고\n예외적으로 중복 Tray 보고를 올릴 경우 최대 15초까지 소요되는 것 확인했습니다\n현재까지도 정상적으로 8초 내로 안정적으로 잘 처리되고 있음을 확인했습니다\n\n금일 배출된 Tray들의 보정 용량식이 적용된 결과값에 대한 검증은 별도로 확인 부탁드립니다"
+    },
+    {
+      "timestamp": "2024-02-14 11:23:00",
+      "sender": "SK C&C/HYOSUNG/MES",
+      "source_zip": "2024.06.04.zip",
+      "lines": "",
+      "processes": "",
+      "message": "배포 완료하였습니다. \n\nUI 프로그램 재실행 후 특이사항 발생 시 공유 부탁드리겠습니다."
+    }
+  ],
+  "meta": {
+    "generated_at": "2026-03-09T10:17:57.791272Z",
+    "source_total_messages": 163854,
+    "notes": "Recovery seed based on strict MES summary and handover samples."
+  }
+}
