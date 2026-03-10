@@ -1,4 +1,4 @@
-import { $, formatDate, shiftClass, monthKey, shiftHours } from './lib.js';
+import { $, formatDate, shiftClass, monthKey, shiftHours, shiftLabel } from './lib.js';
 import { ROLES } from './constants.js';
 import { getSupabase } from './supabase.js';
 import { getLocalOverrides, upsertLocalOverride } from './local-store.js';
@@ -27,8 +27,15 @@ export function computePersonalShift(profile, date){
   if (profile.role === ROLES.SAMKOO) return samkooShiftFor(date, profile.building || '1동');
   return skbaShiftFor(date, profile.crew || 'A');
 }
-export function computeTeamView(date){
-  return ['A','B','C','D'].map(crew => ({ crew, shift: skbaShiftFor(date, crew) }));
+export function computeTeamView(date, profile){
+  if (profile?.role === ROLES.SAMKOO) {
+    return [
+      { crew: '1동', shift: samkooShiftFor(date, '1동') },
+      { crew: '2동', shift: samkooShiftFor(date, '2동') },
+      ...['A','B','C','D'].map(crew => ({ crew: `${crew}조`, shift: skbaShiftFor(date, crew) }))
+    ];
+  }
+  return ['A','B','C','D'].map(crew => ({ crew: `${crew}조`, shift: skbaShiftFor(date, crew) }));
 }
 export async function loadOverrides(userId, monthDate){
   const sb = getSupabase();
@@ -49,32 +56,23 @@ export async function saveOverride(userId, workDate, shiftCode){
 export async function renderCalendar(profile, monthDate, selectedCb, selectedDateIso){
   const grid = $('#calendar-grid');
   $('#month-label').textContent = monthKey(monthDate);
-  $('#calendar-profile-summary').textContent = `${profile.display_name} / ${profile.role} / ${profile.building || '-'} / ${profile.crew || '-'}조 기준`;
+  $('#calendar-profile-summary').textContent = `${profile.display_name} / ${profile.role} / ${profile.building || '-'} / ${profile.crew || '-'} 기준`;
   const overrides = await loadOverrides(profile.id, monthDate);
-  const summary = monthWorkSummary(profile, monthDate, overrides);
   grid.innerHTML='';
   const last = new Date(monthDate.getFullYear(), monthDate.getMonth()+1, 0);
-  let selectedPayload = null;
   for (let d=1; d<=last.getDate(); d++){
     const cur = new Date(monthDate.getFullYear(), monthDate.getMonth(), d);
     const iso = formatDate(cur);
     const base = computePersonalShift(profile, cur);
     const shift = overrides[iso] || base;
-    const team = computeTeamView(cur);
     const cell = document.createElement('button');
     cell.className='calendar-cell';
     if (selectedDateIso === iso) cell.classList.add('selected');
-    cell.innerHTML = `<div class="date">${d}</div>
-      <div class="my-shift-wrap">
-        <div class="my-shift-label">내 근무</div>
-        <div class="my-shift ${shiftClass(shift)}">${shift}</div>
-      </div>`;
-    const payload = { date:cur, iso, shift, team, summary };
-    if (!selectedPayload || selectedDateIso === iso || (!selectedDateIso && d === 1)) selectedPayload = payload;
-    cell.addEventListener('click',()=>selectedCb(payload));
+    cell.innerHTML = `<div class="date-row"><div class="date">${d}</div><div class="mini-muted">내 근무</div></div>
+      <div class="shift-badge ${shiftClass(shift)}">${shiftLabel(shift)}</div>`;
+    cell.addEventListener('click',()=>selectedCb({ date:cur, iso, shift }));
     grid.appendChild(cell);
   }
-  if (selectedPayload) selectedCb(selectedPayload);
 }
 export function monthWorkSummary(profile, monthDate, overrides={}){
   const last = new Date(monthDate.getFullYear(), monthDate.getMonth()+1, 0);

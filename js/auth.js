@@ -8,7 +8,7 @@ export async function signIn(email, password){
   const sb = getSupabase();
   if (sb) return sb.auth.signInWithPassword({ email, password });
   const user = getDemoUserByEmail(email);
-  if (!user || user.password !== password) return { error: { message: '데모 계정 정보가 맞지 않습니다.' } };
+  if (!user || user.password !== password) return { error: { message: '계정 정보가 맞지 않습니다.' } };
   const session = createDemoSession(user);
   return { data: { session, user: session.user } };
 }
