@@ -1,0 +1,26 @@
+{
+  "samgoo": {
+    "building1": {
+      "type": "fixed-day",
+      "offDays": [
+        "MON",
+        "TUE"
+      ],
+      "display": "주간"
+    },
+    "building2": {
+      "type": "weekly-day-night-rotation",
+      "offDays": [
+        "MON",
+        "TUE"
+      ],
+      "display": "주/야"
+    }
+  },
+  "skba": {
+    "formation_default": {
+      "type": "4team-2shift-14day",
+      "display": "4조 2교대 14일"
+    }
+  }
+}
