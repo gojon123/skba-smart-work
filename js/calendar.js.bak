@@ -51,10 +51,8 @@ export async function renderCalendar(profile, monthDate, selectedCb, selectedDat
   $('#month-label').textContent = monthKey(monthDate);
   $('#calendar-profile-summary').textContent = `${profile.display_name} / ${profile.role} / ${profile.building || '-'} / ${profile.crew || '-'}조 기준`;
   const overrides = await loadOverrides(profile.id, monthDate);
-  const summary = monthWorkSummary(profile, monthDate, overrides);
   grid.innerHTML='';
   const last = new Date(monthDate.getFullYear(), monthDate.getMonth()+1, 0);
-  let selectedPayload = null;
   for (let d=1; d<=last.getDate(); d++){
     const cur = new Date(monthDate.getFullYear(), monthDate.getMonth(), d);
     const iso = formatDate(cur);
@@ -65,16 +63,14 @@ export async function renderCalendar(profile, monthDate, selectedCb, selectedDat
     cell.className='calendar-cell';
     if (selectedDateIso === iso) cell.classList.add('selected');
     cell.innerHTML = `<div class="date">${d}</div>
-      <div class="my-shift-wrap">
-        <div class="my-shift-label">내 근무</div>
-        <div class="my-shift ${shiftClass(shift)}">${shift}</div>
-      </div>`;
-    const payload = { date:cur, iso, shift, team, summary };
-    if (!selectedPayload || selectedDateIso === iso || (!selectedDateIso && d === 1)) selectedPayload = payload;
-    cell.addEventListener('click',()=>selectedCb(payload));
+      <div class="my-shift ${shiftClass(shift)}">${shift}</div>
+      <div class="team-line"><span>A조</span> <span class="${shiftClass(team[0].shift)}">${team[0].shift}</span></div>
+      <div class="team-line"><span>B조</span> <span class="${shiftClass(team[1].shift)}">${team[1].shift}</span></div>
+      <div class="team-line"><span>C조</span> <span class="${shiftClass(team[2].shift)}">${team[2].shift}</span></div>
+      <div class="team-line"><span>D조</span> <span class="${shiftClass(team[3].shift)}">${team[3].shift}</span></div>`;
+    cell.addEventListener('click',()=>selectedCb({ date:cur, iso, shift }));
     grid.appendChild(cell);
   }
-  if (selectedPayload) selectedCb(selectedPayload);
 }
 export function monthWorkSummary(profile, monthDate, overrides={}){
   const last = new Date(monthDate.getFullYear(), monthDate.getMonth()+1, 0);

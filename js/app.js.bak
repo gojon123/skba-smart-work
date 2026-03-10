@@ -6,7 +6,7 @@ import { loadChat, sendChat, subscribeChat } from './chat.js';
 import { suggestFromChat, applySuggestions, saveHandover } from './handover.js';
 import { runIntegratedSearch } from './search.js';
 import { LINES, PROCESSES } from './constants.js';
-import { addLocalWork, getSettings, saveSettings, clearDemoSession } from './local-store.js';
+import { addLocalWork, getSettings, saveSettings } from './local-store.js';
 
 let state = {
   lang: localStorage.getItem('skba_lang') || 'ko',
@@ -35,24 +35,12 @@ function applyRoleUI(){
   $('#top-role').textContent = state.profile?.role || '-';
   $('#mode-badge').textContent = isDemoMode() ? 'Demo' : 'Live';
   $$('.role-extra').forEach(btn => btn.classList.toggle('hidden', !roleAllows(state.profile?.role, btn.dataset.tab)));
-  const logoutBtn = $('#logout-btn');
-  if (logoutBtn) logoutBtn.classList.toggle('hidden', !state.profile);
 }
 async function refreshMain(){
   applyRoleUI();
-  await renderCalendar(state.profile, state.monthDate, ({ iso, shift, team, summary }) => {
-    $('#team-pattern-box').innerHTML = `
-      <div class="summary-grid compact-summary">
-        <div><strong>${summary.day}</strong><span>주간</span></div>
-        <div><strong>${summary.night}</strong><span>야간</span></div>
-        <div><strong>${summary.off}</strong><span>휴무</span></div>
-        <div><strong>${summary.hours}</strong><span>예상시간</span></div>
-      </div>
-      <div class="selected-date-box">
-        <div class="selected-date-title">${iso} 조별 근무</div>
-        ${team.map(t=>`<div class="team-line"><span>${t.crew}조</span><span class="${t.shift==='D'?'day':t.shift==='N'?'night':'off'}">${t.shift}</span></div>`).join('')}
-      </div>`;
-
+  const team = computeTeamView(new Date());
+  $('#team-pattern-box').innerHTML = team.map(t=>`<div class="team-line"><span>${t.crew}조</span> <span class="${t.shift==='D'?'day':t.shift==='N'?'night':'off'}">${t.shift}</span></div>`).join('');
+  await renderCalendar(state.profile, state.monthDate, ({ iso, shift }) => {
     state.selectedDateIso = iso;
     state.selectedShift = shift;
     $('#edit-date-title').textContent = `${iso} 근무 수정`;
@@ -81,18 +69,11 @@ async function bootstrap(){
   applyCurrentSettings();
   $$('.lang-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.lang === state.lang));
   if (isDemoMode()) showAuthStatus('데모 모드 사용 가능 - engineer@skba.local / 1234');
-  if (isDemoMode()) {
-    clearDemoSession();
-    openLogin();
-    return;
-  }
   const session = await getSession();
   if (session?.user){
     state.session = session;
     state.profile = await loadProfile(session.user.id);
     if (state.profile){ openMain(); await refreshMain(); subscribeChat(()=>loadChat(state.lang, state.profile.id, state.settings.translation === 'on')); }
-  } else {
-    openLogin();
   }
 }
 
@@ -108,7 +89,7 @@ $('#login-btn').addEventListener('click', async ()=>{
   subscribeChat(()=>loadChat(state.lang, state.profile.id, state.settings.translation === 'on'));
   showAuthStatus('');
 });
-$('#logout-btn').addEventListener('click', async ()=>{ await signOut(); state.session=null; state.profile=null; openLogin(); });
+$('#logout-btn').addEventListener('click', async ()=>{ await signOut(); openLogin(); });
 $$('.lang-btn').forEach(btn => btn.addEventListener('click', ()=>{ state.lang = btn.dataset.lang; $$('.lang-btn').forEach(x=>x.classList.toggle('active', x===btn)); $('#setting-language').value = state.lang; if(state.profile) refreshMain(); applyCurrentSettings(); }));
 $$('.tab-btn').forEach(btn => btn.addEventListener('click', ()=>switchTab(btn.dataset.tab)));
 $('#open-settings').addEventListener('click', ()=>$('#settings-panel').classList.remove('hidden'));

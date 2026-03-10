@@ -82,18 +82,3 @@ body.theme-kakao .hero-card{background:linear-gradient(135deg,#fee500 0%,#ffd400
 body.theme-kakao .hero-card .muted,body.theme-kakao .hero-card .section-kicker{color:#5b4d00}
 body.theme-kakao .chat-row.me .chat-bubble{background:#fee500;color:#111827}
 @media (max-width: 900px){.grid-2,.pay-grid,.summary-grid{grid-template-columns:1fr}.calendar-grid{grid-template-columns:repeat(2,1fr)}.chat-list{height:44vh}.bottom-nav{grid-template-columns:repeat(3,1fr)}.settings{top:auto;bottom:92px}}
-
-#logout-btn{display:none}
-textarea{resize:none}
-.calendar-cell{min-height:98px;display:flex;flex-direction:column;justify-content:space-between}
-.my-shift-wrap{display:flex;align-items:flex-end;justify-content:space-between;gap:8px}
-.my-shift-label{font-size:12px;color:var(--muted);font-weight:700}
-.compact-summary{grid-template-columns:repeat(2,1fr);margin-bottom:12px}
-.compact-summary div{display:flex;flex-direction:column;gap:4px}
-.compact-summary strong{font-size:20px}
-.compact-summary span{font-size:12px;color:var(--muted)}
-.selected-date-box{padding:12px;border:1px solid var(--line);border-radius:16px;background:var(--panel-2)}
-.selected-date-title{font-weight:800;margin-bottom:8px}
-.lang-row{margin-top:8px;margin-bottom:16px}
-label+ .lang-row, label + .lang-row{margin-top:8px}
-@media (max-width: 900px){.calendar-grid{grid-template-columns:repeat(3,1fr)} .calendar-cell{min-height:86px;padding:8px} .my-shift{font-size:18px}}
