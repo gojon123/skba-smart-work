@@ -14,22 +14,24 @@ export async function suggestFromChat(profile){
   return rows.slice(0,5).map(r => `- ${r.body}`);
 }
 export function applySuggestions(lines){
-  if (!$('#handover-phenomenon').value && lines[0]) $('#handover-phenomenon').value = lines[0].replace(/^-\s*/, '');
-  if (!$('#handover-cause').value && lines[1]) $('#handover-cause').value = lines[1].replace(/^-\s*/, '');
-  if (!$('#handover-action').value && lines[2]) $('#handover-action').value = lines[2].replace(/^-\s*/, '');
+  if (!$('#handover-phenomenon').value && lines[0]) $('#handover-phenomenon').value = lines[0].replace(/^[-\s]*/, '');
+  if (!$('#handover-cause').value && lines[1]) $('#handover-cause').value = lines[1].replace(/^[-\s]*/, '');
+  if (!$('#handover-action').value && lines[2]) $('#handover-action').value = lines[2].replace(/^[-\s]*/, '');
   $('#handover-suggestions').innerHTML = lines.map(x => `<div class="suggestion-item">${x}</div>`).join('');
 }
 export async function saveHandover(profile, mode='save'){
+  const location = proofread($('#handover-location')?.value || '');
   const payload = {
     author_id: profile.id,
     author_name: profile.display_name,
     line_name: $('#handover-line').value,
     process_name: $('#handover-process').value,
-    phenomenon: proofread($('#handover-phenomenon').value),
+    phenomenon: proofread(`${location ? `위치: ${location}\n` : ''}${$('#handover-phenomenon').value}`),
     cause: proofread($('#handover-cause').value),
     action: proofread($('#handover-action').value),
     send_to_chat: mode === 'send'
   };
+  const chatBody = `[인수인계]\n라인: ${payload.line_name}\n공정: ${payload.process_name}\n${location ? `위치: ${location}\n` : ''}현상: ${payload.phenomenon.replace(/^위치:.*\n/, '')}\n원인: ${payload.cause}\n조치: ${payload.action}`;
   const sb = getSupabase();
   let result;
   if (sb) {
@@ -39,7 +41,7 @@ export async function saveHandover(profile, mode='save'){
         sender_id: profile.id,
         sender_name: profile.display_name,
         role: profile.role,
-        body: `[인수인계]\n라인: ${payload.line_name}\n공정: ${payload.process_name}\n현상: ${payload.phenomenon}\n원인: ${payload.cause}\n조치: ${payload.action}`
+        body: chatBody
       });
     }
     return result;
@@ -50,7 +52,7 @@ export async function saveHandover(profile, mode='save'){
       sender_id: profile.id,
       sender_name: profile.display_name,
       role: profile.role,
-      body: `[인수인계]\n라인: ${payload.line_name}\n공정: ${payload.process_name}\n현상: ${payload.phenomenon}\n원인: ${payload.cause}\n조치: ${payload.action}`
+      body: chatBody
     });
   }
   return { data: payload };

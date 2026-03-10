@@ -2,7 +2,7 @@ import { $, proofread, translateMessage } from './lib.js';
 import { getSupabase } from './supabase.js';
 import { addLocalChat, getLocalChat } from './local-store.js';
 
-export async function loadChat(lang='ko'){
+export async function loadChat(lang='ko', currentUserId=null, showTranslation=false){
   const sb = getSupabase();
   let rows = [];
   if (sb) {
@@ -11,11 +11,19 @@ export async function loadChat(lang='ko'){
   } else {
     rows = getLocalChat();
   }
-  renderChat(rows, lang);
+  renderChat(rows, lang, currentUserId, showTranslation);
   return rows;
 }
-export function renderChat(rows, lang='ko'){
-  $('#chat-list').innerHTML = rows.map(r => `<div class="chat-item"><div class="chat-head"><span>${r.sender_name}</span><span>${(r.created_at||'').replace('T',' ').slice(0,16)}</span></div><div class="chat-body">${translateMessage(r.body||'', lang)}</div></div>`).join('') || '<div class="muted">메시지 없음</div>';
+export function renderChat(rows, lang='ko', currentUserId=null, showTranslation=false){
+  $('#chat-list').innerHTML = rows.map(r => {
+    const isMe = r.sender_id && currentUserId && r.sender_id === currentUserId;
+    const translated = translateMessage(r.body||'', lang);
+    const needTranslation = showTranslation && translated !== (r.body||'');
+    return `<div class="chat-row ${isMe ? 'me' : 'other'}">
+      <div class="chat-meta"><span>${r.sender_name}</span><span>${(r.created_at||'').replace('T',' ').slice(0,16)}</span></div>
+      <div class="chat-bubble">${r.body || ''}${needTranslation ? `<div class="chat-translation">${translated}</div>` : ''}</div>
+    </div>`;
+  }).join('') || '<div class="muted">메시지 없음</div>';
   $('#chat-list').scrollTop = $('#chat-list').scrollHeight;
 }
 export async function sendChat(profile, body){

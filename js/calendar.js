@@ -46,9 +46,10 @@ export async function saveOverride(userId, workDate, shiftCode){
   if (sb) return sb.from('calendar_overrides').upsert({ user_id:userId, work_date:workDate, shift_code:shiftCode }, { onConflict:'user_id,work_date' });
   return upsertLocalOverride(userId, workDate, shiftCode);
 }
-export async function renderCalendar(profile, monthDate, selectedCb){
+export async function renderCalendar(profile, monthDate, selectedCb, selectedDateIso){
   const grid = $('#calendar-grid');
   $('#month-label').textContent = monthKey(monthDate);
+  $('#calendar-profile-summary').textContent = `${profile.display_name} / ${profile.role} / ${profile.building || '-'} / ${profile.crew || '-'}조 기준`;
   const overrides = await loadOverrides(profile.id, monthDate);
   grid.innerHTML='';
   const last = new Date(monthDate.getFullYear(), monthDate.getMonth()+1, 0);
@@ -60,6 +61,7 @@ export async function renderCalendar(profile, monthDate, selectedCb){
     const team = computeTeamView(cur);
     const cell = document.createElement('button');
     cell.className='calendar-cell';
+    if (selectedDateIso === iso) cell.classList.add('selected');
     cell.innerHTML = `<div class="date">${d}</div>
       <div class="my-shift ${shiftClass(shift)}">${shift}</div>
       <div class="team-line"><span>A조</span> <span class="${shiftClass(team[0].shift)}">${team[0].shift}</span></div>

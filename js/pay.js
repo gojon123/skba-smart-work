@@ -24,10 +24,10 @@ export async function renderPay(profile, monthDate){
   const totalDeduction = k401Value + insurance + federalValue + gaValue + ssValue + mediValue;
   const net = gross - totalDeduction;
   $('#pay-summary').innerHTML = `
-    <div><strong>Day</strong><br>${s.day}일</div>
-    <div><strong>Night</strong><br>${s.night}일</div>
-    <div><strong>Total Hours</strong><br>${s.hours}h</div>
-    <div><strong>OT Estimate</strong><br>${otHours}h</div>
+    <div><strong>주간</strong><br>${s.day}일</div>
+    <div><strong>야간</strong><br>${s.night}일</div>
+    <div><strong>총 근무시간</strong><br>${s.hours}h</div>
+    <div><strong>OT 예상</strong><br>${otHours}h</div>
     <div><strong>Gross</strong><br>$${gross.toFixed(2)}</div>
     <div><strong>401k</strong><br>$${k401Value.toFixed(2)}</div>
     <div><strong>Insurance</strong><br>$${insurance.toFixed(2)}</div>
@@ -35,5 +35,5 @@ export async function renderPay(profile, monthDate){
     <div><strong>Georgia</strong><br>$${gaValue.toFixed(2)}</div>
     <div><strong>Social Security</strong><br>$${ssValue.toFixed(2)}</div>
     <div><strong>Medicare</strong><br>$${mediValue.toFixed(2)}</div>
-    <div><strong>Net</strong><br>$${net.toFixed(2)}</div>`;
+    <div><strong>예상 실수령</strong><br>$${net.toFixed(2)}</div>`;
 }

@@ -3,6 +3,6 @@ export const ROLES = {
   ENGINEER: 'Engineer',
   SAMKOO: 'Samkoo'
 };
-export const LINES = ['Line1','Line2','Line3','Line4','Line5','Line6'];
-export const PROCESSES = ['Formation','Rolling','Degassing','Inspection','Packing','IR','OCV','IR/OCV','Aging','Charge','Discharge','VI','ECS','MES'];
+export const LINES = ['1라인','2라인','3라인','4라인','5라인','6라인'];
+export const PROCESSES = ['PPC','IR/OCV','Degassing','FCH','RTA','HTA','Folding','Cell Inspection','Visual Inspection','SVI','CPM','MES','ECS','SC','CV'];
 export const SHIFT_LABELS = { D: 'Day', N: 'Night', O: 'Off' };

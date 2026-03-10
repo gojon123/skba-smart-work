@@ -5,12 +5,22 @@ export const APP_CONFIG = {
   SUPABASE_ANON_KEY: 'REPLACE_WITH_SUPABASE_ANON_KEY',
   DEMO_USERS: [
     {
-      id: 'demo-eng-1',
+      id: 'demo-samkoo-1',
       email: 'engineer@skba.local',
       password: '1234',
       display_name: '김응준',
-      role: 'Engineer',
+      role: 'Samkoo',
       crew: 'A',
+      building: '1동',
+      lang: 'ko'
+    },
+    {
+      id: 'demo-eng-1',
+      email: 'engineertech@skba.local',
+      password: '1234',
+      display_name: '천준범',
+      role: 'Engineer',
+      crew: 'B',
       building: '1동',
       lang: 'ko'
     },
@@ -18,20 +28,10 @@ export const APP_CONFIG = {
       id: 'demo-op-1',
       email: 'operator1@skba.local',
       password: '1234',
-      display_name: 'Operator 1',
+      display_name: '아무개',
       role: 'Operator',
       crew: 'B',
       building: '1동',
-      lang: 'ko'
-    },
-    {
-      id: 'demo-samkoo-1',
-      email: 'samkoo1@skba.local',
-      password: '1234',
-      display_name: 'Samkoo 1',
-      role: 'Samkoo',
-      crew: 'C',
-      building: '2동',
       lang: 'ko'
     }
   ]

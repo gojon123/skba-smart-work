@@ -4,7 +4,9 @@ const KEYS = {
   session: 'skba_demo_session',
   overrides: 'skba_demo_overrides',
   chat: 'skba_demo_chat',
-  handover: 'skba_demo_handover'
+  handover: 'skba_demo_handover',
+  work: 'skba_demo_work',
+  settings: 'skba_demo_settings'
 };
 
 function read(key, fallback){
@@ -53,3 +55,12 @@ export function addLocalHandover(row){
   write(KEYS.handover, rows);
   return rows;
 }
+export function getLocalWork(){ return read(KEYS.work, []); }
+export function addLocalWork(row){
+  const rows = read(KEYS.work, []);
+  rows.push({ ...row, id: crypto.randomUUID(), created_at: new Date().toISOString() });
+  write(KEYS.work, rows);
+  return rows;
+}
+export function getSettings(){ return read(KEYS.settings, { theme:'blue', translation:'off' }); }
+export function saveSettings(settings){ write(KEYS.settings, settings); return settings; }
